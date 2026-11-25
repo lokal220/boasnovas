@@ -1,0 +1,315 @@
+{
+ "fonte": "seed/lista-whatsapp-nov-dez-2026.txt",
+ "escala": "altar",
+ "titulo": "ESCALA DE SERVIÇO — NOVEMBRO/DEZEMBRO 2026",
+ "aviso": "Atenção 🚨: Quando houver cultos/eventos fora dos dias fixos de culto, a escala será feita um dia antes.",
+ "observacoes": [
+  "'Danjel' (29/11 noite) = Daniel por aproximação",
+  "'wanderlei naftali' = duas pessoas: Wanderlei e Naftali (suposição a confirmar com o usuário)",
+  "13/12 manhã: Guilherme é o líder e não entra em servos",
+  "27/12 manhã vazio"
+ ],
+ "cultos": [
+  {
+   "id": "2026-11-18-unico",
+   "data": "2026-11-18",
+   "turno": "unico",
+   "evento": "",
+   "lider": "romulo",
+   "servos": [
+    "thiago-daniel",
+    "herick",
+    "daniel",
+    "ale"
+   ]
+  },
+  {
+   "id": "2026-11-22-manha",
+   "data": "2026-11-22",
+   "turno": "manha",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "ale",
+    "herbert",
+    "wallace-junior"
+   ]
+  },
+  {
+   "id": "2026-11-22-tarde",
+   "data": "2026-11-22",
+   "turno": "tarde",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "hercules",
+    "daniel",
+    "wesley",
+    "bruno",
+    "wanderlei",
+    "naftali"
+   ]
+  },
+  {
+   "id": "2026-11-22-noite",
+   "data": "2026-11-22",
+   "turno": "noite",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "hercules",
+    "gelton",
+    "yan"
+   ]
+  },
+  {
+   "id": "2026-11-25-unico",
+   "data": "2026-11-25",
+   "turno": "unico",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "thiago-daniel",
+    "herick",
+    "ale",
+    "matheus-augusto",
+    "herbert"
+   ]
+  },
+  {
+   "id": "2026-11-29-manha",
+   "data": "2026-11-29",
+   "turno": "manha",
+   "evento": "",
+   "lider": "romulo",
+   "servos": [
+    "guilherme",
+    "ale",
+    "gabriel"
+   ]
+  },
+  {
+   "id": "2026-11-29-tarde",
+   "data": "2026-11-29",
+   "turno": "tarde",
+   "evento": "",
+   "lider": "romulo",
+   "servos": [
+    "hercules",
+    "ale"
+   ]
+  },
+  {
+   "id": "2026-11-29-noite",
+   "data": "2026-11-29",
+   "turno": "noite",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "joe",
+    "hercules",
+    "daniel"
+   ]
+  },
+  {
+   "id": "2026-12-02-unico",
+   "data": "2026-12-02",
+   "turno": "unico",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "thiago-daniel",
+    "herick",
+    "ale",
+    "matheus-augusto",
+    "lucas"
+   ]
+  },
+  {
+   "id": "2026-12-06-manha",
+   "data": "2026-12-06",
+   "turno": "manha",
+   "evento": "Santa Ceia",
+   "lider": "",
+   "servos": [
+    "guilherme",
+    "herick",
+    "wallace-junior",
+    "lucas"
+   ]
+  },
+  {
+   "id": "2026-12-06-tarde",
+   "data": "2026-12-06",
+   "turno": "tarde",
+   "evento": "Santa Ceia",
+   "lider": "",
+   "servos": [
+    "hercules",
+    "daniel",
+    "bruno",
+    "wanderlei",
+    "naftali"
+   ]
+  },
+  {
+   "id": "2026-12-06-noite",
+   "data": "2026-12-06",
+   "turno": "noite",
+   "evento": "Santa Ceia",
+   "lider": "",
+   "servos": [
+    "hercules",
+    "daniel",
+    "gelton"
+   ]
+  },
+  {
+   "id": "2026-12-09-unico",
+   "data": "2026-12-09",
+   "turno": "unico",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "thiago-daniel",
+    "herick",
+    "daniel",
+    "herbert"
+   ]
+  },
+  {
+   "id": "2026-12-13-manha",
+   "data": "2026-12-13",
+   "turno": "manha",
+   "evento": "",
+   "lider": "guilherme",
+   "servos": [
+    "silas"
+   ]
+  },
+  {
+   "id": "2026-12-13-tarde",
+   "data": "2026-12-13",
+   "turno": "tarde",
+   "evento": "",
+   "lider": "romulo",
+   "servos": [
+    "hercules"
+   ]
+  },
+  {
+   "id": "2026-12-13-noite",
+   "data": "2026-12-13",
+   "turno": "noite",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "joe",
+    "hercules",
+    "daniel",
+    "gelton"
+   ]
+  },
+  {
+   "id": "2026-12-16-unico",
+   "data": "2026-12-16",
+   "turno": "unico",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "herick",
+    "wesley",
+    "hercules",
+    "matheus-augusto",
+    "lucas"
+   ]
+  },
+  {
+   "id": "2026-12-20-manha",
+   "data": "2026-12-20",
+   "turno": "manha",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "guilherme",
+    "wallace-junior"
+   ]
+  },
+  {
+   "id": "2026-12-20-tarde",
+   "data": "2026-12-20",
+   "turno": "tarde",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "hercules",
+    "bruno",
+    "wanderlei",
+    "naftali"
+   ]
+  },
+  {
+   "id": "2026-12-20-noite",
+   "data": "2026-12-20",
+   "turno": "noite",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "hercules",
+    "gelton"
+   ]
+  },
+  {
+   "id": "2026-12-23-unico",
+   "data": "2026-12-23",
+   "turno": "unico",
+   "evento": "Natal",
+   "lider": "",
+   "servos": [
+    "herick",
+    "hercules"
+   ]
+  },
+  {
+   "id": "2026-12-27-manha",
+   "data": "2026-12-27",
+   "turno": "manha",
+   "evento": "",
+   "lider": "",
+   "servos": []
+  },
+  {
+   "id": "2026-12-27-tarde",
+   "data": "2026-12-27",
+   "turno": "tarde",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "hercules"
+   ]
+  },
+  {
+   "id": "2026-12-27-noite",
+   "data": "2026-12-27",
+   "turno": "noite",
+   "evento": "",
+   "lider": "",
+   "servos": [
+    "gelton",
+    "hercules"
+   ]
+  },
+  {
+   "id": "2026-12-30-unico",
+   "data": "2026-12-30",
+   "turno": "unico",
+   "evento": "Réveillon",
+   "lider": "",
+   "servos": [
+    "herick",
+    "hercules",
+    "lucas"
+   ]
+  }
+ ]
+}

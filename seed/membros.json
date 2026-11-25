@@ -1,0 +1,205 @@
+[
+ {
+  "id": "ale",
+  "nome": "Alê",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "bruno",
+  "nome": "Bruno",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "daniel",
+  "nome": "Daniel",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "gabriel",
+  "nome": "Gabriel",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "gelton",
+  "nome": "Gelton",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "guilherme",
+  "nome": "Guilherme",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": true,
+  "ativo": true
+ },
+ {
+  "id": "herbert",
+  "nome": "Herbert",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "hercules",
+  "nome": "Hércules",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "herick",
+  "nome": "Herick",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "joe",
+  "nome": "Joe (Jônatas)",
+  "apelidos": [
+   "Joe",
+   "Jônatas"
+  ],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "lucas",
+  "nome": "Lucas",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "matheus-augusto",
+  "nome": "Matheus Augusto",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "naftali",
+  "nome": "Naftali",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "romulo",
+  "nome": "Rômulo",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": true,
+  "ativo": true
+ },
+ {
+  "id": "silas",
+  "nome": "Silas",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "thiago-daniel",
+  "nome": "Thiago Daniel",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "wallace-junior",
+  "nome": "Wallace Júnior",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "wanderlei",
+  "nome": "Wanderlei",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "wesley",
+  "nome": "Wesley",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ },
+ {
+  "id": "yan",
+  "nome": "Yan",
+  "apelidos": [],
+  "escalas": [
+   "altar"
+  ],
+  "lider": false,
+  "ativo": true
+ }
+]

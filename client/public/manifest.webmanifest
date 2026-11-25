@@ -1,0 +1,13 @@
+{
+  "name": "Escalas · Boas Novas",
+  "short_name": "Escalas BN",
+  "description": "Escalas de voluntários da Boas Novas Church",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F4EF",
+  "theme_color": "#2B503F",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
