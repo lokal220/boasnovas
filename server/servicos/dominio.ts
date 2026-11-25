@@ -3,14 +3,14 @@
  * Se alguma assinatura mudar, só este arquivo precisa ser ajustado.
  */
 import type { Turno } from '@shared/api';
-import { hojeNoFuso, somarDias, diaSemana, instanteDoCulto, janelaCheckin, horaParaMinutos, FUSO_PADRAO } from '@shared/dominio/datas';
+import { hojeNoFuso, somarDias, diaSemana, instanteDoCulto, janelaCheckin, horaParaMinutos, dataValida, partesData, FUSO_PADRAO } from '@shared/dominio/datas';
 import { compararCultos, normalizarEvento, TURNOS, ehTurno } from '@shared/dominio/turnos';
 import { datasDoMes, vespera, ehDiaFixo, idCulto } from '@shared/dominio/agenda';
 import { compararNomes, normalizar, slug, tituloNome } from '@shared/dominio/texto';
 
 export { calcularCobertura } from '@shared/dominio/cobertura';
 export {
-  hojeNoFuso, somarDias, diaSemana, instanteDoCulto, janelaCheckin, horaParaMinutos, FUSO_PADRAO,
+  hojeNoFuso, somarDias, diaSemana, instanteDoCulto, janelaCheckin, horaParaMinutos, dataValida, partesData, FUSO_PADRAO,
   compararCultos, normalizarEvento, datasDoMes, vespera, ehDiaFixo, idCulto,
   compararNomes, normalizar, slug, tituloNome,
 };

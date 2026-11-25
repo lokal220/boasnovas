@@ -4,7 +4,7 @@
  */
 
 /** Caracteres invisíveis que o WhatsApp e os teclados colam no meio das palavras. */
-const INVISIVEIS = /[​-‍⁠﻿­]/g;
+const INVISIVEIS = /[\u{200B}-\u{200D}\u{2060}\u{FEFF}\u{00AD}]/gu;
 /** Marcas diacríticas (acentos) depois da decomposição NFD. */
 const DIACRITICOS = /\p{M}/gu;
 /** Partículas que ficam em minúsculas no meio de um nome ("João da Silva"). */
