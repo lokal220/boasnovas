@@ -104,6 +104,8 @@ export const escalas = pgTable('escalas', {
   funcao: text('funcao').notNull().default(''),      // livre: 'vocal de apoio', 'porta principal'…
   status: text('status').notNull().default('confirmado'), // 'confirmado' | 'pendente' | 'nao_pode' | 'troca'
   origem: text('origem').notNull().default('lider'), // 'voluntario' | 'lider' | 'importacao' | 'troca'
+  /** posição na lista do culto (ordem da lista do WhatsApp / do editor); empate → criadoEm */
+  ordem: integer('ordem').notNull().default(0),
   checkinEm: timestamp('checkin_em', { withTimezone: true }),
   criadoEm: criadoEm(),
   atualizadoEm: timestamp('atualizado_em', { withTimezone: true }).notNull().defaultNow(),
@@ -155,5 +157,10 @@ export const registros = pgTable('registros', {
   ator: text('ator').notNull(),                      // 'usuario:<id>' | 'membro:<id>' | 'anonimo:<hash>'
   acao: text('acao').notNull(),                      // 'escala.adicionar', 'escala.status', 'culto.criar'…
   alvo: text('alvo').notNull().default(''),
+  /** ministério afetado (filtro do histórico por ministério); null = ação geral (culto, unidade, usuário) */
+  ministerioId: text('ministerio_id'),
   dados: jsonb('dados').$type<Record<string, unknown>>().notNull().default({}),
-}, (t) => [index('registros_quando_idx').on(t.quando)]);
+}, (t) => [
+  index('registros_quando_idx').on(t.quando),
+  index('registros_ministerio_idx').on(t.ministerioId),
+]);
