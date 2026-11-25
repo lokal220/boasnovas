@@ -1,0 +1,2546 @@
+{
+  "summary": "Lê os 56 slides do PDF da cultura da Boas Novas (imagens) e organiza o conteúdo com página de origem",
+  "agentCount": 7,
+  "logs": [
+    "56 slides lidos"
+  ],
+  "result": {
+    "organizado": {
+      "resumoGeral": "O arquivo 'CULTURA BN' é um PDF de 56 páginas exportado do PowerPoint, em formato 2:1. É a apresentação de cultura da igreja, na seguinte ordem:\n- p. 1: capa 'cultura bn'.\n- p. 2 a 6: bloco institucional em fundo liso, com missão (p. 2), visão (p. 3), quadro de 10 valores com ícones (p. 4), 'nós somos' (p. 5) e 'como fazemos isso?' (p. 6).\n- p. 7: infográfico 'JORNADA BN', com 12 passos.\n- p. 8: manifesto 'Somos a boa notícia...'.\n- p. 9 a 14: seção 'acreditamos' (divisor na p. 9, crenças nas p. 10 a 14).\n- p. 15 a 27: seção 'nossos valores' (divisor na p. 15). São 12 itens com frase e versículo; o último é a lista das 7 áreas de influência.\n- p. 28 a 56: seção 'sobre doutrina' (divisor na p. 28), sem novo divisor até o fim. Dentro dela há quatro blocos com título, que começam nas p. 29 ('Evangelho da Graça'), 36 ('Evangelho do Reino', com uma citação de Ronaldo Lidório nas p. 41 e 42), 45 ('Somos Libertadores') e 51 ('Uma Igreja Profética').\n\nO documento termina na p. 56 com um versículo e não tem slide de encerramento.\n\nAs p. 2 a 6 têm texto selecionável; a p. 1 e as p. 7 a 56 são só imagem. Conferi a transcrição recebida com a imagem de todas as 56 páginas e o texto bate. A p. 7 foi conferida na imagem original de 3328x1864 px. A única mudança foi de organização: os itens das p. 20 a 27 vieram rotulados como 'cultura e linguagem', mas fazem parte da seção 'nossos valores'.\n\nO documento NÃO traz:\n- organograma ou hierarquia de liderança;\n- a palavra 'pastor', pastores de rede ou redes (o único 'redes' é 'redes sociais', na p. 6);\n- nome de nenhum pastor ou líder;\n- lista de ministérios;\n- dias e horários de culto, endereço, contatos ou perfis de redes sociais.\n\nOs únicos papéis nomeados estão na Jornada BN (p. 7): membro (depois do Batismo), voluntário (Epicentro), líder (Avance) e discipulador / líder de célula (Ekballo). O quadro de valores da p. 4 (10 itens) não bate com a seção 'nossos valores' (12 itens); isso está nas dúvidas.",
+      "temas": [
+        {
+          "tema": "Identidade: quem a igreja diz que é",
+          "itens": [
+            {
+              "fato": "Na página 'nós somos', a igreja se define como uma igreja que busca servir a Deus com excelência e que faz do improvável um embaixador do Reino.",
+              "paginas": [
+                5
+              ],
+              "citacao": "nós somos\numa igreja que busca servir a Deus com excelência, que faz do improvável um embaixador do Reino."
+            },
+            {
+              "fato": "A igreja se apresenta como 'a boa notícia' para as cidades. Como construtores do Reino, diz que leva o conhecimento de Jesus, evangeliza, restaura e transforma vidas. 'Somos a boa notícia' está destacado em verde.",
+              "paginas": [
+                8
+              ],
+              "citacao": "Somos a boa notícia para cidades que anseiam por vida! Como construtores do Reino, levamos o conhecimento de Jesus, evangelizamos, restauramos e transformamos vidas."
+            },
+            {
+              "fato": "Diz implantar a cultura do Reino em todas as áreas de influência, listadas ali como família, governo, educação, economia, artes, mídia e igreja. O trecho 'manifestando o sobrenatural no natural' está destacado em verde.",
+              "paginas": [
+                8
+              ],
+              "citacao": "Implantamos a cultura do Reino em todas as áreas de influência — família, governo, educação, economia, artes, mídia e igreja — manifestando o sobrenatural no natural e edificando uma sociedade que reflete Cristo."
+            },
+            {
+              "fato": "Outras duas declarações de identidade dão título a blocos do documento: 'Somos Libertadores' (p. 45) e 'Uma Igreja Profética' (p. 51). O conteúdo de cada uma está no tema próprio.",
+              "paginas": [
+                45,
+                51
+              ],
+              "citacao": "Somos Libertadores\nUma Igreja Profética"
+            }
+          ]
+        },
+        {
+          "tema": "Missão, visão e chamado",
+          "itens": [
+            {
+              "fato": "Missão: formar pessoas parecidas com Jesus, que se tornem prósperas em todas as esferas da vida, para influenciar o maior número possível de pessoas.",
+              "paginas": [
+                2
+              ],
+              "citacao": "missão\nformar pessoas parecidas com Jesus, que se tornem prósperas em todas as esferas da vida, para assim, influenciar o maior número de pessoas possível."
+            },
+            {
+              "fato": "Visão: ser uma igreja internacional, formada de pessoas de impacto, que estabelecem o Reino e transformam cidades.",
+              "paginas": [
+                3
+              ],
+              "citacao": "visão\nser uma igreja internacional, formada de pessoas de impacto, que estabelecem o Reino e transformam cidades."
+            },
+            {
+              "fato": "O chamado da igreja tem quatro partes: ganhar vidas, discipular corações, servir ao próximo e reinar com Cristo em vida. É o último slide da seção 'Acreditamos...', e a lista inteira está em verde.",
+              "paginas": [
+                14
+              ],
+              "citacao": "Nosso chamado é claro: ganhar vidas, discipular corações, servir ao próximo e reinar com Cristo em vida."
+            }
+          ]
+        },
+        {
+          "tema": "Como a igreja atua",
+          "itens": [
+            {
+              "fato": "Logo depois de 'nós somos', a p. 6 pergunta 'como fazemos isso?' e responde com quatro itens, sem números nem detalhes: experiência de culto, redes sociais, home churches e ensino. O slide não traz dias, horários, endereço nem perfis de redes sociais.",
+              "paginas": [
+                6
+              ],
+              "citacao": "como fazemos isso?\nexperiência de culto\nredes sociais\nhome churches\nensino"
+            }
+          ]
+        },
+        {
+          "tema": "Crenças: seção 'Acreditamos...' (p. 9 a 14)",
+          "itens": [
+            {
+              "fato": "A igreja acredita na Missão Integral (termo em verde): Cristo formado no homem, impactando todas as áreas da vida, ou seja, corpo, alma e espírito.",
+              "paginas": [
+                10
+              ],
+              "citacao": "Acreditamos na Missão Integral, onde Cristo é formado no homem, impactando todas as áreas da sua vida – corpo, alma e espírito."
+            },
+            {
+              "fato": "A igreja diz que trabalha para mudar o IDH de bairros inteiros (trecho em verde), levando dignidade, oportunidades e esperança. O slide não explica a sigla IDH.",
+              "paginas": [
+                11
+              ],
+              "citacao": "Trabalhamos para mudar o IDH de bairros inteiros, levando dignidade, oportunidades e esperança onde antes havia escassez."
+            },
+            {
+              "fato": "Crença de que o que se faz hoje ecoa na eternidade (trecho em verde), criando um movimento de renovação espiritual, social e econômica.",
+              "paginas": [
+                12
+              ],
+              "citacao": "O que fazemos hoje ecoa na eternidade, criando um movimento de renovação espiritual, social e econômica."
+            },
+            {
+              "fato": "Prosperidade (palavra em verde) não é só possuir, mas viver com propósito. A verdadeira abundância é cumprir a missão, gerar impacto e promover um Reino de justiça, paz e alegria.",
+              "paginas": [
+                13
+              ],
+              "citacao": "Para nós, prosperidade não é só sobre possuir, mas sobre viver com propósito. A verdadeira abundância está em cumprir nossa missão, gerar impacto e promover um Reino de justiça, paz e alegria."
+            }
+          ]
+        },
+        {
+          "tema": "Valores: quadro resumo da p. 4",
+          "itens": [
+            {
+              "fato": "O slide 'valores' mostra 10 valores com ícones, em duas fileiras de cinco, sem numeração nem hierarquia. Este quadro não bate com a seção 'nossos valores' das p. 15 a 27 (ver dúvidas).",
+              "paginas": [
+                4
+              ],
+              "citacao": "valores\nClareza de Ideias\nValores Judaico Cristãos\nFamília Tradicional\nHonestidade Moral\nRespeito com o Diferente\nHumildade e Amor ao Próximo\nEvangelho da Graça\n7 Áreas de Influência\nAção Social\nCosmovisão e Impacto Cultural"
+            }
+          ]
+        },
+        {
+          "tema": "Valores: seção 'nossos valores' (p. 15 a 27)",
+          "itens": [
+            {
+              "fato": "A seção abre com o divisor 'nossos valores' (p. 15) e vai até a p. 27; o divisor seguinte é 'sobre doutrina' (p. 28). São 12 itens. Os 11 primeiros têm título, uma frase de explicação e um versículo; o 12º é a lista das 7 áreas de influência.",
+              "paginas": [
+                15,
+                27,
+                28
+              ],
+              "citacao": "nossos valores"
+            },
+            {
+              "fato": "Clareza de Ideias: é essencial para o ensino da Palavra e para a comunicação dentro da igreja. Versículo: Habacuque 2:2.",
+              "paginas": [
+                16
+              ],
+              "citacao": "Clareza de Ideias\nA clareza de ideias é essencial para o ensino da Palavra e para a comunicação eficaz dentro da igreja.\n\"Então o Senhor me respondeu, e disse: Escreve a visão, e torna-a bem legível sobre tábuas, para que a possa ler quem passa correndo.\"\nHabacuque 2:2"
+            },
+            {
+              "fato": "Valores Judaico-Cristãos (com hífen neste slide; o ícone é a bandeira de Israel): preservar os princípios morais e espirituais herdados do judaísmo e do cristianismo. Versículo: Efésios 2:20.",
+              "paginas": [
+                17
+              ],
+              "citacao": "Valores Judaico-Cristãos\nA igreja deve preservar os princípios morais e espirituais herdados do judaísmo e do cristianismo.\n\"Edificados sobre o fundamento dos apóstolos e dos profetas, sendo o próprio Cristo Jesus a principal pedra da esquina.\"\nEfésios 2:20"
+            },
+            {
+              "fato": "Família Tradicional: o modelo bíblico de família é um pilar da sociedade e da igreja. Versículo: Gênesis 2:24.",
+              "paginas": [
+                18
+              ],
+              "citacao": "Família Tradicional\nO modelo bíblico de família é um pilar da sociedade e da igreja.\n\"Portanto, deixará o homem o seu pai e a sua mãe, e apegar-se-á à sua mulher, e serão ambos uma carne.\"\nGênesis 2:24"
+            },
+            {
+              "fato": "Honestidade Moral: a igreja deve zelar pela retidão e integridade dos seus membros. Versículo: Provérbios 11:3.",
+              "paginas": [
+                19
+              ],
+              "citacao": "Honestidade Moral\nA igreja deve zelar pela retidão e integridade dos seus membros.\n\"A integridade dos retos os guiará,\nmas a perversidade dos traiçoeiros os destruirá.\"\nProvérbios 11:3"
+            },
+            {
+              "fato": "Respeito com o Diferente: respeitar e acolher todos, sem abrir mão da verdade bíblica. Versículo: Mateus 5:44.",
+              "paginas": [
+                20
+              ],
+              "citacao": "Respeito com o Diferente\nA igreja deve respeitar e acolher todos, sem abrir mão da verdade bíblica.\n\"Eu, porém, vos digo: Amai os vossos inimigos, e orai pelos que vos perseguem.\"\nMateus 5:44"
+            },
+            {
+              "fato": "Humildade e Amor ao Próximo: o serviço ao próximo deve ser uma marca do cristão. Versículo: Filipenses 2:3.",
+              "paginas": [
+                21
+              ],
+              "citacao": "Humildade e Amor ao Próximo\nO serviço ao próximo deve ser uma marca do cristão.\n\"Nada façais por contenda ou por vanglória, mas por humildade; cada um considere os outros superiores a si mesmo.\"\nFilipenses 2:3"
+            },
+            {
+              "fato": "Cultura, Tradição e Entretenimento: a igreja deve ser vigilante contra enganos culturais. Versículo: Colossenses 2:8. Este item não está no quadro da p. 4.",
+              "paginas": [
+                22
+              ],
+              "citacao": "Cultura, Tradição e Entretenimento\nA igreja deve ser vigilante contra enganos culturais.\n\"Tende cuidado, para que ninguém vos faça presa sua por meio de filosofias e vãs subtilezas.\"\nColossenses 2:8"
+            },
+            {
+              "fato": "Sempre a Favor dos Mais Necessitados: a igreja deve atender todas as esferas de necessidade. Versículo: Lucas 14:13-14. Este título não está no quadro da p. 4, onde existe 'Ação Social'.",
+              "paginas": [
+                23
+              ],
+              "citacao": "Sempre a Favor dos Mais Necessitados\nA igreja deve atender todas as esferas de necessidade.\n\"Quando deres um banquete, convida os pobres, aleijados, mancos e cegos.\"\nLucas 14:13-14"
+            },
+            {
+              "fato": "Cosmovisão e da Multiforme Graça de Deus (título escrito assim no slide): a cosmovisão cristã é a lente para interpretar toda a realidade à luz das Escrituras, e a multiforme graça de Deus alcança todas as culturas, dons e expressões do Reino. Versículo: Efésios 3:10. No quadro da p. 4, o valor parecido se chama 'Cosmovisão e Impacto Cultural'.",
+              "paginas": [
+                24
+              ],
+              "citacao": "Cosmovisão e da Multiforme Graça de Deus\nA cosmovisão cristã é a lente pela qual interpretamos toda a realidade à luz das Escrituras. A multiforme graça de Deus revela Sua soberania e ação em diversas esferas da vida, alcançando todas as culturas, dons e expressões do Reino.\n\"Para que agora, pela igreja, a multiforme sabedoria de Deus seja conhecida dos principados e potestades nos lugares celestiais.\"\nEfésios 3:10"
+            },
+            {
+              "fato": "Não Aceitamos a Cultura da Competição: no Reino não há espaço para rivalidade entre irmãos; a igreja é um corpo e cada membro tem sua função. Versículo: Gálatas 5:26. Este item não está no quadro da p. 4.",
+              "paginas": [
+                25
+              ],
+              "citacao": "Não Aceitamos a Cultura da Competição\nNo Reino de Deus, não há espaço para rivalidade entre irmãos. A igreja é um corpo, e cada membro tem sua função.\n\"Não nos tornemos vangloriosos, provocando-nos uns aos outros, tendo inveja uns dos outros.\"\nGálatas 5:26"
+            },
+            {
+              "fato": "Quebra da Religiosidade: a religiosidade legalista impõe cargas, enquanto a graça conduz à transformação e à liberdade. Versículo: Romanos 7:6. Este item não está no quadro da p. 4.",
+              "paginas": [
+                26
+              ],
+              "citacao": "Quebra da Religiosidade\nA religiosidade legalista impõe cargas sobre as pessoas, enquanto a graça de Deus nos conduz à verdadeira transformação e liberdade.\n\"Mas agora estamos livres da lei, pois morremos para aquilo em que estávamos retidos, para que sirvamos em novidade de espírito, e não na velhice da letra.\"\nRomanos 7:6"
+            },
+            {
+              "fato": "O 12º e último item da seção é '7 áreas de influência', uma lista sem versículo. Os detalhes estão no tema das 7 áreas.",
+              "paginas": [
+                27
+              ],
+              "citacao": "7 áreas de influência\nAs 7 áreas de influência são:"
+            }
+          ]
+        },
+        {
+          "tema": "As 7 áreas de influência",
+          "itens": [
+            {
+              "fato": "Lista das 7 áreas de influência, cada uma com uma definição curta: Família, Religião, Educação, Governo, Mídia, Artes e Economia.",
+              "paginas": [
+                27
+              ],
+              "citacao": "As 7 áreas de influência são:\nFamília: O lar e as relações familiares.\nReligião: A igreja e as instituições religiosas.\nEducação: Escolas e instituições de ensino.\nGoverno: Política e a esfera pública.\nMídia: Meios de comunicação e o setor de entretenimento.\nArtes: Entretenimento e a cultura.\nEconomia: Negócios, comércio e finanças."
+            },
+            {
+              "fato": "A p. 8 cita as mesmas sete áreas, mas em outra ordem e com 'igreja' no lugar de 'Religião'.",
+              "paginas": [
+                8
+              ],
+              "citacao": "família, governo, educação, economia, artes, mídia e igreja"
+            },
+            {
+              "fato": "'7 Áreas de Influência' também é um dos 10 valores do quadro da p. 4 (o ícone é uma cadeia de montanhas).",
+              "paginas": [
+                4
+              ],
+              "citacao": "7 Áreas de Influência"
+            }
+          ]
+        },
+        {
+          "tema": "Jornada BN e membresia",
+          "itens": [
+            {
+              "fato": "A Jornada BN tem 12 passos numerados num caminho em onda, da esquerda para a direita, com setas que indicam o sentido. Os passos formam três blocos de 4, marcados pela cor dos círculos e pela legenda do rodapé: ser membro (1 a 4), crescer (5 a 8) e liderar (9 a 12).",
+              "paginas": [
+                7
+              ],
+              "citacao": "JORNADA BN\n4 PASSOS PARA SER MEMBRO\n4 PASSOS PARA CRESCER\n4 PASSOS PARA LIDERAR"
+            },
+            {
+              "fato": "Os 4 passos para ser membro são Home Church, Tudo Sobre Ele, Cultura BN e Batismo. O subtítulo do passo 3 está escrito junto no slide: 'nossacultura'.",
+              "paginas": [
+                7
+              ],
+              "citacao": "1 HOME CHURCH\nSeja família conosco\n2 TUDO SOBRE ELE\nConheça profundamente sobre Jesus\n3 CULTURA BN\nEntenda nossacultura\n4 BATISMO\nUm novo nascimento"
+            },
+            {
+              "fato": "A pessoa se torna membro depois do Batismo. Entre os passos 4 e 5 há um ponto branco, sem número, com uma anotação manuscrita.",
+              "paginas": [
+                7
+              ],
+              "citacao": "Aqui você se torna membro"
+            },
+            {
+              "fato": "Os 4 passos para crescer são Encontro com Deus, Epicentro, Vida com Propósitos e Graça e Reino. O Epicentro tem a anotação manuscrita 'Para quem deseja servir'.",
+              "paginas": [
+                7
+              ],
+              "citacao": "5 ENCONTRO COM DEUS\nTenha um encontro real com Cristo\n6 EPICENTRO\nTorne-se um voluntário\nPara quem deseja servir\n7 VIDA COM PROPÓSITOS\nEntenda o seu propósito de vida\n8 GRAÇA E REINO\nEntenda a nossa visão"
+            },
+            {
+              "fato": "Os 4 passos para liderar são Vida Abundante, Avance, Ekballo e Seminário BN. O Ekballo tem a anotação manuscrita 'Para quem deseja ser líder de célula'.",
+              "paginas": [
+                7
+              ],
+              "citacao": "9 VIDA ABUNDANTE\nConheça o estilo de vida do Reino\n10 AVANCE\nTorne-se um líder\n11 EKBALLO\nTorne-se um discipulador\nPara quem deseja ser líder de célula\n12 SEMINÁRIO BN\nEntenda profundamente a Bíblia"
+            },
+            {
+              "fato": "Sobre os membros, o documento diz ainda que a igreja deve zelar pela retidão e integridade deles (valor Honestidade Moral) e que cada membro tem sua função no corpo (valor sobre a cultura da competição).",
+              "paginas": [
+                19,
+                25
+              ],
+              "citacao": "A igreja deve zelar pela retidão e integridade dos seus membros.\nA igreja é um corpo, e cada membro tem sua função."
+            }
+          ]
+        },
+        {
+          "tema": "Liderança, discipulado e células",
+          "itens": [
+            {
+              "fato": "O passo 10, Avance, é o passo para se tornar líder, dentro do bloco 'para liderar'. O slide não diz líder de quê.",
+              "paginas": [
+                7
+              ],
+              "citacao": "10 AVANCE\nTorne-se um líder"
+            },
+            {
+              "fato": "O passo 11, Ekballo, é o passo para se tornar discipulador, indicado para quem deseja ser líder de célula. É a única vez que 'célula' aparece no documento.",
+              "paginas": [
+                7
+              ],
+              "citacao": "11 EKBALLO\nTorne-se um discipulador\nPara quem deseja ser líder de célula"
+            },
+            {
+              "fato": "O documento usa 'home churches' (p. 6) e 'Home Church' (passo 1, p. 7) e, no mesmo slide da Jornada, 'líder de célula'. Não diz se Home Church e célula são a mesma coisa.",
+              "paginas": [
+                6,
+                7
+              ],
+              "citacao": "home churches\nHOME CHURCH\nSeja família conosco\nPara quem deseja ser líder de célula"
+            },
+            {
+              "fato": "'Discipular corações' é uma das quatro partes do chamado da igreja.",
+              "paginas": [
+                14
+              ],
+              "citacao": "discipular corações"
+            }
+          ]
+        },
+        {
+          "tema": "Servir e voluntariado",
+          "itens": [
+            {
+              "fato": "O passo para virar voluntário é o 6, Epicentro, que vem depois da membresia e do Encontro com Deus.",
+              "paginas": [
+                7
+              ],
+              "citacao": "6 EPICENTRO\nTorne-se um voluntário\nPara quem deseja servir"
+            },
+            {
+              "fato": "A frase de identidade fala em servir a Deus com excelência.",
+              "paginas": [
+                5
+              ],
+              "citacao": "uma igreja que busca servir a Deus com excelência"
+            },
+            {
+              "fato": "'Servir ao próximo' é uma das quatro partes do chamado da igreja.",
+              "paginas": [
+                14
+              ],
+              "citacao": "servir ao próximo"
+            },
+            {
+              "fato": "O serviço ao próximo deve ser uma marca do cristão (valor Humildade e Amor ao Próximo).",
+              "paginas": [
+                21
+              ],
+              "citacao": "O serviço ao próximo deve ser uma marca do cristão."
+            },
+            {
+              "fato": "A cultura do Reino ensina que servir é a verdadeira grandeza, e a igreja diz que não busca status (essa segunda frase está em verde). Logo em seguida vem Mateus 20:28 (p. 44).",
+              "paginas": [
+                43,
+                44
+              ],
+              "citacao": "A cultura do Reino nos ensina que servir é a verdadeira grandeza. Não buscamos status, mas o privilégio de manifestar Cristo ao mundo através do amor e do serviço.\n“O Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.”\nMateus 20:28"
+            },
+            {
+              "fato": "A igreja é descrita como um corpo em que cada membro tem sua função.",
+              "paginas": [
+                25
+              ],
+              "citacao": "A igreja é um corpo, e cada membro tem sua função."
+            },
+            {
+              "fato": "Os dons espirituais servem para edificar a Igreja e alcançar vidas. O documento não cita nenhum ministério nem área de serviço específica.",
+              "paginas": [
+                53
+              ],
+              "citacao": "Fomos chamados para ser instrumentos do Reino, operando em dons espirituais para edificar a Igreja e alcançar vidas."
+            }
+          ]
+        },
+        {
+          "tema": "Ação social e transformação de cidades",
+          "itens": [
+            {
+              "fato": "'Ação Social' é um dos 10 valores do quadro da p. 4 (o ícone é uma pessoa ajudando outra, caída, a se levantar). Nenhum slide da seção 'nossos valores' tem esse título.",
+              "paginas": [
+                4
+              ],
+              "citacao": "Ação Social"
+            },
+            {
+              "fato": "A igreja diz que trabalha para mudar o IDH de bairros inteiros.",
+              "paginas": [
+                11
+              ],
+              "citacao": "Trabalhamos para mudar o IDH de bairros inteiros"
+            },
+            {
+              "fato": "A igreja deve atender todas as esferas de necessidade e estar sempre a favor dos mais necessitados.",
+              "paginas": [
+                23
+              ],
+              "citacao": "Sempre a Favor dos Mais Necessitados\nA igreja deve atender todas as esferas de necessidade."
+            },
+            {
+              "fato": "A igreja diz que é chamada a ser canal de provisão e transformação para quem sofre.",
+              "paginas": [
+                49
+              ],
+              "citacao": "Somos chamados a ser canais de provisão e transformação para aqueles que sofrem."
+            },
+            {
+              "fato": "A transformação de cidades aparece na visão e no manifesto.",
+              "paginas": [
+                3,
+                8
+              ],
+              "citacao": "que estabelecem o Reino e transformam cidades.\nSomos a boa notícia para cidades que anseiam por vida!"
+            },
+            {
+              "fato": "O movimento que a igreja diz criar é de renovação espiritual, social e econômica.",
+              "paginas": [
+                12
+              ],
+              "citacao": "criando um movimento de renovação espiritual, social e econômica."
+            }
+          ]
+        },
+        {
+          "tema": "Prosperidade e abundância",
+          "itens": [
+            {
+              "fato": "A missão fala em pessoas prósperas em todas as esferas da vida.",
+              "paginas": [
+                2
+              ],
+              "citacao": "que se tornem prósperas em todas as esferas da vida"
+            },
+            {
+              "fato": "Prosperidade não é só possuir, mas viver com propósito.",
+              "paginas": [
+                13
+              ],
+              "citacao": "Para nós, prosperidade não é só sobre possuir, mas sobre viver com propósito."
+            },
+            {
+              "fato": "A miséria é descrita como uma mentalidade de limitação, e o Reino como abundância, provisão e generosidade (trecho em verde). A verdadeira prosperidade começa no espírito.",
+              "paginas": [
+                49
+              ],
+              "citacao": "A miséria não é só falta de dinheiro, mas uma mentalidade de limitação. Deus nos chamou para um Reino de abundância, provisão e generosidade.\nA verdadeira prosperidade começa no espírito e se manifesta em todas as áreas da vida."
+            }
+          ]
+        },
+        {
+          "tema": "Doutrina: Evangelho da Graça (bloco que começa na p. 29)",
+          "itens": [
+            {
+              "fato": "Abre o tema: o Evangelho não é sobre esforço humano, mas sobre a obra consumada de Cristo, e a graça é uma pessoa, Jesus Cristo. 'Evangelho da Graça' também é um dos 10 valores do quadro da p. 4.",
+              "paginas": [
+                29,
+                4
+              ],
+              "citacao": "Evangelho da Graça\nO Evangelho não é sobre esforço humano, mas sobre a obra consumada de Cristo. A graça não é uma ideia abstrata, mas uma pessoa: Jesus Cristo. Nele, encontramos redenção, perdão e uma nova identidade."
+            },
+            {
+              "fato": "Versículo: Efésios 2:8.",
+              "paginas": [
+                30
+              ],
+              "citacao": "“Porque pela graça sois salvos, por meio da fé; e isso não vem de vós, é dom de Deus.”\nEfésios 2:8"
+            },
+            {
+              "fato": "A graça é um presente imerecido: nada que fazemos nos torna dignos da salvação. A última frase está em verde.",
+              "paginas": [
+                31
+              ],
+              "citacao": "A graça é um presente.\nNada que fazemos pode nos tornar dignos da salvação. A graça é um presente imerecido, fruto do amor de Deus. Não se trata do que fazemos por Ele, mas do que Ele já fez por nós."
+            },
+            {
+              "fato": "Identidade de filho: Cristo nos deu livre acesso ao Pai, e somos filhos amados, não servos (frase em verde).",
+              "paginas": [
+                32
+              ],
+              "citacao": "Você é filho amado.\nCristo tomou nosso lugar na cruz, pagou nossa dívida e nos deu livre acesso ao Pai. Somos filhos amados, não servos tentando ganhar aceitação."
+            },
+            {
+              "fato": "A graça salva e transforma e não é licença para pecar. A frase sobre obediência está em verde.",
+              "paginas": [
+                33
+              ],
+              "citacao": "A graça não apenas nos salva, mas nos transforma. Ela não é licença para pecar, mas o poder para viver em santidade.\nNão obedecemos para sermos amados – somos amados, por isso obedecemos."
+            },
+            {
+              "fato": "O Evangelho da graça convida a viver como filhos, espalhar o amor de Deus e manifestar o Reino na Terra (a última frase está em verde).",
+              "paginas": [
+                34
+              ],
+              "citacao": "O Evangelho da graça nos convida a viver como filhos, a espalhar o amor de Deus e a manifestar o Reino na Terra. Fomos salvos pela graça para sermos expressão viva dela."
+            },
+            {
+              "fato": "Versículo que fecha o bloco: Colossenses 1:27.",
+              "paginas": [
+                35
+              ],
+              "citacao": "“Cristo em vós, a esperança da glória.”\nColossenses 1:27"
+            }
+          ]
+        },
+        {
+          "tema": "Doutrina: Evangelho do Reino (bloco que começa na p. 36)",
+          "itens": [
+            {
+              "fato": "Definição: o Reino de Deus é justiça, paz e alegria no Espírito Santo, e é uma realidade presente, não só futura (frase em verde). O slide não dá a referência bíblica.",
+              "paginas": [
+                36
+              ],
+              "citacao": "Evangelho do Reino\nO Reino de Deus é justiça, paz e alegria no Espírito Santo.\nNão é apenas algo futuro, é uma realidade presente para aqueles que vivem sob o senhorio de Cristo."
+            },
+            {
+              "fato": "O tema central de Jesus era o Reino, e o Reino não é religião, mas governo divino (frase em verde). As p. 37 e 40 têm exatamente o mesmo texto.",
+              "paginas": [
+                37,
+                40
+              ],
+              "citacao": "Jesus falava sobre muitas coisas, mas seu tema central era o Reino de Deus.\nEle nos ensinou a orar: “Venha o Teu Reino, seja feita a Tua vontade, assim na terra como no céu.”\nO Reino de Deus não é uma religião, mas um governo divino que transforma todas as áreas da vida. Onde Cristo reina, há restauração e vida."
+            },
+            {
+              "fato": "Versículo: Mateus 6:33. O texto não tem aspas de abertura digitadas, só a de fechamento.",
+              "paginas": [
+                38
+              ],
+              "citacao": "Buscai primeiro o Reino de Deus e a sua justiça, e todas essas coisas vos serão acrescentadas.”\nMateus 6:33"
+            },
+            {
+              "fato": "O Reino estabelece uma nova cultura, acima de qualquer tradição ou sistema humano (frase em verde), e não se limita a uma nação ou povo.",
+              "paginas": [
+                39
+              ],
+              "citacao": "O Reino de Deus estabelece uma nova cultura, acima de qualquer tradição ou sistema humano.\nEle não se limita a uma nação ou povo, mas transforma todos os que se rendem a Cristo."
+            },
+            {
+              "fato": "Citação assinada por Ronaldo Lidório, em dois slides de fundo preto: o Evangelho é supracultural, cultural, intercultural, multicultural, transcultural e contracultural, e cada termo vem com sua explicação.",
+              "paginas": [
+                41,
+                42
+              ],
+              "citacao": "O Evangelho é supracultural,\npois define e explica a cultura, não o contrário;\ncultural,\npor ter sido revelado à humanidade em seu próprio contexto e história;\nintercultural,\npor juntar ao redor de Jesus pessoas de todos os povos;\nmulticultural,\nao ser destinado a todos os povos e línguas;\ntranscultural,\nquando transmitido de uma cultura a outra;\ne contracultural,\npois sempre confronta o homem em sua própria cultura.\n\n- Ronaldo Lidório."
+            },
+            {
+              "fato": "O bloco termina com 'servir é a verdadeira grandeza' (p. 43) e Mateus 20:28 (p. 44). O texto completo está no tema 'Servir e voluntariado'.",
+              "paginas": [
+                43,
+                44
+              ],
+              "citacao": "A cultura do Reino nos ensina que servir é a verdadeira grandeza."
+            }
+          ]
+        },
+        {
+          "tema": "Somos Libertadores (bloco que começa na p. 45)",
+          "itens": [
+            {
+              "fato": "Deus sempre levantou libertadores. O slide cita Moisés, que tirou Israel do Egito, e Jesus, que veio libertar do pecado, da morte e da escravidão espiritual.",
+              "paginas": [
+                45
+              ],
+              "citacao": "Somos Libertadores\nDeus sempre levantou libertadores para conduzir Seu povo à verdade e à plenitude da vida. Moisés foi chamado para tirar Israel do Egito. Jesus veio para nos libertar do pecado, da morte e da escravidão espiritual."
+            },
+            {
+              "fato": "O chamado da igreja é ser resposta, levando luz e libertação (frase em verde).",
+              "paginas": [
+                45
+              ],
+              "citacao": "Agora, somos chamados para ser resposta, levando luz onde há trevas e libertação onde há cativeiro."
+            },
+            {
+              "fato": "Versículo: Lucas 4:18. O slide não liga a palavra 'boas-novas' ao nome da igreja.",
+              "paginas": [
+                46
+              ],
+              "citacao": "“O Espírito do Senhor está sobre mim, porque Ele me ungiu para pregar boas-novas aos pobres; enviou-me para proclamar liberdade aos presos.”\nLucas 4:18"
+            },
+            {
+              "fato": "A ignorância aprisiona, e o Reino chama a renovar a mente pela verdade e ensinar o caminho da sabedoria (frase em verde). Em seguida vem Oséias 4:6 (p. 48).",
+              "paginas": [
+                47,
+                48
+              ],
+              "citacao": "A ignorância aprisiona tanto quanto correntes físicas. Onde falta conhecimento, há opressão.\nO Reino de Deus nos chama a renovar a mente pela verdade, quebrando paradigmas errados e ensinando o caminho da sabedoria.\n“Meu povo foi destruído porque lhe faltou conhecimento.”\nOséias 4:6"
+            },
+            {
+              "fato": "Libertação da miséria vista como mentalidade. O texto completo está no tema 'Prosperidade e abundância'.",
+              "paginas": [
+                49
+              ],
+              "citacao": "A miséria não é só falta de dinheiro, mas uma mentalidade de limitação."
+            },
+            {
+              "fato": "Libertação das marcas do passado (frase em verde), com 2 Coríntios 5:17 no mesmo slide.",
+              "paginas": [
+                50
+              ],
+              "citacao": "Não somos mais reféns das marcas do passado. No Reino, somos feitos novos, restaurados e capacitados para viver livres!\n“Se alguém está em Cristo, é nova criatura; as coisas velhas já passaram, eis que tudo se fez novo.” (2 Coríntios 5:17)"
+            }
+          ]
+        },
+        {
+          "tema": "Uma Igreja Profética e dons espirituais (bloco que começa na p. 51)",
+          "itens": [
+            {
+              "fato": "O Reino não é só conhecimento, mas revelação e direção do Espírito, e a igreja diz que é chamada a viver de forma profética (frase em verde).",
+              "paginas": [
+                51
+              ],
+              "citacao": "Uma Igreja Profética\nO Reino de Deus não é apenas conhecimento, mas revelação e direção do Espírito.\nSomos chamados para viver de forma profética, discernindo os tempos e manifestando o sobrenatural de Deus na terra."
+            },
+            {
+              "fato": "Versículo: Amós 3:7.",
+              "paginas": [
+                52
+              ],
+              "citacao": "“Certamente o Senhor Soberano não faz coisa alguma sem revelar o seu plano aos seus servos, os profetas.”\nAmós 3:7"
+            },
+            {
+              "fato": "O Espírito Santo capacita para profetizar, curar, ensinar e manifestar o Reino (frase em negrito), e a ativação dos dons é um chamado para todos (frase em verde).",
+              "paginas": [
+                53
+              ],
+              "citacao": "O Espírito Santo nos capacita para profetizar, curar, ensinar e manifestar o Reino de Deus.\nA ativação dos dons não é um privilégio para poucos, mas um chamado para todos que desejam viver o sobrenatural."
+            },
+            {
+              "fato": "Tempo de Deus: a igreja profética discerne as estações espirituais (frase em verde). 'Calendários de Deus' tem sentido espiritual; o slide não traz datas nem agenda.",
+              "paginas": [
+                54
+              ],
+              "citacao": "Não seguimos o relógio do mundo, mas o tempo de Deus.\nUma igreja profética discerne as estações espirituais e age conforme os propósitos divinos.\nQuando aprendemos a andar nos calendários de Deus, não nos precipitamos nem ficamos para trás, mas nos movemos no ritmo perfeito do Pai."
+            },
+            {
+              "fato": "O Reino é demonstração de poder: onde há igreja profética há sinais, maravilhas e cumprimento de promessas (frase em verde).",
+              "paginas": [
+                55
+              ],
+              "citacao": "O Reino de Deus não é teoria, mas demonstração de poder.\nOnde há uma igreja profética, há sinais, maravilhas e cumprimento de promessas.\nQuando andamos na revelação de Deus, vivemos o extraordinário e vemos cada uma das promessas do Pai se cumprindo em nossa vida."
+            },
+            {
+              "fato": "O último slide do documento é Marcos 16:17, cortado com reticências.",
+              "paginas": [
+                56
+              ],
+              "citacao": "“Estes sinais seguirão aos que creem: em meu nome expulsarão demônios, falarão novas línguas...”\nMarcos 16:17"
+            }
+          ]
+        },
+        {
+          "tema": "Estrutura do documento",
+          "itens": [
+            {
+              "fato": "A capa traz o título em minúsculas, com 'bn' em negrito.",
+              "paginas": [
+                1
+              ],
+              "citacao": "cultura bn"
+            },
+            {
+              "fato": "Três slides divisores, com o mesmo visual da capa, separam as seções: 'acreditamos' (p. 9), 'nossos valores' (p. 15) e 'sobre doutrina' (p. 28). Não há divisor depois da p. 28.",
+              "paginas": [
+                9,
+                15,
+                28
+              ],
+              "citacao": "acreditamos\nnossos valores\nsobre doutrina"
+            },
+            {
+              "fato": "Depois do divisor 'sobre doutrina', quatro slides abrem blocos com um título grande e a palavra-chave em verde. Os slides seguintes não repetem esse título; alguns têm frase-título própria, como 'A graça é um presente.' (p. 31) e 'Você é filho amado.' (p. 32). Os limites dos blocos usados aqui vão de um título até o próximo.",
+              "paginas": [
+                29,
+                36,
+                45,
+                51
+              ],
+              "citacao": "Evangelho da Graça\nEvangelho do Reino\nSomos Libertadores\nUma Igreja Profética"
+            },
+            {
+              "fato": "As p. 37 e 40 repetem o mesmo texto.",
+              "paginas": [
+                37,
+                40
+              ],
+              "citacao": "Jesus falava sobre muitas coisas, mas seu tema central era o Reino de Deus."
+            }
+          ]
+        },
+        {
+          "tema": "Identidade visual do material",
+          "itens": [
+            {
+              "fato": "Capa e divisores têm um degradê diagonal de verde (~#0C8054) a quase preto, com textura granulada. O título vem em fonte serifada branca e minúscula, e embaixo fica o símbolo da BN em traço branco fino (estrela de traços com seta diagonal). O mesmo símbolo aparece ao lado do título 'JORNADA BN' (p. 7) e, pequeno, no canto superior esquerdo dos slides de conteúdo a partir da p. 8.",
+              "paginas": [
+                1,
+                7,
+                9,
+                15,
+                28
+              ],
+              "citacao": "cultura bn"
+            },
+            {
+              "fato": "Nos slides de texto, um cartão quase preto (~#121214) fica sobre o fundo verde. O corpo é em fonte sem serifa branca, as frases-chave em verde vivo (~#00BE62) e negrito, e os títulos em fonte serifada. Os versículos soltos usam aspas verdes grandes e uma linha verde em forma de colchete. As p. 41 e 42 têm fundo preto liso.",
+              "paginas": [
+                8,
+                29,
+                30,
+                41,
+                42
+              ],
+              "citacao": "Somos a boa notícia"
+            },
+            {
+              "fato": "As páginas institucionais (da missão até 'como fazemos isso?') têm outro estilo: fundo branco (p. 2, 4, 5, 6) ou grafite (~#1E221E, p. 3), texto centralizado em fonte sem serifa e ícones em preto e branco no quadro de valores.",
+              "paginas": [
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "citacao": "missão\nvisão\nvalores\nnós somos\ncomo fazemos isso?"
+            },
+            {
+              "fato": "Cores da Jornada BN, explicadas pela legenda: verde-oliva (~#80A249) para ser membro, verde médio (~#73B971) para crescer e verde-água (~#89C7BC) para liderar. O fundo é preto, há uma foto desfocada de folhas no alto e as anotações são manuscritas em verde.",
+              "paginas": [
+                7
+              ],
+              "citacao": "4 PASSOS PARA SER MEMBRO\n4 PASSOS PARA CRESCER\n4 PASSOS PARA LIDERAR"
+            }
+          ]
+        }
+      ],
+      "estruturaDaIgreja": "O documento não descreve hierarquia de liderança. Não há organograma, e nenhuma das 56 páginas traz as palavras 'pastor', 'pastora', 'rede' (no sentido de grupo), 'supervisor', 'coordenador', 'diácono', 'presbítero', 'obreiro' ou 'ministério'. 'Apóstolos' e 'profetas' só aparecem dentro de versículos (p. 17 e 52). Nenhum líder é citado por nome.\n\nOs únicos papéis nomeados estão na Jornada BN (p. 7), que é uma sequência de passos, não um organograma. Do mais avançado para o mais básico, na ordem do desenho:\n1) Discipulador / líder de célula: passo 11, EKBALLO, 'Torne-se um discipulador', com a anotação manuscrita 'Para quem deseja ser líder de célula' (p. 7).\n2) Líder: passo 10, AVANCE, 'Torne-se um líder' (p. 7).\n3) Voluntário: passo 6, EPICENTRO, 'Torne-se um voluntário', com a anotação 'Para quem deseja servir' (p. 7).\n4) Membro: o ponto branco entre o passo 4 (BATISMO) e o 5 diz 'Aqui você se torna membro' (p. 7). 'Membros' aparece também em 'A igreja deve zelar pela retidão e integridade dos seus membros.' (p. 19) e em 'A igreja é um corpo, e cada membro tem sua função.' (p. 25).\nA porta de entrada, antes de tudo isso, é o passo 1, HOME CHURCH: 'Seja família conosco' (p. 7).\n\nSobre cargos e posição, o tom do documento é contra o status: 'Não buscamos status, mas o privilégio de manifestar Cristo ao mundo através do amor e do serviço.' (p. 43) e 'No Reino de Deus, não há espaço para rivalidade entre irmãos.' (p. 25).\n\nO que NÃO está claro:\n(a) se 'líder' (Avance, passo 10) e 'líder de célula' (anotação do Ekballo, passo 11) são o mesmo papel, e qual fica acima;\n(b) se 'discipulador' é o mesmo que 'líder de célula';\n(c) se 'Home Church' e 'célula' são a mesma coisa, já que o mesmo slide usa os dois termos;\n(d) quem lidera os líderes de célula e quem está no topo (pastor, pastores de rede, supervisores);\n(e) se a ordem da Jornada corresponde a uma hierarquia de autoridade ou é só uma ordem de passos;\n(f) quem aprova a passagem de um passo para o seguinte.",
+      "pastoresDeRede": "O documento não fala disso. Nenhuma das 56 páginas traz 'pastor', 'pastora', 'pastor de rede', 'rede' no sentido de grupo de células ou de líderes, 'supervisor' ou organograma.\n\nA única vez que a palavra 'redes' aparece é em 'redes sociais', um dos quatro itens de 'como fazemos isso?' (p. 6: 'experiência de culto / redes sociais / home churches / ensino'), sem nenhuma ligação com liderança.\n\nO papel mais alto que o documento nomeia é discipulador / líder de célula (passo 11, Ekballo, p. 7). As informações sobre redes e pastores de rede precisam vir de outra fonte.",
+      "ministerios": [],
+      "jornada": "Tudo o que o documento diz sobre a Jornada BN está na p. 7, um infográfico com o título 'JORNADA BN' (conferido também na imagem original do PDF, de 3328x1864 px). Nenhum outro slide fala da Jornada. Fora dela, só 'home churches' (p. 6) e 'cultura bn' (capa, p. 1) coincidem com nomes de passos.\n\nFormato: 12 passos numerados num caminho tracejado em onda, da esquerda para a direita, com setas (>>>>) que mostram o sentido. Uma legenda no rodapé divide os passos em três blocos de 4, cada um com uma cor de círculo:\n- '4 PASSOS PARA SER MEMBRO': passos 1 a 4, verde-oliva.\n- '4 PASSOS PARA CRESCER': passos 5 a 8, verde médio.\n- '4 PASSOS PARA LIDERAR': passos 9 a 12, verde-água.\n\nPassos, com nome e frase literais:\n1 HOME CHURCH: 'Seja família conosco'\n2 TUDO SOBRE ELE: 'Conheça profundamente sobre Jesus'\n3 CULTURA BN: 'Entenda nossacultura' (junto assim no slide)\n4 BATISMO: 'Um novo nascimento'\nEntre o 4 e o 5 há um ponto branco sem número, com a anotação manuscrita 'Aqui você se torna membro'.\n5 ENCONTRO COM DEUS: 'Tenha um encontro real com Cristo'\n6 EPICENTRO: 'Torne-se um voluntário', com a anotação manuscrita 'Para quem deseja servir'\n7 VIDA COM PROPÓSITOS: 'Entenda o seu propósito de vida'\n8 GRAÇA E REINO: 'Entenda a nossa visão'\n9 VIDA ABUNDANTE: 'Conheça o estilo de vida do Reino'\n10 AVANCE: 'Torne-se um líder'\n11 EKBALLO: 'Torne-se um discipulador', com a anotação manuscrita 'Para quem deseja ser líder de célula'\n12 SEMINÁRIO BN: 'Entenda profundamente a Bíblia'\n\nO que o slide permite afirmar:\n- a pessoa se torna membro depois do Batismo (passo 4);\n- o passo para virar voluntário é o 6 (Epicentro);\n- o passo para virar líder é o 10 (Avance);\n- o passo para virar discipulador e líder de célula é o 11 (Ekballo).\n\nO que o slide NÃO diz:\n- duração, frequência ou datas;\n- formato de cada passo (curso, encontro, evento);\n- quem conduz cada passo;\n- se a ordem é obrigatória;\n- o que acontece depois do passo 12;\n- se o passo 3 usa este documento como material (o nome é o mesmo).",
+      "paraOSite": [
+        {
+          "uso": "Missão",
+          "texto": "formar pessoas parecidas com Jesus, que se tornem prósperas em todas as esferas da vida, para assim, influenciar o maior número de pessoas possível.",
+          "paginas": [
+            2
+          ]
+        },
+        {
+          "uso": "Visão",
+          "texto": "ser uma igreja internacional, formada de pessoas de impacto, que estabelecem o Reino e transformam cidades.",
+          "paginas": [
+            3
+          ]
+        },
+        {
+          "uso": "Frase de apresentação ('nós somos')",
+          "texto": "uma igreja que busca servir a Deus com excelência, que faz do improvável um embaixador do Reino.",
+          "paginas": [
+            5
+          ]
+        },
+        {
+          "uso": "Chamada principal (topo da home)",
+          "texto": "Somos a boa notícia para cidades que anseiam por vida!",
+          "paginas": [
+            8
+          ]
+        },
+        {
+          "uso": "Texto de apresentação / manifesto",
+          "texto": "Somos a boa notícia para cidades que anseiam por vida! Como construtores do Reino, levamos o conhecimento de Jesus, evangelizamos, restauramos e transformamos vidas.\n\nImplantamos a cultura do Reino em todas as áreas de influência — família, governo, educação, economia, artes, mídia e igreja — manifestando o sobrenatural no natural e edificando uma sociedade que reflete Cristo.",
+          "paginas": [
+            8
+          ]
+        },
+        {
+          "uso": "Valores (lista curta, como no quadro com ícones)",
+          "texto": "Clareza de Ideias\nValores Judaico Cristãos\nFamília Tradicional\nHonestidade Moral\nRespeito com o Diferente\nHumildade e Amor ao Próximo\nEvangelho da Graça\n7 Áreas de Influência\nAção Social\nCosmovisão e Impacto Cultural",
+          "paginas": [
+            4
+          ]
+        },
+        {
+          "uso": "Como fazemos (quatro frentes)",
+          "texto": "como fazemos isso?\nexperiência de culto\nredes sociais\nhome churches\nensino",
+          "paginas": [
+            6
+          ]
+        },
+        {
+          "uso": "Nosso chamado",
+          "texto": "Nosso chamado é claro: ganhar vidas, discipular corações, servir ao próximo e reinar com Cristo em vida.",
+          "paginas": [
+            14
+          ]
+        },
+        {
+          "uso": "Em que acreditamos: Missão Integral",
+          "texto": "Acreditamos na Missão Integral, onde Cristo é formado no homem, impactando todas as áreas da sua vida – corpo, alma e espírito.",
+          "paginas": [
+            10
+          ]
+        },
+        {
+          "uso": "Em que acreditamos: impacto social",
+          "texto": "Trabalhamos para mudar o IDH de bairros inteiros, levando dignidade, oportunidades e esperança onde antes havia escassez.",
+          "paginas": [
+            11
+          ]
+        },
+        {
+          "uso": "Em que acreditamos: eternidade",
+          "texto": "O que fazemos hoje ecoa na eternidade, criando um movimento de renovação espiritual, social e econômica.",
+          "paginas": [
+            12
+          ]
+        },
+        {
+          "uso": "Em que acreditamos: prosperidade",
+          "texto": "Para nós, prosperidade não é só sobre possuir, mas sobre viver com propósito. A verdadeira abundância está em cumprir nossa missão, gerar impacto e promover um Reino de justiça, paz e alegria.",
+          "paginas": [
+            13
+          ]
+        },
+        {
+          "uso": "Seção Jornada BN, títulos e frases dos 12 passos (no slide, 'nossacultura' está junto)",
+          "texto": "JORNADA BN\n1 HOME CHURCH\nSeja família conosco\n2 TUDO SOBRE ELE\nConheça profundamente sobre Jesus\n3 CULTURA BN\nEntenda nossacultura\n4 BATISMO\nUm novo nascimento\nAqui você se torna membro\n5 ENCONTRO COM DEUS\nTenha um encontro real com Cristo\n6 EPICENTRO\nTorne-se um voluntário\nPara quem deseja servir\n7 VIDA COM PROPÓSITOS\nEntenda o seu propósito de vida\n8 GRAÇA E REINO\nEntenda a nossa visão\n9 VIDA ABUNDANTE\nConheça o estilo de vida do Reino\n10 AVANCE\nTorne-se um líder\n11 EKBALLO\nTorne-se um discipulador\nPara quem deseja ser líder de célula\n12 SEMINÁRIO BN\nEntenda profundamente a Bíblia\n4 PASSOS PARA SER MEMBRO\n4 PASSOS PARA CRESCER\n4 PASSOS PARA LIDERAR",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "uso": "Chamada para Home Church",
+          "texto": "HOME CHURCH\nSeja família conosco",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "uso": "Chamada para membresia",
+          "texto": "BATISMO\nUm novo nascimento\nAqui você se torna membro",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "uso": "Chamada para voluntariado",
+          "texto": "EPICENTRO\nTorne-se um voluntário\nPara quem deseja servir",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "uso": "Chamada para liderança",
+          "texto": "AVANCE\nTorne-se um líder\nEKBALLO\nTorne-se um discipulador\nPara quem deseja ser líder de célula",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Clareza de Ideias",
+          "texto": "Clareza de Ideias\nA clareza de ideias é essencial para o ensino da Palavra e para a comunicação eficaz dentro da igreja.\n\"Então o Senhor me respondeu, e disse: Escreve a visão, e torna-a bem legível sobre tábuas, para que a possa ler quem passa correndo.\"\nHabacuque 2:2",
+          "paginas": [
+            16
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Valores Judaico-Cristãos",
+          "texto": "Valores Judaico-Cristãos\nA igreja deve preservar os princípios morais e espirituais herdados do judaísmo e do cristianismo.\n\"Edificados sobre o fundamento dos apóstolos e dos profetas, sendo o próprio Cristo Jesus a principal pedra da esquina.\"\nEfésios 2:20",
+          "paginas": [
+            17
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Família Tradicional",
+          "texto": "Família Tradicional\nO modelo bíblico de família é um pilar da sociedade e da igreja.\n\"Portanto, deixará o homem o seu pai e a sua mãe, e apegar-se-á à sua mulher, e serão ambos uma carne.\"\nGênesis 2:24",
+          "paginas": [
+            18
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Honestidade Moral",
+          "texto": "Honestidade Moral\nA igreja deve zelar pela retidão e integridade dos seus membros.\n\"A integridade dos retos os guiará,\nmas a perversidade dos traiçoeiros os destruirá.\"\nProvérbios 11:3",
+          "paginas": [
+            19
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Respeito com o Diferente",
+          "texto": "Respeito com o Diferente\nA igreja deve respeitar e acolher todos, sem abrir mão da verdade bíblica.\n\"Eu, porém, vos digo: Amai os vossos inimigos, e orai pelos que vos perseguem.\"\nMateus 5:44",
+          "paginas": [
+            20
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Humildade e Amor ao Próximo",
+          "texto": "Humildade e Amor ao Próximo\nO serviço ao próximo deve ser uma marca do cristão.\n\"Nada façais por contenda ou por vanglória, mas por humildade; cada um considere os outros superiores a si mesmo.\"\nFilipenses 2:3",
+          "paginas": [
+            21
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Cultura, Tradição e Entretenimento",
+          "texto": "Cultura, Tradição e Entretenimento\nA igreja deve ser vigilante contra enganos culturais.\n\"Tende cuidado, para que ninguém vos faça presa sua por meio de filosofias e vãs subtilezas.\"\nColossenses 2:8",
+          "paginas": [
+            22
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Sempre a Favor dos Mais Necessitados",
+          "texto": "Sempre a Favor dos Mais Necessitados\nA igreja deve atender todas as esferas de necessidade.\n\"Quando deres um banquete, convida os pobres, aleijados, mancos e cegos.\"\nLucas 14:13-14",
+          "paginas": [
+            23
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Cosmovisão (título como está no slide)",
+          "texto": "Cosmovisão e da Multiforme Graça de Deus\nA cosmovisão cristã é a lente pela qual interpretamos toda a realidade à luz das Escrituras. A multiforme graça de Deus revela Sua soberania e ação em diversas esferas da vida, alcançando todas as culturas, dons e expressões do Reino.\n\"Para que agora, pela igreja, a multiforme sabedoria de Deus seja conhecida dos principados e potestades nos lugares celestiais.\"\nEfésios 3:10",
+          "paginas": [
+            24
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Não Aceitamos a Cultura da Competição",
+          "texto": "Não Aceitamos a Cultura da Competição\nNo Reino de Deus, não há espaço para rivalidade entre irmãos. A igreja é um corpo, e cada membro tem sua função.\n\"Não nos tornemos vangloriosos, provocando-nos uns aos outros, tendo inveja uns dos outros.\"\nGálatas 5:26",
+          "paginas": [
+            25
+          ]
+        },
+        {
+          "uso": "Valor detalhado: Quebra da Religiosidade",
+          "texto": "Quebra da Religiosidade\nA religiosidade legalista impõe cargas sobre as pessoas, enquanto a graça de Deus nos conduz à verdadeira transformação e liberdade.\n\"Mas agora estamos livres da lei, pois morremos para aquilo em que estávamos retidos, para que sirvamos em novidade de espírito, e não na velhice da letra.\"\nRomanos 7:6",
+          "paginas": [
+            26
+          ]
+        },
+        {
+          "uso": "As 7 áreas de influência",
+          "texto": "7 áreas de influência\nAs 7 áreas de influência são:\nFamília: O lar e as relações familiares.\nReligião: A igreja e as instituições religiosas.\nEducação: Escolas e instituições de ensino.\nGoverno: Política e a esfera pública.\nMídia: Meios de comunicação e o setor de entretenimento.\nArtes: Entretenimento e a cultura.\nEconomia: Negócios, comércio e finanças.",
+          "paginas": [
+            27
+          ]
+        },
+        {
+          "uso": "Doutrina: Evangelho da Graça",
+          "texto": "Evangelho da Graça\nO Evangelho não é sobre esforço humano, mas sobre a obra consumada de Cristo. A graça não é uma ideia abstrata, mas uma pessoa: Jesus Cristo. Nele, encontramos redenção, perdão e uma nova identidade.",
+          "paginas": [
+            29
+          ]
+        },
+        {
+          "uso": "Frases de destaque sobre a graça (cada uma em verde no slide)",
+          "texto": "Não se trata do que fazemos por Ele, mas do que Ele já fez por nós.\nSomos filhos amados, não servos tentando ganhar aceitação.\nNão obedecemos para sermos amados – somos amados, por isso obedecemos.\nFomos salvos pela graça para sermos expressão viva dela.",
+          "paginas": [
+            31,
+            32,
+            33,
+            34
+          ]
+        },
+        {
+          "uso": "Doutrina: Evangelho do Reino",
+          "texto": "Evangelho do Reino\nO Reino de Deus é justiça, paz e alegria no Espírito Santo.\nNão é apenas algo futuro, é uma realidade presente para aqueles que vivem sob o senhorio de Cristo.",
+          "paginas": [
+            36
+          ]
+        },
+        {
+          "uso": "Frase sobre o Reino (em verde)",
+          "texto": "O Reino de Deus não é uma religião, mas um governo divino que transforma todas as áreas da vida. Onde Cristo reina, há restauração e vida.",
+          "paginas": [
+            37,
+            40
+          ]
+        },
+        {
+          "uso": "Frase sobre o Reino e a cultura (em verde)",
+          "texto": "O Reino de Deus estabelece uma nova cultura, acima de qualquer tradição ou sistema humano.",
+          "paginas": [
+            39
+          ]
+        },
+        {
+          "uso": "Citação sobre Evangelho e cultura, com autor",
+          "texto": "O Evangelho é supracultural,\npois define e explica a cultura, não o contrário;\ncultural,\npor ter sido revelado à humanidade em seu próprio contexto e história;\nintercultural,\npor juntar ao redor de Jesus pessoas de todos os povos;\nmulticultural,\nao ser destinado a todos os povos e línguas;\ntranscultural,\nquando transmitido de uma cultura a outra;\ne contracultural,\npois sempre confronta o homem em sua própria cultura.\n\n- Ronaldo Lidório.",
+          "paginas": [
+            41,
+            42
+          ]
+        },
+        {
+          "uso": "Servir (texto para a área de voluntários)",
+          "texto": "A cultura do Reino nos ensina que servir é a verdadeira grandeza. Não buscamos status, mas o privilégio de manifestar Cristo ao mundo através do amor e do serviço.",
+          "paginas": [
+            43
+          ]
+        },
+        {
+          "uso": "Somos Libertadores",
+          "texto": "Somos Libertadores\nDeus sempre levantou libertadores para conduzir Seu povo à verdade e à plenitude da vida. Moisés foi chamado para tirar Israel do Egito. Jesus veio para nos libertar do pecado, da morte e da escravidão espiritual.\nAgora, somos chamados para ser resposta, levando luz onde há trevas e libertação onde há cativeiro.",
+          "paginas": [
+            45
+          ]
+        },
+        {
+          "uso": "Abundância (em verde)",
+          "texto": "A miséria não é só falta de dinheiro, mas uma mentalidade de limitação. Deus nos chamou para um Reino de abundância, provisão e generosidade.",
+          "paginas": [
+            49
+          ]
+        },
+        {
+          "uso": "Recomeço / restauração (em verde)",
+          "texto": "Não somos mais reféns das marcas do passado. No Reino, somos feitos novos, restaurados e capacitados para viver livres!",
+          "paginas": [
+            50
+          ]
+        },
+        {
+          "uso": "Uma Igreja Profética",
+          "texto": "Uma Igreja Profética\nO Reino de Deus não é apenas conhecimento, mas revelação e direção do Espírito.\nSomos chamados para viver de forma profética, discernindo os tempos e manifestando o sobrenatural de Deus na terra.",
+          "paginas": [
+            51
+          ]
+        },
+        {
+          "uso": "Dons espirituais (em verde)",
+          "texto": "A ativação dos dons não é um privilégio para poucos, mas um chamado para todos que desejam viver o sobrenatural.",
+          "paginas": [
+            53
+          ]
+        }
+      ],
+      "vocabulario": [
+        {
+          "termo": "BN",
+          "significado": "Sigla que aparece em 'cultura bn' (capa) e em 'JORNADA BN', 'CULTURA BN' e 'SEMINÁRIO BN' (Jornada). O documento não escreve por extenso o que ela significa. O nome 'Boas Novas' não aparece em nenhum slide; só a expressão 'boas-novas' no versículo de Lucas 4:18 (p. 46).",
+          "paginas": [
+            1,
+            7,
+            46
+          ]
+        },
+        {
+          "termo": "cultura bn / Cultura BN",
+          "significado": "Título do documento (na capa, em minúsculas) e nome do passo 3 da Jornada BN, 'Entenda nossacultura'.",
+          "paginas": [
+            1,
+            7
+          ]
+        },
+        {
+          "termo": "Jornada BN",
+          "significado": "Caminho de 12 passos em três blocos: 4 passos para ser membro, 4 para crescer e 4 para liderar.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Home Church / home churches",
+          "significado": "Passo 1 da Jornada ('Seja família conosco'). Na p. 6, 'home churches' é um dos quatro itens de 'como fazemos isso?'. O documento não explica o formato nem diz se é o mesmo que célula.",
+          "paginas": [
+            6,
+            7
+          ]
+        },
+        {
+          "termo": "célula / líder de célula",
+          "significado": "Aparece uma única vez, na anotação do passo 11, Ekballo: 'Para quem deseja ser líder de célula'. O documento não define o que é célula.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Tudo Sobre Ele",
+          "significado": "Passo 2 da Jornada: 'Conheça profundamente sobre Jesus'.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Batismo",
+          "significado": "Passo 4 da Jornada: 'Um novo nascimento'. Logo depois dele vem a anotação 'Aqui você se torna membro'.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "membro",
+          "significado": "Quem passou pelos 4 primeiros passos, até o Batismo ('Aqui você se torna membro'). A igreja deve zelar pela retidão e integridade dos membros (p. 19), e cada membro tem sua função no corpo (p. 25).",
+          "paginas": [
+            7,
+            19,
+            25
+          ]
+        },
+        {
+          "termo": "Encontro com Deus",
+          "significado": "Passo 5: 'Tenha um encontro real com Cristo'.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Epicentro",
+          "significado": "Passo 6: 'Torne-se um voluntário', com a anotação 'Para quem deseja servir'. O documento não o chama de ministério.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "voluntário",
+          "significado": "Papel ligado ao passo 6, Epicentro. O documento não lista áreas de voluntariado.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Vida com Propósitos",
+          "significado": "Passo 7: 'Entenda o seu propósito de vida'.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Graça e Reino",
+          "significado": "Passo 8: 'Entenda a nossa visão'.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Vida Abundante",
+          "significado": "Passo 9: 'Conheça o estilo de vida do Reino'.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Avance",
+          "significado": "Passo 10: 'Torne-se um líder'.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Ekballo",
+          "significado": "Passo 11: 'Torne-se um discipulador', com a anotação 'Para quem deseja ser líder de célula'. O documento não explica a palavra.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "discipulador / discipular",
+          "significado": "'Torne-se um discipulador' é a frase do Ekballo; 'discipular corações' é uma das partes do chamado da igreja.",
+          "paginas": [
+            7,
+            14
+          ]
+        },
+        {
+          "termo": "Seminário BN",
+          "significado": "Passo 12, o último: 'Entenda profundamente a Bíblia'.",
+          "paginas": [
+            7
+          ]
+        },
+        {
+          "termo": "Reino (sempre com R maiúsculo)",
+          "significado": "Palavra central do documento. 'O Reino de Deus é justiça, paz e alegria no Espírito Santo.' (p. 36); 'não é uma religião, mas um governo divino que transforma todas as áreas da vida' (p. 37 e 40); 'estabelece uma nova cultura, acima de qualquer tradição ou sistema humano' (p. 39); 'não é teoria, mas demonstração de poder' (p. 55).",
+          "paginas": [
+            3,
+            5,
+            36,
+            37,
+            39,
+            40,
+            55
+          ]
+        },
+        {
+          "termo": "cultura do Reino",
+          "significado": "O que a igreja diz implantar em todas as áreas de influência (p. 8). Ela 'nos ensina que servir é a verdadeira grandeza' (p. 43).",
+          "paginas": [
+            8,
+            43
+          ]
+        },
+        {
+          "termo": "construtores do Reino / embaixador do Reino / instrumentos do Reino",
+          "significado": "Como o documento descreve os cristãos da igreja: 'Como construtores do Reino' (p. 8), 'faz do improvável um embaixador do Reino' (p. 5) e 'Fomos chamados para ser instrumentos do Reino' (p. 53).",
+          "paginas": [
+            5,
+            8,
+            53
+          ]
+        },
+        {
+          "termo": "áreas de influência / 7 áreas de influência",
+          "significado": "Família, Religião, Educação, Governo, Mídia, Artes e Economia (p. 27). Na p. 8, a lista usa 'igreja' em vez de 'Religião'. Também é um dos valores do quadro da p. 4.",
+          "paginas": [
+            4,
+            8,
+            27
+          ]
+        },
+        {
+          "termo": "Missão Integral",
+          "significado": "'onde Cristo é formado no homem, impactando todas as áreas da sua vida – corpo, alma e espírito'.",
+          "paginas": [
+            10
+          ]
+        },
+        {
+          "termo": "IDH",
+          "significado": "Usado em 'mudar o IDH de bairros inteiros'. O slide não explica a sigla.",
+          "paginas": [
+            11
+          ]
+        },
+        {
+          "termo": "prosperidade",
+          "significado": "'não é só sobre possuir, mas sobre viver com propósito' (p. 13); 'A verdadeira prosperidade começa no espírito e se manifesta em todas as áreas da vida' (p. 49). A missão fala em pessoas 'prósperas em todas as esferas da vida' (p. 2).",
+          "paginas": [
+            2,
+            13,
+            49
+          ]
+        },
+        {
+          "termo": "abundância / miséria",
+          "significado": "'A verdadeira abundância está em cumprir nossa missão, gerar impacto e promover um Reino de justiça, paz e alegria' (p. 13). 'A miséria não é só falta de dinheiro, mas uma mentalidade de limitação' (p. 49).",
+          "paginas": [
+            13,
+            49
+          ]
+        },
+        {
+          "termo": "graça / Evangelho da Graça",
+          "significado": "'A graça não é uma ideia abstrata, mas uma pessoa: Jesus Cristo' (p. 29); 'um presente imerecido, fruto do amor de Deus' (p. 31); 'não é licença para pecar, mas o poder para viver em santidade' (p. 33). 'Evangelho da Graça' é título de bloco (p. 29) e valor no quadro da p. 4.",
+          "paginas": [
+            4,
+            29,
+            31,
+            33
+          ]
+        },
+        {
+          "termo": "Evangelho do Reino",
+          "significado": "Título do bloco que começa na p. 36: o Reino é 'uma realidade presente para aqueles que vivem sob o senhorio de Cristo'.",
+          "paginas": [
+            36
+          ]
+        },
+        {
+          "termo": "religiosidade (legalista)",
+          "significado": "'A religiosidade legalista impõe cargas sobre as pessoas'. O valor se chama 'Quebra da Religiosidade'.",
+          "paginas": [
+            26
+          ]
+        },
+        {
+          "termo": "cultura da competição",
+          "significado": "O que a igreja diz não aceitar: 'No Reino de Deus, não há espaço para rivalidade entre irmãos.'",
+          "paginas": [
+            25
+          ]
+        },
+        {
+          "termo": "cosmovisão cristã / multiforme graça de Deus",
+          "significado": "A cosmovisão é 'a lente pela qual interpretamos toda a realidade à luz das Escrituras'; a multiforme graça 'revela Sua soberania e ação em diversas esferas da vida'.",
+          "paginas": [
+            24
+          ]
+        },
+        {
+          "termo": "supracultural, cultural, intercultural, multicultural, transcultural, contracultural",
+          "significado": "Seis qualidades do Evangelho na citação de Ronaldo Lidório, cada uma explicada no slide.",
+          "paginas": [
+            41,
+            42
+          ]
+        },
+        {
+          "termo": "Libertadores",
+          "significado": "'Somos Libertadores': a igreja se diz chamada a ser resposta, 'levando luz onde há trevas e libertação onde há cativeiro'.",
+          "paginas": [
+            45
+          ]
+        },
+        {
+          "termo": "igreja profética",
+          "significado": "Igreja que vive 'de forma profética, discernindo os tempos e manifestando o sobrenatural de Deus na terra' (p. 51), que 'discerne as estações espirituais' (p. 54) e onde 'há sinais, maravilhas e cumprimento de promessas' (p. 55).",
+          "paginas": [
+            51,
+            54,
+            55
+          ]
+        },
+        {
+          "termo": "ativação dos dons",
+          "significado": "'não é um privilégio para poucos, mas um chamado para todos que desejam viver o sobrenatural'.",
+          "paginas": [
+            53
+          ]
+        },
+        {
+          "termo": "tempo de Deus / estações espirituais / calendários de Deus",
+          "significado": "Expressões espirituais da p. 54 ('Não seguimos o relógio do mundo, mas o tempo de Deus.'). Não têm relação com agenda de cultos.",
+          "paginas": [
+            54
+          ]
+        },
+        {
+          "termo": "sobrenatural",
+          "significado": "'manifestando o sobrenatural no natural' (p. 8, em verde); 'manifestando o sobrenatural de Deus na terra' (p. 51); 'viver o sobrenatural' (p. 53).",
+          "paginas": [
+            8,
+            51,
+            53
+          ]
+        },
+        {
+          "termo": "experiência de culto",
+          "significado": "Um dos quatro itens de 'como fazemos isso?'. O documento não dá detalhes.",
+          "paginas": [
+            6
+          ]
+        },
+        {
+          "termo": "filhos amados",
+          "significado": "'Somos filhos amados, não servos tentando ganhar aceitação.'",
+          "paginas": [
+            32
+          ]
+        },
+        {
+          "termo": "pessoas de impacto",
+          "significado": "Quem forma a igreja, segundo a visão.",
+          "paginas": [
+            3
+          ]
+        }
+      ],
+      "nomesDePessoas": [
+        "Ronaldo Lidório (p. 42): assina a citação das p. 41 e 42 ('- Ronaldo Lidório.') sobre o Evangelho ser supracultural, cultural, intercultural, multicultural, transcultural e contracultural. O documento não diz quem ele é nem se tem ligação com a igreja.",
+        "Moisés (p. 45): personagem bíblico, em 'Moisés foi chamado para tirar Israel do Egito.'",
+        "Jesus / Cristo / Jesus Cristo: aparece em muitas páginas (por exemplo 2, 7, 8, 29, 37 e 45).",
+        "Nenhum pastor, líder ou membro da igreja aparece com nome em nenhuma das 56 páginas."
+      ],
+      "duvidas": [
+        "Hierarquia: o documento não tem organograma e não cita pastor, pastor de rede, rede, supervisor nem coordenador. Quem lidera os líderes de célula, se existem redes e quem está no topo são informações que precisam vir de outra fonte.",
+        "'Líder' (passo 10, Avance, 'Torne-se um líder') e 'líder de célula' (anotação do passo 11, Ekballo) são o mesmo papel? 'Discipulador' é o mesmo que 'líder de célula'? E o Avance forma líder de quê (ministério, célula ou outra coisa)? O slide não diz.",
+        "'Home Church' (p. 6 e 7) e 'célula' (p. 7) são a mesma coisa? O documento usa os dois termos sem explicar. Qual nome usar no site e no sistema?",
+        "Ministérios: o documento não nomeia nenhum ministério nem área de serviço. O único ponto sobre servir é o passo 6, Epicentro ('Torne-se um voluntário', 'Para quem deseja servir'). A lista de ministérios precisa vir de outra fonte.",
+        "Valores: o quadro da p. 4 tem 10 valores e a seção 'nossos valores' (p. 16 a 27) tem 12 itens, com diferenças. (1) 'Evangelho da Graça' está no quadro, mas na parte detalhada aparece sob 'sobre doutrina' (p. 29), não em 'nossos valores'. (2) 'Ação Social' não tem slide com esse título; o mais próximo é 'Sempre a Favor dos Mais Necessitados' (p. 23), cujo ícone também mostra alguém ajudando uma pessoa no chão, mas o documento não liga os dois. (3) 'Cosmovisão e Impacto Cultural' vira 'Cosmovisão e da Multiforme Graça de Deus' (p. 24). (4) 'Cultura, Tradição e Entretenimento' (p. 22), 'Não Aceitamos a Cultura da Competição' (p. 25) e 'Quebra da Religiosidade' (p. 26) não estão no quadro. Qual lista é a oficial para o site?",
+        "Jornada: o slide não diz duração, frequência, formato de cada passo (curso, encontro, evento), quem conduz, se a ordem é obrigatória nem o que acontece depois do passo 12.",
+        "Membresia: o slide marca 'Aqui você se torna membro' logo depois do Batismo, mas não diz se quem já foi batizado em outra igreja precisa se batizar de novo, nem se os passos 1 a 3 são obrigatórios para virar membro.",
+        "O passo 3 da Jornada tem o mesmo nome deste documento ('Cultura BN'). Pode ser o material desse passo, mas o documento não diz. Da mesma forma, o passo 8 se chama 'Graça e Reino' e o documento tem os blocos 'Evangelho da Graça' (p. 29) e 'Evangelho do Reino' (p. 36), sem dizer se há ligação.",
+        "Áreas de influência: a p. 8 lista 'família, governo, educação, economia, artes, mídia e igreja' e a p. 27 lista 'Família, Religião, Educação, Governo, Mídia, Artes, Economia'. 'igreja' e 'Religião' parecem ser a mesma área, mas os nomes e a ordem mudam. Qual versão usar?",
+        "Grafias a confirmar antes de copiar para o site: 'Entenda nossacultura' (p. 7, sem espaço); 'Valores Judaico Cristãos' (p. 4, sem hífen) e 'Valores Judaico-Cristãos' (p. 17, com hífen); o título 'Cosmovisão e da Multiforme Graça de Deus' (p. 24), em que o 'e da' parece truncado; e Mateus 6:33 sem aspas de abertura (p. 38).",
+        "Citações sem referência bíblica: 'O Reino de Deus é justiça, paz e alegria no Espírito Santo.' (p. 36) e a oração 'Venha o Teu Reino...' (p. 37 e 40). Se forem para o site, é preciso confirmar a referência.",
+        "As p. 37 e 40 têm exatamente o mesmo texto. Parece repetição por engano, mas o documento não diz.",
+        "O documento termina na p. 56 com Marcos 16:17 cortado com reticências e sem slide de encerramento. Não dá para saber se o arquivo está completo.",
+        "Seção 'sobre doutrina': depois do divisor da p. 28 não há outro divisor, então pela ordem 'Somos Libertadores' (p. 45) e 'Uma Igreja Profética' (p. 51) ficam dentro dela. O documento não diz se esses blocos são doutrina ou outro assunto.",
+        "'como fazemos isso?' (p. 6) vem logo depois de 'nós somos' (p. 5), mas o slide não diz a que 'isso' se refere: à frase 'nós somos', à missão ou à visão.",
+        "'BN' nunca é escrito por extenso, e o nome 'Boas Novas Church' não aparece em nenhum slide. 'IDH' (p. 11) também aparece sem explicação.",
+        "Informações práticas para o site que o documento não traz: dias e horários de culto, endereço, contatos, perfis de redes sociais (a p. 6 só diz 'redes sociais'), nomes de pastores e líderes, e o que é a 'experiência de culto'.",
+        "Metadados do PDF (não aparecem em nenhum slide): o campo Autor diz 'Marc Mach', e o arquivo foi gerado no PowerPoint 2016 em 10/10/2025. Não dá para saber se é o autor do conteúdo ou só quem exportou o arquivo."
+      ]
+    },
+    "slides": [
+      {
+        "pagina": 1,
+        "titulo": "cultura bn (capa)",
+        "textoLiteral": "cultura bn",
+        "descricaoVisual": "Capa. Fundo em degradê diagonal de verde (~#0D8154) e quase preto (~#040D0A), com textura granulada, como papel. No centro, 'cultura bn' em letras brancas serifadas: 'cultura' em peso normal e 'bn' em negrito. Embaixo, centralizado, o símbolo da BN em traço branco fino (uma estrela/asterisco de traços com uma seta diagonal). Sem fotos, diagramas ou outros textos.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O material de cultura da igreja se chama 'cultura bn', escrito em minúsculas na capa, com 'bn' em negrito."
+          },
+          {
+            "tema": "outros",
+            "fato": "Identidade visual da capa: degradê verde e preto com textura granulada, tipografia serifada branca e o símbolo da BN (estrela/asterisco de traços finos com seta diagonal)."
+          }
+        ]
+      },
+      {
+        "pagina": 2,
+        "titulo": "missão",
+        "textoLiteral": "missão\nformar pessoas parecidas com Jesus, que se tornem prósperas em todas as esferas da vida, para assim, influenciar o maior número de pessoas possível.",
+        "descricaoVisual": "Fundo branco, texto preto em fonte sem serifa, tudo centralizado. Rótulo pequeno 'missão' no alto e a frase da missão em letras grandes, em quatro linhas. Sem imagens.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Missão: formar pessoas parecidas com Jesus, que se tornem prósperas em todas as esferas da vida, para assim, influenciar o maior número de pessoas possível."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Expressões da missão: 'pessoas parecidas com Jesus', 'prósperas em todas as esferas da vida' e 'influenciar o maior número de pessoas possível'."
+          }
+        ]
+      },
+      {
+        "pagina": 3,
+        "titulo": "visão",
+        "textoLiteral": "visão\nser uma igreja internacional, formada de pessoas de impacto, que estabelecem o Reino e transformam cidades.",
+        "descricaoVisual": "Fundo escuro (quase preto com leve tom esverdeado, ~#1E231D), texto branco sem serifa, centralizado. Rótulo pequeno 'visão' e a frase da visão em letras grandes, em três linhas. Sem imagens.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Visão: ser uma igreja internacional, formada de pessoas de impacto, que estabelecem o Reino e transformam cidades."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "'Reino' é escrito com R maiúsculo. A visão fala em 'pessoas de impacto', em 'estabelecer o Reino' e em 'transformar cidades'."
+          }
+        ]
+      },
+      {
+        "pagina": 4,
+        "titulo": "valores",
+        "textoLiteral": "valores\nClareza de Ideias\nValores Judaico Cristãos\nFamília Tradicional\nHonestidade Moral\nRespeito com o Diferente\nHumildade e Amor ao Próximo\nEvangelho da Graça\n7 Áreas de Influência\nAção Social\nCosmovisão e Impacto Cultural",
+        "descricaoVisual": "Fundo branco. Título pequeno 'valores' centralizado e, abaixo, uma grade de 10 ícones em preto e branco, com o nome embaixo de cada um, em 2 fileiras de 5. Fileira de cima, da esquerda para a direita: lâmpada com um cérebro desenhado dentro (Clareza de Ideias); cruz em contorno (Valores Judaico Cristãos); silhueta preta de família, adultos e criança abraçados (Família Tradicional); dois rostos de perfil, frente a frente, com traços de brilho entre eles (Honestidade Moral); coração em contorno com uma mão dentro (Respeito com o Diferente). Fileira de baixo: uma pessoa ajoelhada diante de outra sentada, como num lava-pés (Humildade e Amor ao Próximo); mão aberta com traços de movimento e um anel/círculo junto (Evangelho da Graça); cadeia de montanhas com picos (7 Áreas de Influência); uma pessoa ajudando outra, caída no chão, a se levantar (Ação Social); globo terrestre cercado de órbitas, como um átomo (Cosmovisão e Impacto Cultural). Não há numeração nem hierarquia entre os valores, só a ordem da grade.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "A igreja tem 10 valores: Clareza de Ideias; Valores Judaico Cristãos; Família Tradicional; Honestidade Moral; Respeito com o Diferente; Humildade e Amor ao Próximo; Evangelho da Graça; 7 Áreas de Influência; Ação Social; Cosmovisão e Impacto Cultural."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Grafias usadas no slide: 'Valores Judaico Cristãos' (sem hífen) e '7 Áreas de Influência' (com o número em algarismo)."
+          }
+        ]
+      },
+      {
+        "pagina": 5,
+        "titulo": "nós somos",
+        "textoLiteral": "nós somos\numa igreja que busca servir a Deus com excelência, que faz do improvável um embaixador do Reino.",
+        "descricaoVisual": "Fundo branco, texto escuro sem serifa, centralizado. Rótulo pequeno 'nós somos' e a frase em letras grandes, em três linhas. Sem imagens.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Identidade ('nós somos'): uma igreja que busca servir a Deus com excelência, que faz do improvável um embaixador do Reino."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Expressões próprias: 'servir a Deus com excelência' e 'faz do improvável um embaixador do Reino'."
+          }
+        ]
+      },
+      {
+        "pagina": 6,
+        "titulo": "como fazemos isso?",
+        "textoLiteral": "como fazemos isso?\nexperiência de culto\nredes sociais\nhome churches\nensino",
+        "descricaoVisual": "Fundo branco, texto escuro centralizado. A pergunta 'como fazemos isso?' em letra pequena no alto e, abaixo, quatro itens em letras grandes, um por linha, sem números, marcadores ou setas. Sem imagens.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Na resposta a 'como fazemos isso?', a igreja cita quatro meios: experiência de culto, redes sociais, home churches e ensino."
+          },
+          {
+            "tema": "home churches e células",
+            "fato": "Home churches são um dos quatro meios citados em 'como fazemos isso?'. O slide usa o termo em inglês, no plural e em minúsculas: 'home churches'."
+          },
+          {
+            "tema": "cultos e agenda",
+            "fato": "'Experiência de culto' é um dos quatro meios citados. O slide não traz dias nem horários."
+          },
+          {
+            "tema": "outros",
+            "fato": "'Redes sociais' e 'ensino' também estão entre os quatro meios, mas o slide não detalha nenhum dos dois. 'Redes sociais' aparece sem nenhuma ligação com redes de liderança."
+          }
+        ]
+      },
+      {
+        "pagina": 7,
+        "titulo": "JORNADA BN",
+        "textoLiteral": "JORNADA BN\n1 HOME CHURCH\nSeja família conosco\n2 TUDO SOBRE ELE\nConheça profundamente sobre Jesus\n3 CULTURA BN\nEntenda nossacultura\n4 BATISMO\nUm novo nascimento\nAqui você se torna membro\n5 ENCONTRO COM DEUS\nTenha um encontro real com Cristo\n6 EPICENTRO\nTorne-se um voluntário\nPara quem deseja servir\n7 VIDA COM PROPÓSITOS\nEntenda o seu propósito de vida\n8 GRAÇA E REINO\nEntenda a nossa visão\n9 VIDA ABUNDANTE\nConheça o estilo de vida do Reino\n10 AVANCE\nTorne-se um líder\n11 EKBALLO\nTorne-se um discipulador\nPara quem deseja ser líder de célula\n12 SEMINÁRIO BN\nEntenda profundamente a Bíblia\n4 PASSOS PARA SER MEMBRO\n4 PASSOS PARA CRESCER\n4 PASSOS PARA LIDERAR",
+        "descricaoVisual": "Fundo preto (~#0A0A0C). No alto à esquerda, uma faixa com foto desfocada de folhas verdes que termina em listras verticais verdes. À direita dela ficam o símbolo da BN e o título 'JORNADA BN' em branco ('JORNADA' em traço fino, 'BN' em negrito). O centro é um caminho tracejado em forma de onda, que sobe e desce da esquerda para a direita, com 12 círculos numerados. Ao lado de cada círculo há o nome do passo em caixa alta e negrito, com uma frase curta embaixo. Pequenas setas em chevron (>>>>) sobre a linha mostram o sentido: entre 1 e 2, entre 3 e 4, entre 5 e 6, entre 7 e 8, entre 10 e 11 e entre 11 e 12. PERCURSO: 1 Home Church (meio, à esquerda) → sobe a 2 Tudo Sobre Ele → 3 Cultura BN (alto) → desce a 4 Batismo → ponto branco maior, sem número, com a anotação manuscrita 'Aqui você se torna membro' → 5 Encontro com Deus (embaixo) → 6 Epicentro (embaixo), com uma seta curva que liga o nome à anotação manuscrita 'Para quem deseja servir' → sobe a 7 Vida com Propósitos → 8 Graça e Reino (alto) → desce a 9 Vida Abundante → 10 Avance (embaixo) → 11 Ekballo (embaixo), com uma seta curva que liga o nome à anotação manuscrita 'Para quem deseja ser líder de célula' → sobe a 12 Seminário BN (fim, à direita). CORES: os círculos têm três cores, explicadas pela legenda do rodapé, numa faixa com divisórias verticais. Verde-oliva (~#80A548) = '4 PASSOS PARA SER MEMBRO' (passos 1 a 4); verde médio (~#73BC70) = '4 PASSOS PARA CRESCER' (5 a 8); verde-água (~#8CC6B8) = '4 PASSOS PARA LIDERAR' (9 a 12). Na legenda, '4 PASSOS' está em negrito. As três anotações manuscritas são em letra cursiva verde. O subtítulo do passo 3 está escrito junto no slide: 'nossacultura'. Conferido também na página 7 do PDF original, onde o slide é uma imagem de 3328x1864 px, mais nítida que o JPG de 1600x800.",
+        "fatos": [
+          {
+            "tema": "jornada bn e discipulado",
+            "fato": "A Jornada BN tem 12 passos numerados, em três blocos de 4: '4 passos para ser membro' (1 a 4), '4 passos para crescer' (5 a 8) e '4 passos para liderar' (9 a 12)."
+          },
+          {
+            "tema": "jornada bn e discipulado",
+            "fato": "Passos para ser membro: 1 Home Church ('Seja família conosco'), 2 Tudo Sobre Ele ('Conheça profundamente sobre Jesus'), 3 Cultura BN ('Entenda nossacultura', escrito junto no slide) e 4 Batismo ('Um novo nascimento')."
+          },
+          {
+            "tema": "membresia",
+            "fato": "A pessoa se torna membro depois do Batismo (passo 4). O slide marca um ponto branco entre o passo 4 e o 5 com a anotação 'Aqui você se torna membro'. Antes disso vêm Home Church, Tudo Sobre Ele, Cultura BN e Batismo, os '4 passos para ser membro'."
+          },
+          {
+            "tema": "home churches e células",
+            "fato": "Home Church é o passo 1 da Jornada BN, com o convite 'Seja família conosco'."
+          },
+          {
+            "tema": "jornada bn e discipulado",
+            "fato": "Passos para crescer: 5 Encontro com Deus ('Tenha um encontro real com Cristo'), 6 Epicentro ('Torne-se um voluntário'), 7 Vida com Propósitos ('Entenda o seu propósito de vida') e 8 Graça e Reino ('Entenda a nossa visão')."
+          },
+          {
+            "tema": "ministérios e servir",
+            "fato": "Para se tornar voluntário, o passo é o 6, Epicentro ('Torne-se um voluntário'), com a anotação 'Para quem deseja servir'. Ele vem depois da membresia e do Encontro com Deus."
+          },
+          {
+            "tema": "jornada bn e discipulado",
+            "fato": "Passos para liderar: 9 Vida Abundante ('Conheça o estilo de vida do Reino'), 10 Avance ('Torne-se um líder'), 11 Ekballo ('Torne-se um discipulador') e 12 Seminário BN ('Entenda profundamente a Bíblia')."
+          },
+          {
+            "tema": "hierarquia e liderança",
+            "fato": "Avance (passo 10) é o passo para se tornar líder. Ekballo (passo 11) é o passo para se tornar discipulador. Os dois ficam no bloco '4 passos para liderar'."
+          },
+          {
+            "tema": "home churches e células",
+            "fato": "Ekballo (passo 11, 'Torne-se um discipulador') é indicado 'Para quem deseja ser líder de célula'."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Nomes próprios dos passos: Home Church, Tudo Sobre Ele, Cultura BN, Batismo, Encontro com Deus, Epicentro, Vida com Propósitos, Graça e Reino, Vida Abundante, Avance, Ekballo e Seminário BN."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O mesmo slide usa os dois termos: 'Home Church' (passo 1) e 'líder de célula' (anotação do Ekballo)."
+          },
+          {
+            "tema": "jornada bn e discipulado",
+            "fato": "O passo 3 da Jornada tem o mesmo nome da capa deste material: 'Cultura BN'."
+          },
+          {
+            "tema": "outros",
+            "fato": "Cores da Jornada: verde-oliva para os passos de membro, verde médio para os de crescer e verde-água para os de liderar."
+          }
+        ]
+      },
+      {
+        "pagina": 8,
+        "titulo": "Somos a boa notícia (sem título formal)",
+        "textoLiteral": "Somos a boa notícia para cidades que anseiam por vida! Como construtores do Reino, levamos o conhecimento de Jesus, evangelizamos, restauramos e transformamos vidas.\n\nImplantamos a cultura do Reino em todas as áreas de influência — família, governo, educação, economia, artes, mídia e igreja — manifestando o sobrenatural no natural e edificando uma sociedade que reflete Cristo.",
+        "descricaoVisual": "Fundo em degradê verde (~#0D8B5B) e preto, com textura granulada. Por cima há um cartão retangular quase preto (~#131315), de cantos levemente arredondados, que ocupa quase todo o slide. Texto branco sem serifa, alinhado à esquerda, em dois parágrafos. Dois trechos estão destacados em verde vivo (~#07BB65) e negrito: 'Somos a boa notícia' e 'manifestando o sobrenatural no natural'. No canto superior esquerdo, fora do cartão, fica o símbolo da BN em traço branco fino. Sem fotos nem diagramas.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase de identidade em destaque: 'Somos a boa notícia para cidades que anseiam por vida!'"
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Como construtores do Reino, a igreja leva o conhecimento de Jesus, evangeliza, restaura e transforma vidas."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "A igreja implanta a cultura do Reino em todas as áreas de influência, listadas como família, governo, educação, economia, artes, mídia e igreja. São sete áreas, o mesmo número do valor '7 Áreas de Influência' do slide 4."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Expressões próprias: 'construtores do Reino', 'cultura do Reino', 'manifestando o sobrenatural no natural' (em destaque) e 'edificando uma sociedade que reflete Cristo'."
+          }
+        ]
+      },
+      {
+        "pagina": 9,
+        "titulo": "acreditamos (divisor de seção)",
+        "textoLiteral": "acreditamos",
+        "descricaoVisual": "Slide divisor com o visual da capa: degradê diagonal verde e quase preto, com textura granulada. A palavra 'acreditamos' aparece em letras brancas serifadas no centro, e o símbolo da BN em traço branco fino fica embaixo, centralizado. Sem outros elementos.",
+        "fatos": [
+          {
+            "tema": "outros",
+            "fato": "Abre uma seção chamada 'acreditamos', com o mesmo visual da capa."
+          }
+        ]
+      },
+      {
+        "pagina": 10,
+        "titulo": "Acreditamos...",
+        "textoLiteral": "Acreditamos...\nAcreditamos na Missão Integral, onde Cristo é formado no homem, impactando todas as áreas da sua vida – corpo, alma e espírito.",
+        "descricaoVisual": "Mesmo modelo do slide 8: fundo em degradê verde e preto com textura e um cartão quase preto (~#131315) por cima. O título 'Acreditamos...' está em letras brancas serifadas, centralizado no alto do cartão. Abaixo, texto branco sem serifa alinhado à esquerda, com 'Missão Integral,' em verde vivo (~#03BD64) e negrito. O travessão antes de 'corpo' é mais curto que os do slide 8. O símbolo da BN em traço branco fino fica no canto superior esquerdo, fora do cartão. Sem fotos nem diagramas.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "A igreja acredita na Missão Integral, onde Cristo é formado no homem, impactando todas as áreas da sua vida: corpo, alma e espírito."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "'Missão Integral' é o termo destacado (verde e negrito) na seção 'Acreditamos'."
+          }
+        ]
+      },
+      {
+        "pagina": 11,
+        "titulo": "Acreditamos...",
+        "textoLiteral": "Acreditamos...\nTrabalhamos para mudar o IDH de bairros inteiros, levando dignidade, oportunidades e esperança onde antes havia escassez.",
+        "descricaoVisual": "Fundo com textura e degradê diagonal entre verde-esmeralda e preto. Sobre ele, um cartão retangular preto/grafite, de cantos levemente arredondados, ocupa quase todo o slide. No canto superior esquerdo, fora do cartão, há um pequeno ícone branco de traços finos em forma de estrela/asterisco com setas (marca gráfica que se repete nos slides deste lote). O título 'Acreditamos...' fica centralizado, em fonte serifada branca. O texto principal está em fonte sem serifa branca, alinhado à esquerda, com o trecho 'mudar o IDH de bairros inteiros' em verde vivo e negrito. Não há organograma, diagrama nem fluxo. Faz parte de uma sequência de slides com o mesmo título 'Acreditamos...' (neste lote, páginas 11 a 14).",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "A igreja declara que trabalha para mudar o IDH de bairros inteiros, levando dignidade, oportunidades e esperança onde antes havia escassez."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "A expressão 'mudar o IDH de bairros inteiros' aparece destacada em verde como a ideia-chave dessa crença."
+          }
+        ]
+      },
+      {
+        "pagina": 12,
+        "titulo": "Acreditamos...",
+        "textoLiteral": "Acreditamos...\nO que fazemos hoje ecoa na eternidade, criando um movimento de renovação espiritual, social e econômica.",
+        "descricaoVisual": "Mesmo layout da página 11: fundo texturizado em degradê verde-esmeralda e preto, cartão preto/grafite ao centro e o pequeno ícone branco de estrela/asterisco com setas no canto superior esquerdo. Título 'Acreditamos...' centralizado em fonte serifada branca. Texto em fonte sem serifa branca, com o trecho 'O que fazemos hoje ecoa na eternidade' em verde vivo e negrito. Não há organograma, diagrama nem fluxo.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Crença declarada: 'O que fazemos hoje ecoa na eternidade' (frase destacada em verde)."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "A igreja diz que está criando um movimento de renovação espiritual, social e econômica."
+          }
+        ]
+      },
+      {
+        "pagina": 13,
+        "titulo": "Acreditamos...",
+        "textoLiteral": "Acreditamos...\nPara nós, prosperidade não é só sobre possuir, mas sobre viver com propósito. A verdadeira abundância está em cumprir nossa missão, gerar impacto e promover um Reino de justiça, paz e alegria.",
+        "descricaoVisual": "Mesmo layout das páginas 11 e 12 (fundo texturizado verde-esmeralda e preto, cartão preto/grafite, ícone branco de estrela/asterisco com setas no canto superior esquerdo). Título 'Acreditamos...' centralizado em fonte serifada branca. Texto em fonte sem serifa branca, com só a palavra 'prosperidade' em verde vivo e negrito. Não há organograma, diagrama nem fluxo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Para a igreja, 'prosperidade' (palavra destacada em verde) não é só sobre possuir, mas sobre viver com propósito."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "A igreja afirma que a verdadeira abundância está em cumprir a missão, gerar impacto e promover um Reino de justiça, paz e alegria."
+          }
+        ]
+      },
+      {
+        "pagina": 14,
+        "titulo": "Acreditamos...",
+        "textoLiteral": "Acreditamos...\nNosso chamado é claro: ganhar vidas, discipular corações, servir ao próximo e reinar com Cristo em vida.",
+        "descricaoVisual": "Mesmo layout das páginas 11 a 13 (fundo texturizado verde-esmeralda e preto, cartão preto/grafite, ícone branco de estrela/asterisco com setas no canto superior esquerdo). Título 'Acreditamos...' centralizado em fonte serifada branca. O texto fica mais ao centro do cartão: 'Nosso chamado é claro:' em branco e toda a lista seguinte ('ganhar vidas, discipular corações, servir ao próximo e reinar com Cristo em vida.') em verde vivo e negrito. Não há organograma, diagrama nem fluxo; a lista é só texto corrido, sem números nem setas.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "O chamado da igreja, descrito como 'claro', tem quatro partes: ganhar vidas, discipular corações, servir ao próximo e reinar com Cristo em vida."
+          },
+          {
+            "tema": "jornada bn e discipulado",
+            "fato": "'Discipular corações' é uma das quatro partes do chamado declarado da igreja."
+          },
+          {
+            "tema": "ministérios e servir",
+            "fato": "'Servir ao próximo' é uma das quatro partes do chamado declarado da igreja."
+          }
+        ]
+      },
+      {
+        "pagina": 15,
+        "titulo": "nossos valores",
+        "textoLiteral": "nossos valores",
+        "descricaoVisual": "Slide divisor de seção, sem cartão: o fundo inteiro é uma textura em degradê, com faixas diagonais de verde-esmeralda e preto. No centro, o título 'nossos valores' em letras minúsculas, fonte serifada branca. Abaixo, no centro da parte inferior, há um ícone branco de traços finos em forma de estrela/asterisco com setas (o mesmo símbolo que aparece pequeno no canto dos outros slides, aqui maior). Não há outro texto, diagrama ou organograma.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Abre a seção 'nossos valores' do documento. Nas páginas seguintes deste lote (16 a 19) aparecem quatro valores: Clareza de Ideias, Valores Judaico-Cristãos, Família Tradicional e Honestidade Moral. Estas páginas não mostram se a lista continua depois da 19."
+          }
+        ]
+      },
+      {
+        "pagina": 16,
+        "titulo": "Clareza de Ideias",
+        "textoLiteral": "Clareza de Ideias\nA clareza de ideias é essencial para o ensino da Palavra e para a comunicação eficaz dentro da igreja.\n\"Então o Senhor me respondeu, e disse: Escreve a visão, e torna-a bem legível sobre tábuas, para que a possa ler quem passa correndo.\"\nHabacuque 2:2",
+        "descricaoVisual": "Fundo texturizado em degradê verde-esmeralda e preto, com um cartão preto/grafite de cantos arredondados por cima e o pequeno ícone branco de estrela/asterisco com setas no canto superior esquerdo, fora do cartão. Dentro do cartão, tudo alinhado à esquerda: um ícone de lâmpada acesa (com brilho amarelado) antes do título 'Clareza de Ideias', em fonte serifada branca grande; abaixo, a frase explicativa em fonte sem serifa branca menor; depois, a citação bíblica entre aspas em fonte maior, com o trecho 'torna-a bem legível' em verde vivo e negrito; por fim, a referência 'Habacuque 2:2' em fonte menor. Não há organograma, diagrama nem fluxo.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Valor 'Clareza de Ideias' (ícone de lâmpada): a clareza de ideias é essencial para o ensino da Palavra e para a comunicação eficaz dentro da igreja."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Base bíblica do valor Clareza de Ideias: Habacuque 2:2 ('Escreve a visão, e torna-a bem legível sobre tábuas, para que a possa ler quem passa correndo'), com destaque em verde para 'torna-a bem legível'."
+          }
+        ]
+      },
+      {
+        "pagina": 17,
+        "titulo": "Valores Judaico-Cristãos",
+        "textoLiteral": "Valores Judaico-Cristãos\nA igreja deve preservar os princípios morais e espirituais herdados do judaísmo e do cristianismo.\n\"Edificados sobre o fundamento dos apóstolos e dos profetas, sendo o próprio Cristo Jesus a principal pedra da esquina.\"\nEfésios 2:20",
+        "descricaoVisual": "Mesmo layout da página 16 (fundo texturizado verde-esmeralda e preto, cartão preto/grafite, ícone branco de estrela/asterisco com setas no canto superior esquerdo). Antes do título 'Valores Judaico-Cristãos' (fonte serifada branca grande) há um ícone da bandeira de Israel (branca, com duas faixas azuis e a Estrela de Davi azul) presa a um mastro, com raios azuis em volta. Abaixo, a frase explicativa em fonte sem serifa menor; depois, a citação bíblica entre aspas em fonte maior, com o trecho 'fundamento dos apóstolos e dos profetas,' em verde vivo e negrito; por fim, a referência 'Efésios 2:20'. Não há organograma, diagrama nem fluxo.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Valor 'Valores Judaico-Cristãos': a igreja deve preservar os princípios morais e espirituais herdados do judaísmo e do cristianismo."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Base bíblica do valor: Efésios 2:20 ('Edificados sobre o fundamento dos apóstolos e dos profetas, sendo o próprio Cristo Jesus a principal pedra da esquina'), com destaque em verde para 'fundamento dos apóstolos e dos profetas'."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "No slide, o valor Judaico-Cristão é representado pela bandeira de Israel ao lado do título."
+          }
+        ]
+      },
+      {
+        "pagina": 18,
+        "titulo": "Família Tradicional",
+        "textoLiteral": "Família Tradicional\nO modelo bíblico de família é um pilar da sociedade e da igreja.\n\"Portanto, deixará o homem o seu pai e a sua mãe, e apegar-se-á à sua mulher, e serão ambos uma carne.\"\nGênesis 2:24",
+        "descricaoVisual": "Mesmo layout das páginas 16 e 17 (fundo texturizado verde-esmeralda e preto, cartão preto/grafite, ícone branco de estrela/asterisco com setas no canto superior esquerdo). Antes do título 'Família Tradicional' (fonte serifada branca grande) há um pequeno ícone/emoji colorido de uma família, com pessoas juntas e abraçadas (roupas em tons de azul e rosa). Abaixo, a frase explicativa em fonte sem serifa menor; depois, a citação bíblica entre aspas em fonte maior, com o trecho 'ambos uma carne.' em verde vivo e negrito; por fim, a referência 'Gênesis 2:24'. Não há organograma, diagrama nem fluxo.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Valor 'Família Tradicional': o modelo bíblico de família é um pilar da sociedade e da igreja."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Base bíblica do valor: Gênesis 2:24 ('Portanto, deixará o homem o seu pai e a sua mãe, e apegar-se-á à sua mulher, e serão ambos uma carne'), com destaque em verde para 'ambos uma carne'."
+          }
+        ]
+      },
+      {
+        "pagina": 19,
+        "titulo": "Honestidade Moral",
+        "textoLiteral": "Honestidade Moral\nA igreja deve zelar pela retidão e integridade dos seus membros.\n\"A integridade dos retos os guiará,\nmas a perversidade dos traiçoeiros os destruirá.\"\nProvérbios 11:3",
+        "descricaoVisual": "Mesmo layout das páginas 16 a 18 (fundo texturizado verde-esmeralda e preto, cartão preto/grafite, ícone branco de estrela/asterisco com setas no canto superior esquerdo). Antes do título 'Honestidade Moral' (fonte serifada branca grande) há um emblema circular dourado com uma balança desenhada em traço fino. Abaixo, a frase explicativa em fonte sem serifa menor; depois, a citação bíblica entre aspas, em duas linhas, com o trecho 'integridade dos retos os guiará,' em verde vivo e negrito; por fim, a referência 'Provérbios 11:3'. Não há organograma, diagrama nem fluxo.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Valor 'Honestidade Moral' (ícone de balança): a igreja deve zelar pela retidão e integridade dos seus membros."
+          },
+          {
+            "tema": "membresia",
+            "fato": "Pelo valor Honestidade Moral, cabe à igreja zelar pela retidão e integridade dos seus membros."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Base bíblica do valor: Provérbios 11:3 ('A integridade dos retos os guiará, mas a perversidade dos traiçoeiros os destruirá'), com destaque em verde para 'integridade dos retos os guiará'."
+          }
+        ]
+      },
+      {
+        "pagina": 20,
+        "titulo": "Respeito com o Diferente",
+        "textoLiteral": "Respeito com o Diferente\nA igreja deve respeitar e acolher todos, sem abrir mão da verdade bíblica.\n\"Eu, porém, vos digo: Amai os vossos inimigos, e orai pelos que vos perseguem.\"\nMateus 5:44",
+        "descricaoVisual": "Fundo em degradê verde e preto com textura granulada. Um cartão preto (cinza muito escuro) de cantos arredondados ocupa quase todo o slide. No canto superior esquerdo, junto ao canto do cartão, há um pequeno ícone de brilho/estrela em traço fino branco. À esquerda do título fica o ícone de um aperto de mãos em tons de pêssego/laranja, dentro de um círculo de contorno laranja com folhinhas no alto. O título está em fonte serifada branca e grande, e o subtítulo em fonte sem serifa branca, menor. O versículo vem em letras brancas maiores, com o trecho 'Amai os vossos inimigos' destacado em verde e negrito. A referência 'Mateus 5:44' fica embaixo, em branco e menor. Não há organograma, diagrama nem fluxo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Item do documento Cultura BN, 'Respeito com o Diferente': a igreja deve respeitar e acolher todos, sem abrir mão da verdade bíblica. Versículo de base: Mateus 5:44 (\"Eu, porém, vos digo: Amai os vossos inimigos, e orai pelos que vos perseguem.\")."
+          }
+        ]
+      },
+      {
+        "pagina": 21,
+        "titulo": "Humildade e Amor ao Próximo",
+        "textoLiteral": "Humildade e Amor ao Próximo\nO serviço ao próximo deve ser uma marca do cristão.\n\"Nada façais por contenda ou por vanglória, mas por humildade; cada um considere os outros superiores a si mesmo.\"\nFilipenses 2:3",
+        "descricaoVisual": "Mesmo layout da sequência: fundo em degradê verde e preto com textura, cartão preto de cantos arredondados e ícone de brilho/estrela em traço fino branco no canto superior esquerdo. À esquerda do título há um ícone dourado/marrom de um adulto e uma criança de mãos dadas, com um coração acima deles. O título está em serifa branca e o subtítulo em sem serifa branca. O versículo vem em branco, com o trecho 'Nada façais por contenda ou por vanglória' em verde e negrito. A referência 'Filipenses 2:3' fica embaixo, em branco e menor. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Item do documento Cultura BN, 'Humildade e Amor ao Próximo'. Versículo de base: Filipenses 2:3 (\"Nada façais por contenda ou por vanglória, mas por humildade; cada um considere os outros superiores a si mesmo.\")."
+          },
+          {
+            "tema": "ministérios e servir",
+            "fato": "O documento afirma que o serviço ao próximo deve ser uma marca do cristão."
+          }
+        ]
+      },
+      {
+        "pagina": 22,
+        "titulo": "Cultura, Tradição e Entretenimento",
+        "textoLiteral": "Cultura, Tradição e Entretenimento\nA igreja deve ser vigilante contra enganos culturais.\n\"Tende cuidado, para que ninguém vos faça presa sua por meio de filosofias e vãs subtilezas.\"\nColossenses 2:8",
+        "descricaoVisual": "Mesmo layout da sequência: fundo em degradê verde e preto com textura, cartão preto de cantos arredondados e ícone de brilho/estrela em traço fino branco no canto superior esquerdo. À esquerda do título há um ícone em traço dourado com duas máscaras de teatro (comédia e tragédia), uma clave de sol e um saxofone. O título está em serifa branca e o subtítulo em sem serifa branca. No versículo, o trecho 'para que ninguém vos faça presa sua por meio de filosofias e vãs subtilezas.' aparece em verde e negrito. A referência 'Colossenses 2:8' fica embaixo, em branco e menor. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Item do documento Cultura BN, 'Cultura, Tradição e Entretenimento': a igreja deve ser vigilante contra enganos culturais. Versículo de base: Colossenses 2:8 (\"Tende cuidado, para que ninguém vos faça presa sua por meio de filosofias e vãs subtilezas.\")."
+          }
+        ]
+      },
+      {
+        "pagina": 23,
+        "titulo": "Sempre a Favor dos Mais Necessitados",
+        "textoLiteral": "Sempre a Favor dos Mais Necessitados\nA igreja deve atender todas as esferas de necessidade.\n\"Quando deres um banquete, convida os pobres, aleijados, mancos e cegos.\"\nLucas 14:13-14",
+        "descricaoVisual": "Mesmo layout da sequência: fundo em degradê verde e preto com textura, cartão preto de cantos arredondados e ícone de brilho/estrela em traço fino branco no canto superior esquerdo. À esquerda do título há uma ilustração colorida de uma pessoa de roupa laranja/vermelha, ajoelhada, estendendo a mão a uma pessoa menor sentada no chão. O título está em serifa branca e o subtítulo em sem serifa branca. No versículo, o trecho 'convida os pobres, aleijados, mancos e cegos.' aparece em verde e negrito. A referência 'Lucas 14:13-14' fica embaixo, em branco e menor. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Item do documento Cultura BN, 'Sempre a Favor dos Mais Necessitados'. Versículo de base: Lucas 14:13-14 (\"Quando deres um banquete, convida os pobres, aleijados, mancos e cegos.\")."
+          },
+          {
+            "tema": "ministérios e servir",
+            "fato": "O documento afirma que a igreja deve atender todas as esferas de necessidade e estar sempre a favor dos mais necessitados."
+          }
+        ]
+      },
+      {
+        "pagina": 24,
+        "titulo": "Cosmovisão e da Multiforme Graça de Deus",
+        "textoLiteral": "Cosmovisão e da Multiforme Graça de Deus\nA cosmovisão cristã é a lente pela qual interpretamos toda a realidade à luz das Escrituras. A multiforme graça de Deus revela Sua soberania e ação em diversas esferas da vida, alcançando todas as culturas, dons e expressões do Reino.\n\"Para que agora, pela igreja, a multiforme sabedoria de Deus seja conhecida dos principados e potestades nos lugares celestiais.\"\nEfésios 3:10",
+        "descricaoVisual": "Mesmo layout da sequência: fundo em degradê verde e preto com textura, cartão preto de cantos arredondados e ícone de brilho/estrela em traço fino branco no canto superior esquerdo. À esquerda do título há um ícone dourado de uma lâmpada cuja parte de cima tem forma de cérebro. O título ocupa duas linhas ('Cosmovisão e da Multiforme' / 'Graça de Deus'), em serifa branca. Abaixo vem um parágrafo explicativo de quatro linhas, em sem serifa branca. No versículo, o trecho 'a multiforme sabedoria de Deus seja conhecida' aparece em verde e negrito. A referência 'Efésios 3:10' fica logo abaixo, em branco e menor. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Item do documento Cultura BN, 'Cosmovisão e da Multiforme Graça de Deus': a cosmovisão cristã é a lente pela qual se interpreta toda a realidade à luz das Escrituras, e a multiforme graça de Deus revela Sua soberania e ação em diversas esferas da vida, alcançando todas as culturas, dons e expressões do Reino. Versículo de base: Efésios 3:10."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Expressões usadas no documento: 'cosmovisão cristã', 'multiforme graça de Deus', 'esferas da vida', 'expressões do Reino'."
+          }
+        ]
+      },
+      {
+        "pagina": 25,
+        "titulo": "Não Aceitamos a Cultura da Competição",
+        "textoLiteral": "Não Aceitamos a Cultura da Competição\nNo Reino de Deus, não há espaço para rivalidade entre irmãos. A igreja é um corpo, e cada membro tem sua função.\n\"Não nos tornemos vangloriosos, provocando-nos uns aos outros, tendo inveja uns dos outros.\"\nGálatas 5:26",
+        "descricaoVisual": "Mesmo layout da sequência: fundo em degradê verde e preto com textura, cartão preto de cantos arredondados e ícone de brilho/estrela em traço fino branco no canto superior esquerdo. Diferente dos outros, este slide não tem ícone ao lado do título: o título, em duas linhas ('Não Aceitamos a Cultura da' / 'Competição') e em serifa branca, fica recuado, com o espaço do ícone vazio. A imagem tem faixas brancas verticais nas bordas esquerda e direita, porque o fundo verde/preto não ocupa toda a largura. No versículo, o trecho 'Não nos tornemos vangloriosos,' aparece em verde e negrito. A referência 'Gálatas 5:26' fica embaixo, em branco e menor. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Item do documento Cultura BN, 'Não Aceitamos a Cultura da Competição': no Reino de Deus não há espaço para rivalidade entre irmãos. Versículo de base: Gálatas 5:26 (\"Não nos tornemos vangloriosos, provocando-nos uns aos outros, tendo inveja uns dos outros.\")."
+          },
+          {
+            "tema": "ministérios e servir",
+            "fato": "O documento descreve a igreja como um corpo em que cada membro tem sua função."
+          }
+        ]
+      },
+      {
+        "pagina": 26,
+        "titulo": "Quebra da Religiosidade",
+        "textoLiteral": "Quebra da Religiosidade\nA religiosidade legalista impõe cargas sobre as pessoas, enquanto a graça de Deus nos conduz à verdadeira transformação e liberdade.\n\"Mas agora estamos livres da lei, pois morremos para aquilo em que estávamos retidos, para que sirvamos em novidade de espírito, e não na velhice da letra.\"\nRomanos 7:6",
+        "descricaoVisual": "Mesmo layout da sequência: fundo em degradê verde e preto com textura, cartão preto de cantos arredondados e ícone de brilho/estrela em traço fino branco no canto superior esquerdo. À esquerda do título há um ícone dourado de uma pomba de asas abertas, cercada por um halo de raios finos. O título está em serifa branca e o texto explicativo em sem serifa branca. A imagem tem faixas brancas verticais nas bordas esquerda e direita. No versículo, o trecho 'para que sirvamos em novidade de espírito, e não na velhice da letra.' aparece em verde e negrito. A referência 'Romanos 7:6' fica embaixo, em branco e menor. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Item do documento Cultura BN, 'Quebra da Religiosidade': a religiosidade legalista impõe cargas sobre as pessoas, enquanto a graça de Deus conduz à verdadeira transformação e liberdade. Versículo de base: Romanos 7:6 (\"...para que sirvamos em novidade de espírito, e não na velhice da letra.\")."
+          }
+        ]
+      },
+      {
+        "pagina": 27,
+        "titulo": "7 áreas de influência",
+        "textoLiteral": "7 áreas de influência\nAs 7 áreas de influência são:\nFamília: O lar e as relações familiares.\nReligião: A igreja e as instituições religiosas.\nEducação: Escolas e instituições de ensino.\nGoverno: Política e a esfera pública.\nMídia: Meios de comunicação e o setor de entretenimento.\nArtes: Entretenimento e a cultura.\nEconomia: Negócios, comércio e finanças.",
+        "descricaoVisual": "Mesmo layout da sequência: fundo em degradê verde e preto com textura, cartão preto de cantos arredondados e ícone de brilho/estrela em traço fino branco no canto superior esquerdo. À esquerda do título está o mesmo ícone dourado do slide 26 (pomba de asas abertas com halo de raios). O título fica em serifa branca. O corpo é uma lista de 7 itens, um por linha, cada um no formato 'Área: descrição', em sem serifa branca, sem marcadores nem números. Não há versículo nem destaque em verde. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O documento lista as '7 áreas de influência': Família (o lar e as relações familiares); Religião (a igreja e as instituições religiosas); Educação (escolas e instituições de ensino); Governo (política e a esfera pública); Mídia (meios de comunicação e o setor de entretenimento); Artes (entretenimento e a cultura); Economia (negócios, comércio e finanças)."
+          }
+        ]
+      },
+      {
+        "pagina": 28,
+        "titulo": "sobre doutrina",
+        "textoLiteral": "sobre doutrina",
+        "descricaoVisual": "Slide divisor de seção, sem cartão. O fundo é um degradê diagonal de preto e verde com textura granulada. O texto 'sobre doutrina' aparece centralizado, em letras minúsculas e fonte serifada branca. Na parte de baixo, ao centro, há um ícone de brilho/estrela em traço fino branco (linhas irradiando de um centro), parecido com o do canto dos outros slides, só que maior.",
+        "fatos": [
+          {
+            "tema": "outros",
+            "fato": "Slide divisor que abre a seção 'sobre doutrina' do documento Cultura BN."
+          }
+        ]
+      },
+      {
+        "pagina": 29,
+        "titulo": "Evangelho da Graça",
+        "textoLiteral": "Evangelho da Graça\nO Evangelho não é sobre esforço humano, mas sobre a obra consumada de Cristo. A graça não é uma ideia abstrata, mas uma pessoa: Jesus Cristo. Nele, encontramos redenção, perdão e uma nova identidade.",
+        "descricaoVisual": "Fundo verde com textura e gradiente escuro (preto nos cantos e bordas). Um cartão retangular preto ocupa quase todo o slide. O título está em fonte serifada branca, com a palavra 'Graça' em verde e negrito. A primeira frase do corpo ('O Evangelho não é sobre esforço humano, mas sobre a obra consumada de Cristo.') está em negrito branco e o resto em fonte sem serifa regular branca. Há um pequeno ícone de brilho/asterisco de linhas finas, branco, no canto superior esquerdo, fora do cartão. Não há organograma, setas nem fotos.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "'Evangelho da Graça' é o título de uma seção do documento Cultura BN. A seção abre na página 29, e as páginas 30 a 34 desenvolvem o tema da graça."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Ensino do slide: o Evangelho não é sobre esforço humano, mas sobre a obra consumada de Cristo."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "A graça não é uma ideia abstrata, mas uma pessoa: Jesus Cristo. Nele há redenção, perdão e uma nova identidade."
+          },
+          {
+            "tema": "outros",
+            "fato": "Padrão visual do documento nestas páginas: cartão preto sobre fundo verde com textura e gradiente escuro; títulos em fonte serifada branca, às vezes com a palavra-chave em verde; frases de destaque em negrito (verde ou branco); ícone de brilho no canto superior esquerdo."
+          }
+        ]
+      },
+      {
+        "pagina": 30,
+        "titulo": "Citação bíblica – Efésios 2:8 (sem título)",
+        "textoLiteral": "“Porque pela graça sois salvos, por meio da fé; e isso não vem de vós, é dom de Deus.”\nEfésios 2:8",
+        "descricaoVisual": "Slide de citação sem cartão. O fundo é verde com textura e faixas de sombra escura na diagonal. No alto há aspas grandes verdes (“) seguidas de uma linha verde horizontal. Uma linha verde vertical à esquerda acompanha o texto, formando uma moldura de citação. O versículo está em branco, em fonte grande sem serifa, e a referência 'Efésios 2:8' aparece menor, logo abaixo. Ícone de brilho no canto superior esquerdo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Versículo citado logo depois da abertura do tema Evangelho da Graça: Efésios 2:8, “Porque pela graça sois salvos, por meio da fé; e isso não vem de vós, é dom de Deus.”"
+          }
+        ]
+      },
+      {
+        "pagina": 31,
+        "titulo": "A graça é um presente.",
+        "textoLiteral": "A graça é um presente.\nNada que fazemos pode nos tornar dignos da salvação. A graça é um presente imerecido, fruto do amor de Deus. Não se trata do que fazemos por Ele, mas do que Ele já fez por nós.",
+        "descricaoVisual": "Mesmo layout da página 29: cartão preto sobre fundo verde e preto com textura. O título 'A graça é um presente.' está todo em fonte serifada branca. O corpo está em branco regular, e a última frase ('Não se trata do que fazemos por Ele, mas do que Ele já fez por nós.') está destacada em verde e negrito. Ícone de brilho no canto superior esquerdo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "A graça é um presente imerecido, fruto do amor de Deus. Nada que fazemos pode nos tornar dignos da salvação."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase em destaque: “Não se trata do que fazemos por Ele, mas do que Ele já fez por nós.”"
+          }
+        ]
+      },
+      {
+        "pagina": 32,
+        "titulo": "Você é filho amado.",
+        "textoLiteral": "Você é filho amado.\nCristo tomou nosso lugar na cruz, pagou nossa dívida e nos deu livre acesso ao Pai. Somos filhos amados, não servos tentando ganhar aceitação.",
+        "descricaoVisual": "Cartão preto sobre fundo verde e preto com textura. O título 'Você é filho amado.' está em fonte serifada branca. O corpo está em branco regular, com a frase final ('Somos filhos amados, não servos tentando ganhar aceitação.') em verde e negrito. Ícone de brilho no canto superior esquerdo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Mensagem de identidade: “Você é filho amado.” Cristo tomou nosso lugar na cruz, pagou nossa dívida e nos deu livre acesso ao Pai."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase em destaque: “Somos filhos amados, não servos tentando ganhar aceitação.”"
+          }
+        ]
+      },
+      {
+        "pagina": 33,
+        "titulo": "(sem título) A graça salva e transforma",
+        "textoLiteral": "A graça não apenas nos salva, mas nos transforma. Ela não é licença para pecar, mas o poder para viver em santidade.\nNão obedecemos para sermos amados – somos amados, por isso obedecemos.",
+        "descricaoVisual": "Cartão preto sobre fundo verde e preto com textura, sem título. O primeiro parágrafo está em branco regular. O segundo, separado por um espaço, está em verde e negrito. Ícone de brilho no canto superior esquerdo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "A graça não apenas salva, mas transforma. Ela não é licença para pecar, mas o poder para viver em santidade."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase em destaque: “Não obedecemos para sermos amados – somos amados, por isso obedecemos.”"
+          }
+        ]
+      },
+      {
+        "pagina": 34,
+        "titulo": "(sem título) O convite do Evangelho da graça",
+        "textoLiteral": "O Evangelho da graça nos convida a viver como filhos, a espalhar o amor de Deus e a manifestar o Reino na Terra. Fomos salvos pela graça para sermos expressão viva dela.",
+        "descricaoVisual": "Cartão preto sobre fundo verde e preto com textura, sem título. O texto está em branco regular, e a frase final ('Fomos salvos pela graça para sermos expressão viva dela.') está em verde e negrito. Ícone de brilho no canto superior esquerdo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O Evangelho da graça convida a viver como filhos, a espalhar o amor de Deus e a manifestar o Reino na Terra."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase em destaque: “Fomos salvos pela graça para sermos expressão viva dela.”"
+          }
+        ]
+      },
+      {
+        "pagina": 35,
+        "titulo": "Citação bíblica – Colossenses 1:27 (sem título)",
+        "textoLiteral": "“Cristo em vós, a esperança da glória.”\nColossenses 1:27",
+        "descricaoVisual": "Slide de citação igual ao da página 30: fundo verde com textura e sombras escuras na diagonal, aspas grandes verdes com uma linha horizontal verde e uma linha vertical verde à esquerda do texto. O versículo está em branco, com a referência 'Colossenses 1:27' menor abaixo. Ícone de brilho no canto superior esquerdo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Versículo citado: Colossenses 1:27, “Cristo em vós, a esperança da glória.” Ele aparece depois dos slides sobre a graça e antes da abertura do tema Evangelho do Reino."
+          }
+        ]
+      },
+      {
+        "pagina": 36,
+        "titulo": "Evangelho do Reino",
+        "textoLiteral": "Evangelho do Reino\nO Reino de Deus é justiça, paz e alegria no Espírito Santo.\nNão é apenas algo futuro, é uma realidade presente para aqueles que vivem sob o senhorio de Cristo.",
+        "descricaoVisual": "Cartão preto sobre fundo verde e preto com textura. O título está em fonte serifada branca com a palavra 'Reino' em verde e negrito, no mesmo padrão do título 'Evangelho da Graça' da página 29. A primeira frase está em negrito branco e o segundo parágrafo em verde e negrito. Ícone de brilho no canto superior esquerdo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "'Evangelho do Reino' é o título de uma nova seção do documento Cultura BN, que abre na página 36."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Definição usada: “O Reino de Deus é justiça, paz e alegria no Espírito Santo.” O slide não traz referência bíblica."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O Reino não é apenas algo futuro: é uma realidade presente para quem vive sob o senhorio de Cristo."
+          }
+        ]
+      },
+      {
+        "pagina": 37,
+        "titulo": "(sem título) O Reino de Deus como tema central de Jesus",
+        "textoLiteral": "Jesus falava sobre muitas coisas, mas seu tema central era o Reino de Deus.\nEle nos ensinou a orar: “Venha o Teu Reino, seja feita a Tua vontade, assim na terra como no céu.”\nO Reino de Deus não é uma religião, mas um governo divino que transforma todas as áreas da vida. Onde Cristo reina, há restauração e vida.",
+        "descricaoVisual": "Cartão preto sobre fundo verde e preto com textura, sem título. A imagem tem faixas brancas nas bordas esquerda e direita. Os dois primeiros parágrafos estão em branco regular (o segundo traz a oração entre aspas), e o terceiro está em verde e negrito. Ícone de brilho no canto superior esquerdo.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Segundo o slide, Jesus falava sobre muitas coisas, mas seu tema central era o Reino de Deus."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O slide cita a oração ensinada por Jesus: “Venha o Teu Reino, seja feita a Tua vontade, assim na terra como no céu.” Não há referência bíblica no slide."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase em destaque: “O Reino de Deus não é uma religião, mas um governo divino que transforma todas as áreas da vida. Onde Cristo reina, há restauração e vida.”"
+          }
+        ]
+      },
+      {
+        "pagina": 38,
+        "titulo": "Citação bíblica: Mateus 6:33 (slide sem título)",
+        "textoLiteral": "Buscai primeiro o Reino de Deus e a sua justiça, e todas essas coisas vos serão acrescentadas.”\n\nMateus 6:33",
+        "descricaoVisual": "Slide de citação bíblica. Fundo em degradê verde com textura granulada: verde médio (aprox. #0E8759) nas áreas claras, cortado por uma faixa diagonal quase preta (aprox. #071710) que desce do canto superior esquerdo. No canto superior esquerdo há um pequeno ícone branco de linhas finas que saem de um centro vazio, como um asterisco ou estrela de raios, com as hastes diagonais de cima à direita e de baixo à esquerda mais longas (esse ícone se repete em todos os slides deste trecho). Aspas de abertura grandes em verde vivo (aprox. #01BE62), seguidas de uma linha horizontal verde fina. À esquerda do texto, uma linha vertical verde fina com a ponta de cima curva, formando um colchete. O versículo está em branco, em fonte sem serifa fina e grande. A referência 'Mateus 6:33' vem abaixo, menor, também em branco. O texto não tem aspas de abertura digitadas (as aspas grandes decorativas fazem esse papel), só a de fechamento. A imagem deste slide tem faixas brancas nas laterais (83 px à esquerda e 34 px à direita): o fundo verde não ocupa a largura toda. Não há organograma, diagrama nem foto.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O documento de cultura usa Mateus 6:33 ('Buscai primeiro o Reino de Deus e a sua justiça, e todas essas coisas vos serão acrescentadas.') como citação logo antes dos slides que apresentam o Reino de Deus como uma nova cultura."
+          }
+        ]
+      },
+      {
+        "pagina": 39,
+        "titulo": "O Reino de Deus estabelece uma nova cultura (slide sem título)",
+        "textoLiteral": "O Reino de Deus estabelece uma nova cultura, acima de qualquer tradição ou sistema humano.\n\nEle não se limita a uma nação ou povo, mas transforma todos os que se rendem a Cristo.",
+        "descricaoVisual": "Modelo de cartão. Fundo em degradê verde com textura granulada (aprox. #0E8A5B no canto superior direito e #0B4E32 no inferior esquerdo, com zonas escuras), com um cartão retangular de cantos levemente arredondados em cinza quase preto (aprox. #131315) que ocupa quase todo o slide. O ícone branco de estrela de raios fica no canto superior esquerdo, sobre a borda do cartão. A primeira frase está em verde vivo (aprox. #04BC64), em fonte sem serifa e negrito. A segunda está em branco, em fonte sem serifa fina. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O documento afirma que o Reino de Deus estabelece uma nova cultura, acima de qualquer tradição ou sistema humano."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O Reino não se limita a uma nação ou povo, mas transforma todos os que se rendem a Cristo."
+          },
+          {
+            "tema": "outros",
+            "fato": "Cores medidas nos pixels deste trecho (valores aproximados, imagem JPEG): verde vivo dos destaques entre #01BE62 e #04BC64; cartão #131315; fundo preto #000000 nos slides 41 e 42; degradê verde do fundo de #0E8A5B (claro) a #0B4E32, com faixas quase pretas em torno de #071710."
+          }
+        ]
+      },
+      {
+        "pagina": 40,
+        "titulo": "O tema central de Jesus: o Reino de Deus (slide sem título)",
+        "textoLiteral": "Jesus falava sobre muitas coisas, mas seu tema central era o Reino de Deus.\n\nEle nos ensinou a orar: “Venha o Teu Reino, seja feita a Tua vontade, assim na terra como no céu.”\n\nO Reino de Deus não é uma religião, mas um governo divino que transforma todas as áreas da vida. Onde Cristo reina, há restauração e vida.",
+        "descricaoVisual": "Mesmo modelo do slide 39: fundo em degradê verde granulado, cartão cinza quase preto (aprox. #131315) no centro e ícone de estrela de raios no canto superior esquerdo. Os dois primeiros parágrafos estão em branco, em fonte sem serifa fina. O último parágrafo, a conclusão, está em verde vivo e negrito. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O slide afirma que Jesus falava sobre muitas coisas, mas que seu tema central era o Reino de Deus."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Cita a oração ensinada por Jesus: “Venha o Teu Reino, seja feita a Tua vontade, assim na terra como no céu.”"
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase de destaque (em verde): 'O Reino de Deus não é uma religião, mas um governo divino que transforma todas as áreas da vida. Onde Cristo reina, há restauração e vida.'"
+          }
+        ]
+      },
+      {
+        "pagina": 41,
+        "titulo": "O Evangelho é supracultural, cultural e intercultural (citação, parte 1; slide sem título)",
+        "textoLiteral": "O Evangelho é supracultural,\npois define e explica a cultura, não o contrário;\ncultural,\npor ter sido revelado à humanidade em seu próprio contexto e história;\nintercultural,\npor juntar ao redor de Jesus pessoas de todos os povos;",
+        "descricaoVisual": "Fundo preto liso (#000000), sem cartão e sem degradê, com o ícone branco de estrela de raios no canto superior esquerdo. O texto, alinhado à esquerda, vem em forma de lista: cada termo ('O Evangelho é supracultural,', 'cultural,', 'intercultural,') em verde vivo (aprox. #03BC64) e negrito, seguido da explicação em branco, em fonte sem serifa fina. O texto termina em ponto e vírgula e continua no slide 42, onde aparece o autor. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O documento traz uma citação sobre o Evangelho e a cultura, assinada por Ronaldo Lidório no slide 42. Primeira parte: o Evangelho é supracultural, pois define e explica a cultura, não o contrário."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Cultural: por ter sido revelado à humanidade em seu próprio contexto e história."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Intercultural: por juntar ao redor de Jesus pessoas de todos os povos."
+          }
+        ]
+      },
+      {
+        "pagina": 42,
+        "titulo": "Multicultural, transcultural e contracultural – Ronaldo Lidório (citação, parte 2; slide sem título)",
+        "textoLiteral": "multicultural,\nao ser destinado a todos os povos e línguas;\ntranscultural,\nquando transmitido de uma cultura a outra;\ne contracultural,\npois sempre confronta o homem em sua própria cultura.\n\n- Ronaldo Lidório.",
+        "descricaoVisual": "Continuação do slide 41, com o mesmo visual: fundo preto liso e ícone de estrela de raios no canto superior esquerdo. Os termos ('multicultural,', 'transcultural,', 'e contracultural,') estão em verde vivo e negrito, e as explicações em branco, em fonte fina. A assinatura '- Ronaldo Lidório.' vem separada, embaixo, em branco e negrito. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Multicultural: ao ser destinado a todos os povos e línguas."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Transcultural: quando transmitido de uma cultura a outra."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Contracultural: pois sempre confronta o homem em sua própria cultura."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "A citação dos slides 41 e 42 (o Evangelho é supracultural, cultural, intercultural, multicultural, transcultural e contracultural) é assinada '- Ronaldo Lidório.'"
+          }
+        ]
+      },
+      {
+        "pagina": 43,
+        "titulo": "Servir é a verdadeira grandeza (slide sem título)",
+        "textoLiteral": "A cultura do Reino nos ensina que servir é a verdadeira grandeza. Não buscamos status, mas o privilégio de manifestar Cristo ao mundo através do amor e do serviço.",
+        "descricaoVisual": "Modelo de cartão: fundo em degradê verde granulado, cartão cinza quase preto no centro e ícone de estrela de raios no canto superior esquerdo. A primeira frase está em branco, em fonte sem serifa fina. A segunda ('Não buscamos status, mas o privilégio de manifestar Cristo ao mundo através do amor e do serviço.') continua na mesma linha, em verde vivo e negrito. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "ministérios e servir",
+            "fato": "Segundo o documento, a cultura do Reino ensina que servir é a verdadeira grandeza."
+          },
+          {
+            "tema": "ministérios e servir",
+            "fato": "Frase de destaque (em verde): 'Não buscamos status, mas o privilégio de manifestar Cristo ao mundo através do amor e do serviço.'"
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O documento usa a expressão 'cultura do Reino'."
+          }
+        ]
+      },
+      {
+        "pagina": 44,
+        "titulo": "Citação bíblica: Mateus 20:28 (slide sem título)",
+        "textoLiteral": "“O Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.”\n\nMateus 20:28",
+        "descricaoVisual": "Mesmo modelo de citação do slide 38: fundo em degradê verde granulado com faixa diagonal escura, ícone de estrela de raios no canto superior esquerdo, aspas grandes verdes com linha horizontal verde fina e colchete vertical verde à esquerda do texto. O versículo está em branco, em fonte sem serifa fina, entre aspas tipográficas, e a referência vem abaixo, menor. Ao contrário do slide 38, não há faixas brancas nas laterais. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "ministérios e servir",
+            "fato": "Mateus 20:28 (“O Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.”) vem logo depois do slide que diz que servir é a verdadeira grandeza."
+          }
+        ]
+      },
+      {
+        "pagina": 45,
+        "titulo": "Somos Libertadores",
+        "textoLiteral": "Somos Libertadores\n\nDeus sempre levantou libertadores para conduzir Seu povo à verdade e à plenitude da vida. Moisés foi chamado para tirar Israel do Egito. Jesus veio para nos libertar do pecado, da morte e da escravidão espiritual.\nAgora, somos chamados para ser resposta, levando luz onde há trevas e libertação onde há cativeiro.",
+        "descricaoVisual": "Modelo de cartão: fundo em degradê verde granulado, cartão cinza quase preto no centro e ícone de estrela de raios no canto superior esquerdo. O título é grande, em fonte serifada de alto contraste (estilo editorial): 'Somos' em branco e 'Libertadores' em verde vivo (aprox. #01BE63). O corpo está em branco, em fonte sem serifa fina, e a última frase ('Agora, somos chamados...') em verde vivo e negrito. É o único slide deste trecho com título em fonte serifada. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Declaração de identidade da igreja: 'Somos Libertadores'."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Base do slide: Deus sempre levantou libertadores para conduzir Seu povo à verdade e à plenitude da vida. São citados Moisés, chamado para tirar Israel do Egito, e Jesus, que veio para nos libertar do pecado, da morte e da escravidão espiritual."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Chamado (frase em verde): 'Agora, somos chamados para ser resposta, levando luz onde há trevas e libertação onde há cativeiro.'"
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O título usa a forma 'Somos ...' (neste trecho só aparece 'Somos Libertadores')."
+          },
+          {
+            "tema": "outros",
+            "fato": "Tipografia: o título 'Somos Libertadores' usa fonte serifada de alto contraste; o resto do trecho usa fonte sem serifa, fina no texto e em negrito nos destaques verdes."
+          }
+        ]
+      },
+      {
+        "pagina": 46,
+        "titulo": "Citação bíblica: Lucas 4:18 (slide sem título)",
+        "textoLiteral": "“O Espírito do Senhor está sobre mim, porque Ele me ungiu para pregar boas-novas aos pobres; enviou-me para proclamar liberdade aos presos.”\n\nLucas 4:18",
+        "descricaoVisual": "Mesmo modelo de citação dos slides 38 e 44: fundo em degradê verde granulado com faixa diagonal escura, ícone de estrela de raios no canto superior esquerdo, aspas grandes verdes com linha horizontal verde fina e colchete vertical verde à esquerda. O versículo está em branco, em fonte sem serifa fina, entre aspas tipográficas. A palavra 'boas-novas' é quebrada no hífen: 'boas-' no fim de uma linha e 'novas' no começo da seguinte. A referência 'Lucas 4:18' vem abaixo, menor. Não há diagrama.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Lucas 4:18 (“O Espírito do Senhor está sobre mim, porque Ele me ungiu para pregar boas-novas aos pobres; enviou-me para proclamar liberdade aos presos.”) vem logo depois do slide 'Somos Libertadores'."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O versículo traz a expressão 'boas-novas'. O slide não faz ligação explícita com o nome da igreja."
+          }
+        ]
+      },
+      {
+        "pagina": 47,
+        "titulo": "Sem título: ignorância e renovação da mente",
+        "textoLiteral": "A ignorância aprisiona tanto quanto correntes físicas. Onde falta conhecimento, há opressão.\n\nO Reino de Deus nos chama a renovar a mente pela verdade, quebrando paradigmas errados e ensinando o caminho da sabedoria.",
+        "descricaoVisual": "Fundo em degradê verde-esmeralda e preto, com textura granulada. Uma caixa retangular escura (preto/grafite) ocupa quase todo o slide. No canto superior esquerdo, encostado na caixa, há um pequeno ícone decorativo de estrela/brilho em traço fino branco. O primeiro parágrafo está em branco, fonte sem serifa de peso regular. O segundo ('O Reino de Deus nos chama...') está em verde e negrito, como destaque. Não há título, organograma, foto, diagrama nem setas.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "A cultura BN afirma que a ignorância aprisiona tanto quanto correntes físicas e que onde falta conhecimento há opressão."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Frase destacada em verde: o Reino de Deus nos chama a renovar a mente pela verdade, quebrando paradigmas errados e ensinando o caminho da sabedoria."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Vocabulário do slide: 'Reino de Deus' (com 'Reino' em maiúscula), 'renovar a mente', 'paradigmas errados', 'caminho da sabedoria'."
+          }
+        ]
+      },
+      {
+        "pagina": 48,
+        "titulo": "Citação bíblica: Oséias 4:6",
+        "textoLiteral": "“Meu povo foi destruído porque lhe faltou conhecimento.”\n\nOséias 4:6",
+        "descricaoVisual": "Slide de citação, sem caixa. O fundo é um degradê diagonal verde e preto, com textura granulada. No alto aparece um grande par de aspas verdes estilizadas, seguido de uma linha horizontal verde fina. À esquerda do texto corre uma linha vertical verde fina com o canto superior arredondado, em forma de colchete. A citação está em branco, em fonte sem serifa fina e grande. Abaixo vem a referência 'Oséias 4:6', em branco e menor. O ícone de estrela/brilho em traço fino fica no canto superior esquerdo. Não há organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Versículo citado logo depois do slide sobre ignorância e renovação da mente: 'Meu povo foi destruído porque lhe faltou conhecimento.' (Oséias 4:6)."
+          }
+        ]
+      },
+      {
+        "pagina": 49,
+        "titulo": "Sem título: miséria, abundância e prosperidade",
+        "textoLiteral": "A miséria não é só falta de dinheiro, mas uma mentalidade de limitação. Deus nos chamou para um Reino de abundância, provisão e generosidade.\n\nA verdadeira prosperidade começa no espírito e se manifesta em todas as áreas da vida. Somos chamados a ser canais de provisão e transformação para aqueles que sofrem.",
+        "descricaoVisual": "Mesmo layout do slide 47: caixa escura sobre fundo em degradê verde e preto, com o ícone de estrela/brilho no canto superior esquerdo. Aqui a ordem se inverte. O primeiro parágrafo ('A miséria não é só falta de dinheiro...') está em verde e negrito, como destaque. O segundo ('A verdadeira prosperidade...') está em branco, de peso regular. Não há título, organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "A cultura BN afirma que a miséria não é só falta de dinheiro, mas uma mentalidade de limitação."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Frase destacada em verde: Deus nos chamou para um Reino de abundância, provisão e generosidade."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Segundo o slide, a verdadeira prosperidade começa no espírito e se manifesta em todas as áreas da vida."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "A igreja afirma que somos chamados a ser canais de provisão e transformação para aqueles que sofrem."
+          }
+        ]
+      },
+      {
+        "pagina": 50,
+        "titulo": "Sem título: livres das marcas do passado (2 Coríntios 5:17)",
+        "textoLiteral": "Não somos mais reféns das marcas do passado. No Reino, somos feitos novos, restaurados e capacitados para viver livres!\n\n“Se alguém está em Cristo, é nova criatura; as coisas velhas já passaram, eis que tudo se fez novo.” (2 Coríntios 5:17)",
+        "descricaoVisual": "Caixa escura sobre fundo em degradê verde e preto, com o ícone de estrela/brilho no canto superior esquerdo. O primeiro parágrafo está em verde e negrito. O versículo, entre aspas, está em branco e também em negrito, com a referência entre parênteses no fim. A metade inferior da caixa fica vazia. Não há título, organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase destacada em verde: 'Não somos mais reféns das marcas do passado. No Reino, somos feitos novos, restaurados e capacitados para viver livres!'"
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Versículo citado: 'Se alguém está em Cristo, é nova criatura; as coisas velhas já passaram, eis que tudo se fez novo.' (2 Coríntios 5:17)."
+          }
+        ]
+      },
+      {
+        "pagina": 51,
+        "titulo": "Uma Igreja Profética",
+        "textoLiteral": "Uma Igreja Profética\n\nO Reino de Deus não é apenas conhecimento, mas revelação e direção do Espírito.\n\nSomos chamados para viver de forma profética, discernindo os tempos e manifestando o sobrenatural de Deus na terra.",
+        "descricaoVisual": "Slide de abertura de seção: caixa escura sobre fundo em degradê verde e preto, com o ícone de estrela/brilho no canto superior esquerdo. O título 'Uma Igreja Profética' aparece grande, numa fonte serifada elegante, diferente do resto do texto: 'Uma Igreja' em branco e 'Profética' em verde. Abaixo vem um parágrafo em branco de peso regular e, por último, um parágrafo em verde e negrito. Não há organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "missão, visão e valores",
+            "fato": "'Uma Igreja Profética' é o título de uma seção do documento CULTURA BN: a igreja se apresenta como uma igreja profética. A seção começa neste slide, e os slides 52 a 56 continuam o mesmo tema."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "O slide afirma que o Reino de Deus não é apenas conhecimento, mas revelação e direção do Espírito."
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Frase destacada em verde: somos chamados para viver de forma profética, discernindo os tempos e manifestando o sobrenatural de Deus na terra."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Palavras-chave da seção: 'profética', 'revelação', 'direção do Espírito', 'discernindo os tempos', 'sobrenatural'."
+          }
+        ]
+      },
+      {
+        "pagina": 52,
+        "titulo": "Citação bíblica: Amós 3:7",
+        "textoLiteral": "“Certamente o Senhor Soberano não faz coisa alguma sem revelar o seu plano aos seus servos, os profetas.”\n\nAmós 3:7",
+        "descricaoVisual": "Slide de citação no mesmo modelo do slide 48. O fundo é um degradê diagonal verde e preto texturizado, sem caixa. No alto há um grande par de aspas verdes, seguido de uma linha horizontal verde fina, e à esquerda uma linha vertical verde fina com o canto superior arredondado. A citação ocupa três linhas, em branco, em fonte sem serifa fina e grande. Abaixo vem a referência 'Amós 3:7', menor. O ícone de estrela/brilho fica no canto superior esquerdo. Não há organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Versículo citado na seção 'Uma Igreja Profética': 'Certamente o Senhor Soberano não faz coisa alguma sem revelar o seu plano aos seus servos, os profetas.' (Amós 3:7)."
+          }
+        ]
+      },
+      {
+        "pagina": 53,
+        "titulo": "Sem título: dons espirituais e ativação dos dons",
+        "textoLiteral": "Fomos chamados para ser instrumentos do Reino, operando em dons espirituais para edificar a Igreja e alcançar vidas. O Espírito Santo nos capacita para profetizar, curar, ensinar e manifestar o Reino de Deus.\n\nA ativação dos dons não é um privilégio para poucos, mas um chamado para todos que desejam viver o sobrenatural.",
+        "descricaoVisual": "Caixa escura sobre fundo em degradê verde e preto, com o ícone de estrela/brilho no canto superior esquerdo. No primeiro parágrafo, a frase 'Fomos chamados para ser instrumentos do Reino...' está em branco regular, e a frase seguinte ('O Espírito Santo nos capacita para profetizar, curar, ensinar e manifestar o Reino de Deus.') está em branco e negrito. O segundo parágrafo ('A ativação dos dons...') está em verde e negrito. Não há título, organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "ministérios e servir",
+            "fato": "A cultura BN diz que fomos chamados para ser instrumentos do Reino, operando em dons espirituais para edificar a Igreja e alcançar vidas. O slide não cita nenhum ministério específico."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase em negrito: o Espírito Santo nos capacita para profetizar, curar, ensinar e manifestar o Reino de Deus."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase destacada em verde: 'A ativação dos dons não é um privilégio para poucos, mas um chamado para todos que desejam viver o sobrenatural.' A expressão 'ativação dos dons' faz parte do vocabulário do documento."
+          }
+        ]
+      },
+      {
+        "pagina": 54,
+        "titulo": "Sem título: o tempo de Deus e as estações espirituais",
+        "textoLiteral": "Não seguimos o relógio do mundo, mas o tempo de Deus.\n\nUma igreja profética discerne as estações espirituais e age conforme os propósitos divinos.\n\nQuando aprendemos a andar nos calendários de Deus, não nos precipitamos nem ficamos para trás, mas nos movemos no ritmo perfeito do Pai.",
+        "descricaoVisual": "Caixa escura sobre fundo em degradê verde e preto, com o ícone de estrela/brilho no canto superior esquerdo. São três parágrafos: o primeiro e o terceiro em branco, de peso regular, e o do meio ('Uma igreja profética discerne as estações espirituais...') em verde e negrito. Não há título, organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase do slide: 'Não seguimos o relógio do mundo, mas o tempo de Deus.'"
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Frase destacada em verde: uma igreja profética discerne as estações espirituais e age conforme os propósitos divinos."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Expressões usadas: 'calendários de Deus', 'tempo de Deus', 'estações espirituais', 'ritmo perfeito do Pai'. Quem aprende a andar nos calendários de Deus não se precipita nem fica para trás. Aqui 'calendários' tem sentido espiritual: o slide não traz datas, horários nem agenda de cultos."
+          }
+        ]
+      },
+      {
+        "pagina": 55,
+        "titulo": "Sem título: demonstração de poder, sinais e promessas",
+        "textoLiteral": "O Reino de Deus não é teoria, mas demonstração de poder.\n\nOnde há uma igreja profética, há sinais, maravilhas e cumprimento de promessas.\n\nQuando andamos na revelação de Deus, vivemos o extraordinário e vemos cada uma das promessas do Pai se cumprindo em nossa vida.",
+        "descricaoVisual": "Mesmo layout do slide 54: caixa escura sobre fundo em degradê verde e preto, com o ícone de estrela/brilho no canto superior esquerdo. São três parágrafos: o primeiro e o terceiro em branco, de peso regular, e o do meio ('Onde há uma igreja profética...') em verde e negrito. Não há título, organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Frase do slide: 'O Reino de Deus não é teoria, mas demonstração de poder.'"
+          },
+          {
+            "tema": "missão, visão e valores",
+            "fato": "Frase destacada em verde: onde há uma igreja profética, há sinais, maravilhas e cumprimento de promessas."
+          },
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Segundo o slide, quando andamos na revelação de Deus, vivemos o extraordinário e vemos cada uma das promessas do Pai se cumprindo em nossa vida. Deus é chamado de 'Pai' aqui e também no slide 54."
+          }
+        ]
+      },
+      {
+        "pagina": 56,
+        "titulo": "Citação bíblica: Marcos 16:17",
+        "textoLiteral": "“Estes sinais seguirão aos que creem: em meu nome expulsarão demônios, falarão novas línguas...”\n\nMarcos 16:17",
+        "descricaoVisual": "Slide de citação no mesmo modelo dos slides 48 e 52. O fundo é um degradê diagonal verde e preto texturizado, sem caixa. No alto há um grande par de aspas verdes, seguido de uma linha horizontal verde fina, e à esquerda uma linha vertical verde fina com o canto superior arredondado. A citação ocupa três linhas, em branco, em fonte sem serifa fina e grande, e termina em reticências, o que indica um trecho cortado. Abaixo vem a referência 'Marcos 16:17', menor. O ícone de estrela/brilho fica no canto superior esquerdo. Não há organograma, foto nem diagrama.",
+        "fatos": [
+          {
+            "tema": "cultura e linguagem",
+            "fato": "Versículo citado, cortado com reticências, logo após o slide sobre sinais, maravilhas e cumprimento de promessas: 'Estes sinais seguirão aos que creem: em meu nome expulsarão demônios, falarão novas línguas...' (Marcos 16:17)."
+          }
+        ]
+      }
+    ],
+    "faltam": []
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Ler"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Organizar"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "ler slides 1-10",
+      "phaseIndex": 1,
+      "phaseTitle": "Ler",
+      "agentId": "aaabde3eb1f3d7af5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795615451337,
+      "queuedAt": 1795615451324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Você vai ler slides do documento \"CULTURA BN\" da Boas Novas Church (igreja em Belo Horizonte). Os slides são imagens JPG; abra cada uma com a ferramenta Read (ela mostra a imagem).\nArquivos (um por slide, na ordem): /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scratchpad/cultura/slides/s-01.jpg , /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scr…",
+      "promptFramed": true,
+      "lastProgressAt": 1795615805007,
+      "tokens": 140127,
+      "toolCalls": 19,
+      "durationMs": 353668,
+      "resultPreview": "{\"slides\":[{\"pagina\":1,\"titulo\":\"cultura bn (capa)\",\"textoLiteral\":\"cultura bn\",\"descricaoVisual\":\"Capa. Fundo em degradê diagonal de verde (~#0D8154) e quase preto (~#040D0A), com textura granulada, como papel. No centro, 'cultura bn' em letras brancas serifadas: 'cultura' em peso normal e 'bn' em negrito. Embaixo, centralizado, o símbolo da BN em traço branco fino (uma estrela/asterisco de traço…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "ler slides 11-19",
+      "phaseIndex": 1,
+      "phaseTitle": "Ler",
+      "agentId": "adcad4e298dd19f16",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795615451337,
+      "queuedAt": 1795615451324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Você vai ler slides do documento \"CULTURA BN\" da Boas Novas Church (igreja em Belo Horizonte). Os slides são imagens JPG; abra cada uma com a ferramenta Read (ela mostra a imagem).\nArquivos (um por slide, na ordem): /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scratchpad/cultura/slides/s-11.jpg , /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scr…",
+      "promptFramed": true,
+      "lastProgressAt": 1795615643708,
+      "tokens": 91909,
+      "toolCalls": 10,
+      "durationMs": 190587,
+      "resultPreview": "{\"slides\":[{\"pagina\":11,\"titulo\":\"Acreditamos...\",\"textoLiteral\":\"Acreditamos...\\nTrabalhamos para mudar o IDH de bairros inteiros, levando dignidade, oportunidades e esperança onde antes havia escassez.\",\"descricaoVisual\":\"Fundo com textura e degradê diagonal entre verde-esmeralda e preto. Sobre ele, um cartão retangular preto/grafite, de cantos levemente arredondados, ocupa quase todo o slide. N…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "ler slides 20-28",
+      "phaseIndex": 1,
+      "phaseTitle": "Ler",
+      "agentId": "af33363e6200e09c7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795615643754,
+      "queuedAt": 1795615451324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Você vai ler slides do documento \"CULTURA BN\" da Boas Novas Church (igreja em Belo Horizonte). Os slides são imagens JPG; abra cada uma com a ferramenta Read (ela mostra a imagem).\nArquivos (um por slide, na ordem): /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scratchpad/cultura/slides/s-20.jpg , /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scr…",
+      "promptFramed": true,
+      "lastProgressAt": 1795615820911,
+      "tokens": 92001,
+      "toolCalls": 10,
+      "durationMs": 177157,
+      "resultPreview": "{\"slides\":[{\"pagina\":20,\"titulo\":\"Respeito com o Diferente\",\"textoLiteral\":\"Respeito com o Diferente\\nA igreja deve respeitar e acolher todos, sem abrir mão da verdade bíblica.\\n\\\"Eu, porém, vos digo: Amai os vossos inimigos, e orai pelos que vos perseguem.\\\"\\nMateus 5:44\",\"descricaoVisual\":\"Fundo em degradê verde e preto com textura granulada. Um cartão preto (cinza muito escuro) de cantos arredo…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "ler slides 29-37",
+      "phaseIndex": 1,
+      "phaseTitle": "Ler",
+      "agentId": "a0e17e4b83118dd1a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795615805020,
+      "queuedAt": 1795615451325,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Você vai ler slides do documento \"CULTURA BN\" da Boas Novas Church (igreja em Belo Horizonte). Os slides são imagens JPG; abra cada uma com a ferramenta Read (ela mostra a imagem).\nArquivos (um por slide, na ordem): /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scratchpad/cultura/slides/s-29.jpg , /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scr…",
+      "promptFramed": true,
+      "lastProgressAt": 1795615930112,
+      "tokens": 91978,
+      "toolCalls": 10,
+      "durationMs": 125092,
+      "resultPreview": "{\"slides\":[{\"pagina\":29,\"titulo\":\"Evangelho da Graça\",\"textoLiteral\":\"Evangelho da Graça\\nO Evangelho não é sobre esforço humano, mas sobre a obra consumada de Cristo. A graça não é uma ideia abstrata, mas uma pessoa: Jesus Cristo. Nele, encontramos redenção, perdão e uma nova identidade.\",\"descricaoVisual\":\"Fundo verde com textura e gradiente escuro (preto nos cantos e bordas). Um cartão retangul…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "ler slides 38-46",
+      "phaseIndex": 1,
+      "phaseTitle": "Ler",
+      "agentId": "af7132066db7e920a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795615820923,
+      "queuedAt": 1795615451325,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Você vai ler slides do documento \"CULTURA BN\" da Boas Novas Church (igreja em Belo Horizonte). Os slides são imagens JPG; abra cada uma com a ferramenta Read (ela mostra a imagem).\nArquivos (um por slide, na ordem): /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scratchpad/cultura/slides/s-38.jpg , /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scr…",
+      "promptFramed": true,
+      "lastProgressAt": 1795616024349,
+      "tokens": 106982,
+      "toolCalls": 13,
+      "durationMs": 203425,
+      "resultPreview": "{\"slides\":[{\"pagina\":38,\"titulo\":\"Citação bíblica: Mateus 6:33 (slide sem título)\",\"textoLiteral\":\"Buscai primeiro o Reino de Deus e a sua justiça, e todas essas coisas vos serão acrescentadas.”\\n\\nMateus 6:33\",\"descricaoVisual\":\"Slide de citação bíblica. Fundo em degradê verde com textura granulada: verde médio (aprox. #0E8759) nas áreas claras, cortado por uma faixa diagonal quase preta (aprox. …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "ler slides 47-56",
+      "phaseIndex": 1,
+      "phaseTitle": "Ler",
+      "agentId": "af057158abb197232",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795615930125,
+      "queuedAt": 1795615451325,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Você vai ler slides do documento \"CULTURA BN\" da Boas Novas Church (igreja em Belo Horizonte). Os slides são imagens JPG; abra cada uma com a ferramenta Read (ela mostra a imagem).\nArquivos (um por slide, na ordem): /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scratchpad/cultura/slides/s-47.jpg , /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb-3056eeaa2d00/scr…",
+      "promptFramed": true,
+      "lastProgressAt": 1795616102705,
+      "tokens": 93870,
+      "toolCalls": 11,
+      "durationMs": 172579,
+      "resultPreview": "{\"slides\":[{\"pagina\":47,\"titulo\":\"Sem título: ignorância e renovação da mente\",\"textoLiteral\":\"A ignorância aprisiona tanto quanto correntes físicas. Onde falta conhecimento, há opressão.\\n\\nO Reino de Deus nos chama a renovar a mente pela verdade, quebrando paradigmas errados e ensinando o caminho da sabedoria.\",\"descricaoVisual\":\"Fundo em degradê verde-esmeralda e preto, com textura granulada. U…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "organizar por tema",
+      "phaseIndex": 2,
+      "phaseTitle": "Organizar",
+      "agentId": "ae621ef9807013833",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1795616102724,
+      "queuedAt": 1795616102715,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "O arquivo 'CULTURA BN' é um PDF de 56 páginas exportado do …",
+      "promptPreview": "Abaixo está a transcrição, slide por slide, do documento \"CULTURA BN\" da Boas Novas Church. Organize o conteúdo por tema, sempre com a página de origem e a citação literal que sustenta cada fato. Não invente nada e não complete lacunas com suposições: o que não estiver claro vai para duvidas.\nSe precisar conferir um slide, a imagem está em /tmp/claude-0/-home-user-boasnovas/a28eefce-886c-5d75-8ecb…",
+      "promptFramed": true,
+      "lastProgressAt": 1795616950540,
+      "tokens": 220076,
+      "toolCalls": 40,
+      "durationMs": 847815,
+      "resultPreview": "{\"resumoGeral\":\"O arquivo 'CULTURA BN' é um PDF de 56 páginas exportado do PowerPoint, em formato 2:1. É a apresentação de cultura da igreja, na seguinte ordem:\\n- p. 1: capa 'cultura bn'.\\n- p. 2 a 6: bloco institucional em fundo liso, com missão (p. 2), visão (p. 3), quadro de 10 valores com ícones (p. 4), 'nós somos' (p. 5) e 'como fazemos isso?' (p. 6).\\n- p. 7: infográfico 'JORNADA BN', com 1…"
+    }
+  ],
+  "totalTokens": 836943,
+  "totalToolCalls": 113
+}
