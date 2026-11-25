@@ -1,0 +1,74 @@
+/**
+ * Os dois jeitos de falar com o banco (método Lokal). Vão no topo do
+ * server/storage.ts, e TODA função de leitura ou gravação passa por um deles.
+ *
+ * A escolha decide o que acontece quando o banco falha, inclusive quando a
+ * tabela nova ainda não existe porque o dono não rodou o db:push.
+ */
+
+/**
+ * Para leitura que pode vir vazia (a tela mostra menos, mas mostra) e para
+ * efeito colateral (o aviso não sai, mas a ação acontece). Engole o erro,
+ * registra e devolve o valor seguro.
+ *
+ * É por causa dele que dá para publicar o código antes do db:push: a tabela
+ * nova falta, a função fica quieta, e o resto do app segue no ar.
+ *
+ * NUNCA para número que vira pagamento, baixa ou trava. Uma queda do banco
+ * viraria "zero" ou "não existe", e dali sairia uma baixa de pagamento ou uma
+ * exclusão liberada (aconteceu três vezes na mesma revisão).
+ */
+export async function optional<T>(rotulo: string, valorSeguro: T, fn: () => Promise<T>): Promise<T> {
+  try {
+    return await fn();
+  } catch (e: any) {
+    console.error(`  ⚠ [função degradada] ${rotulo}: ${e?.message || e}`);
+    return valorSeguro;
+  }
+}
+
+/**
+ * O oposto de `optional()`: para o que a pessoa MANDOU fazer (salvar, apagar,
+ * esconder, escolher) e para o que mexe em dinheiro.
+ *
+ * Por que existe: o dono cadastrou um item, clicou em salvar, o formulário
+ * fechou como se tivesse dado certo, e nada tinha sido gravado, porque a
+ * tabela ainda não existia. Falhar em silêncio é pior do que falhar.
+ *
+ * Quando o motivo é tabela ou coluna que falta, troca o erro cru do Postgres
+ * por uma frase que diz o que fazer.
+ */
+export async function exigido<T>(rotulo: string, fn: () => Promise<T>): Promise<T> {
+  try {
+    return await fn();
+  } catch (e: any) {
+    const msg = String(e?.message || e);
+    console.error(`  ✖ [falhou] ${rotulo}: ${msg}`);
+    if (/relation .* does not exist|column .* does not exist/i.test(msg)) {
+      throw new Error(
+        "Esta parte precisa de uma atualização do banco que ainda não foi feita. " +
+        "Rode `npm run db:push` e publique de novo.",
+      );
+    }
+    throw e;
+  }
+}
+
+/* Exemplo de uso:
+
+  // Leitura de tela: sem a tabela, a lista vem vazia e a tela abre.
+  async etiquetasDaConversa(telefone: string): Promise<string[]> {
+    return optional("etiquetas da conversa", [], async () => {
+      const linhas = await db.select().from(etiquetas).where(eq(etiquetas.telefone, telefone));
+      return linhas.map(l => l.nome);
+    });
+  }
+
+  // Ação pedida: se falhar, a pessoa fica sabendo.
+  async guardarEtiquetas(telefone: string, nomes: string[]): Promise<void> {
+    return exigido("guardar etiquetas", async () => {
+      await db.delete(etiquetas).where(eq(etiquetas.telefone, telefone));
+      if (nomes.length) await db.insert(etiquetas).values(nomes.map(nome => ({ telefone, nome })));
+    });
+  }
+*/

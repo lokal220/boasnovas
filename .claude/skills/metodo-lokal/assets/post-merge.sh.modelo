@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# O que roda depois de cada Pull na hospedagem (scripts/post-merge.sh).
+# Stdin fica fechado nas rodadas automáticas: todo comando aqui precisa rodar
+# sem perguntar nada.
+set -euo pipefail
+
+echo "▶ Instalando dependências..."
+npm install --no-audit --no-fund
+
+# O banco NÃO é alterado por aqui, de propósito.
+#
+# Na VAI DE LOKAL, o Pull rodava `npx drizzle-kit push --force`: toda vez que
+# o código chegava, o banco recebia as mudanças de estrutura sozinho, e o
+# `--force` aprovava sem perguntar até o que apaga dado. Era o único ponto em
+# que uma alteração destrutiva passava sem ninguém ver.
+#
+# Tirar só o `--force` não resolve: sem ele, o comando espera uma resposta que
+# ninguém digita (stdin fechado) e o Pull trava.
+#
+# Por isso o `npm run db:push` é do dono, no Shell da hospedagem, e só quando a
+# entrega pedir. Enquanto ele não roda, o app segue no ar: tabela nova é lida
+# com `optional()` e a função que depende dela fica quieta, sem derrubar nada.
+echo "ℹ Banco: nada foi alterado aqui."
+echo "  Se a entrega disser que precisa, rode: npm run db:push"
+
+echo "✓ Pronto."

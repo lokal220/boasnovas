@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Checagem de todo commit do [SISTEMA]: tipos, testes e build.
+#
+# Só LÊ o código e gera a pasta dist/ do build. Não mexe em banco, não
+# publica, não envia mensagem. O .claude/settings.json libera este script sem
+# pedir permissão e proíbe que ele seja editado: é por isso que o Claude roda
+# a checagem por aqui, e não chamando o node direto.
+#
+# No Windows, o node fica em "/c/Program Files/nodejs/node.exe". Em outro
+# sistema, troque NODE por "node".
+set -u
+cd "$(dirname "$0")/[SISTEMA]-GITHUB" || { echo "✗ pasta do app não encontrada"; exit 1; }
+NODE="/c/Program Files/nodejs/node.exe"
+
+echo "▶ 1/3 Tipos"
+"$NODE" node_modules/typescript/bin/tsc --noEmit || { echo "✗ tipos com erro"; exit 1; }
+
+echo "▶ 2/3 Testes"
+SAIDA="$("$NODE" --import tsx --test "tests/*.test.ts" 2>&1)"
+CODIGO=$?
+printf '%s\n' "$SAIDA" | grep -E "^ℹ (tests|pass|fail)|^not ok"
+[ "$CODIGO" -eq 0 ] || { echo "✗ testes falharam"; exit 1; }
+
+echo "▶ 3/3 Build"
+"$NODE" node_modules/vite/bin/vite.js build > /dev/null 2>&1 || { echo "✗ build falhou"; exit 1; }
+
+echo "✓ Tipos, testes e build ok"

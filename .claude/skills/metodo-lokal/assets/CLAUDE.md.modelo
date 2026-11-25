@@ -1,0 +1,125 @@
+# [NOME DO SISTEMA] — regras de trabalho neste projeto
+
+<!-- Modelo do método Lokal. Troque cada [CAMPO], apague as seções que não se
+     aplicam (sem dinheiro, a seção de dinheiro sai) e mantenha curto: este
+     arquivo é lido em toda sessão. O detalhe mora na MENTALIDADE. -->
+
+Este arquivo ACRESCENTA regras ao jeito de trabalhar combinado: identidade
+visual em tudo que o cliente vê, comentário no código explicando o porquê de
+cada decisão, discordar quando eu estiver errado e nunca inventar dado.
+
+Esse jeito de trabalhar está escrito em `MENTALIDADE-[SISTEMA].md`, nesta
+mesma pasta. É o arquivo que eu levo para qualquer outra ferramenta. Quando
+uma regra de negócio mudar, uma decisão nova for tomada ou algo quebrar e
+virar lição, atualize esse arquivo junto da entrega e me avise na resposta.
+
+[Este app está em produção. / Este app ainda não está em produção; a partir
+de DD/MM, valem as regras de produção.] Um erro aqui não é um teste que falha:
+é [o que dá errado para o cliente: um pedido que some, um valor errado no
+bolso de alguém].
+
+## Onde as coisas estão e quem faz o quê
+
+- O app é a pasta `[SISTEMA]-GITHUB`. As outras pastas daqui (backups, chaves,
+  pacotes) não se editam.
+- Você faz commit e push em `main`. Eu faço Pull, db:push e Republish no
+  [Replit]. Você nunca publica.
+- Antes de começar uma tarefa, rode `git status` na pasta do app. Se houver
+  alteração que não é sua, pare e me avise: sem ponto de retorno limpo, não
+  comece.
+- Um commit por entrega, com mensagem que diga o que mudou e por quê. Nunca
+  reescreva histórico publicado.
+
+## Escopo
+
+- Faça apenas o que foi pedido no comando atual. Se encontrar outro problema,
+  aponte na resposta e pergunte. Não conserte por conta própria.
+- Não renomeie, não mova e não apague arquivo que não faz parte do pedido.
+- Não refatore código que está funcionando só porque passou por ele.
+- Se a tarefa tocar em mais de 3 arquivos, escreva o plano no começo da
+  resposta. Espere meu OK antes de editar só quando o plano encostar em banco,
+  dinheiro, prova ou rota existente; nos outros casos, siga.
+- Mudança visual que o cliente vê passa por uma prévia (Artifact) aprovada por
+  mim antes do código. A prévia aprovada é a especificação.
+- Edite arquivos só com as ferramentas de edição. Não escreva arquivo por
+  script (python, node, sed -i).
+- Alguns arquivos param e pedem minha aprovação (schema, banco, dinheiro,
+  fotos, rotinas de envio, configuração). Se eu não estiver por perto, faça
+  todo o resto primeiro, deixe essa edição por último e me diga na resposta o
+  que ficou esperando. Não contorne a aprovação por outro caminho.
+
+## Antes de todo commit
+
+- Rode `bash verificar.sh` nesta pasta: tipos, testes e build. Com qualquer
+  falha, não faça commit; me diga o que falhou.
+- Não altere o `verificar.sh`.
+- Mexeu no servidor? Monte o servidor igual à hospedagem e suba uma cópia
+  isolada para conferir que ele inicia.
+
+## Ao terminar
+
+- Liste cada arquivo tocado e por quê, uma linha cada.
+- Diga se precisa de db:push e qual commit reverter se der errado.
+- Diga o que você não conseguiu verificar.
+- Termine com o roteiro de teste numerado, em passos que eu consiga seguir no
+  app, sem eu precisar pedir.
+
+## Banco de dados
+
+- Alteração de schema: mostre o diff e espere meu OK antes do commit.
+- Tabela nova é lida com `optional()`: sem o db:push, o app segue no ar.
+  Ação que a pessoa pediu (salvar, apagar) usa `exigido()`.
+- Tabela lida inteira não ganha coluna nova: a coluna vira tabela à parte.
+- Nunca remova coluna ou tabela como "limpeza". Se algo parece sobrando,
+  pergunte.
+- Nunca insira seed, mock ou dado de teste no banco.
+- Nunca rode comando no banco. Se for necessário, escreva o comando e me
+  entregue para eu rodar.
+
+## Dinheiro e prova
+
+Trate como área crítica, e me avise sempre que uma alteração encostar nela:
+
+- [Cálculo de preço, taxa, comissão, repasse]
+- [Fluxo de pagamento e liberação]
+- [Cadastro e troca de chave Pix / dados bancários]
+- [Upload, caminho e retenção das fotos e comprovantes que são prova]
+
+Valores sempre em centavos. A regra de dinheiro mora num lugar só. "Pago" é
+fato, nunca estimativa. Erro aqui não derruba o app: aparece semanas depois,
+em valor errado ou prova perdida.
+
+## Mensagens automáticas
+
+- Rotina que envia WhatsApp, e-mail ou cobrança sozinha só sobe com
+  `NODE_ENV=production` (o ambiente de desenvolvimento duplicaria o envio).
+- Toda mensagem é reservada no banco antes de sair.
+- Toda mensagem que não é aviso de serviço precisa de consentimento e de saída
+  registrados.
+
+## Contrato com quem já usa
+
+Cliente e parceiro usam versões do app que já estão abertas no celular. Não
+mude nome de rota, formato de resposta ou campo obrigatório de endpoint
+existente sem me avisar antes e explicar o que quebra para quem está na versão
+antiga. Campo obrigatório novo entra em duas etapas.
+
+## Segredos
+
+- Não abra, não leia e não imprima o conteúdo de arquivos de ambiente,
+  certificados ou chaves.
+- Se precisar de uma variável nova, me diga o nome e para que serve. Eu
+  cadastro nos Secrets.
+- Nunca escreva chave, token ou senha dentro do código, e nunca peça que eu
+  cole uma no chat.
+- Dado pessoal nunca vai para log, URL ou foto de tela.
+
+## Quando algo der errado
+
+- Avise na hora, na própria resposta, antes de tentar consertar sozinho.
+- Se uma alteração sua quebrou algo, diga exatamente o que mudou e qual é o
+  caminho de volta (o commit a reverter).
+- Quando a leitura do código não explicar o sintoma, reproduza antes de
+  consertar.
+- Problema avisado cedo a gente resolve junto. Problema descoberto pelo
+  cliente vira outra coisa.

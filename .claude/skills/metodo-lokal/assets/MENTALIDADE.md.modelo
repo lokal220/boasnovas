@@ -1,0 +1,111 @@
+# [NOME DO SISTEMA] — como trabalhar neste projeto
+
+Escrito em [DD/MM/AAAA], atualizado em [DD/MM/AAAA], para ser levado junto:
+cole este arquivo em qualquer ferramenta de IA (ChatGPT, Cursor, agente do
+Replit, outra conta do Claude) e ela entende como este projeto funciona e o
+que não pode ser feito.
+
+É um retrato, não um substituto do código: quando este arquivo e o código
+discordarem, **o código manda**. Peça para atualizar sempre que uma decisão
+mudar.
+
+<!-- Como escrever cada item: a decisão, a data, quem decidiu (com as palavras
+     dele quando ajudam) e o PORQUÊ. Exemplo:
+     - **O cadastro começa por "e-mail ou Google" (decisão do Yan, 23/09/2026).**
+       O WhatsApp vem logo depois. Assim o e-mail repetido aparece antes de
+       qualquer código. -->
+
+---
+
+## 1. Quem é e o que é
+
+- **[Nome do dono]**, dono do [SISTEMA]. [Não é programador: fala do negócio,
+  e espera respostas em português claro, sem jargão.]
+- O [SISTEMA] é [uma frase sobre o que faz e para quem].
+- **[Está / Vai estar] em produção, com [cliente, dinheiro, prova] de
+  verdade.** Um erro não é um teste que falha: é [o que dá errado].
+- **Posicionamento da marca:** [premium, popular, nacional, local] — e o que
+  nunca se escreve por causa disso.
+
+## 2. Como o negócio funciona
+
+<!-- Cada perfil (cliente, parceiro, equipe, admin) e a jornada dele. Preços,
+     prazos e regras de dinheiro COM a constante do código onde moram.
+     Decisões de produto, com data. -->
+
+- **[Perfil 1]:** …
+- **[Perfil 2]:** …
+- **Dinheiro:** [como entra, como sai, quem recebe o quê; em que arquivo mora
+  a regra].
+- **Prova:** [o que é guardado como prova, por quanto tempo, quem vê].
+
+## 3. Identidade visual
+
+- Cores (tokens): [primária #…, escura #…, tinta #…, fundo #…, apoio #…,
+  verde #…, vermelho #…, âmbar #…], com as versões do tema escuro.
+- Tipografia: [fonte, pesos].
+- Logo: [descrição]. Nunca redesenhar, distorcer, contornar ou pôr sombra.
+- Proporção: [ex.: muito branco, pouco da cor da marca; a cor é destaque, não
+  fundo].
+- **Tudo que o cliente vê é feito dentro dessa identidade.** Sem exceção.
+- Nada de emoji no que o cliente vê; ícone de linha no traço da marca.
+- Prévia aprovada da identidade: [link do Artifact].
+
+## 4. Texto e comunicação
+
+- Português do Brasil, direto, sem jargão e sem palavra inventada.
+- **Nunca inventar dado.** Número sem fonte não entra.
+- Copy com molho: moldura em primeira pessoa, situação real e ação guiada.
+- [O que a marca nunca promete, nunca diz, nunca ataca.]
+- Mensagens automáticas: [quais existem, com consentimento, tetos e saída].
+
+## 5. Regras técnicas que evitam desastre
+
+- Stack: [React + TypeScript (Vite), Node + Express, Postgres com Drizzle,
+  hospedado no Replit].
+- Tabela nova é lida com `optional()`; ação pedida usa `exigido()`.
+- Tabela lida inteira não ganha coluna nova.
+- Rotina que envia algo sozinha só sobe com `NODE_ENV=production`.
+- Toda mensagem automática é reservada no banco antes de enviar.
+- Nada de dado pessoal em log, em URL ou em foto de tela.
+- Antes de cada entrega: tipos, testes e build (`bash verificar.sh`).
+- Comentário no código explica o porquê, citando o problema real.
+- [Regras próprias deste sistema, conforme forem nascendo.]
+
+## 6. Como a gente trabalha
+
+1. A IA escreve o código, roda a checagem e faz commit e push na `main`.
+2. **Eu** faço Pull, rodo `db:push` quando a entrega pedir e clico em
+   Republish. **A IA nunca publica.**
+3. Toda entrega termina com: lista do que mudou, se precisa de `db:push` e um
+   **roteiro de teste numerado** que eu consiga seguir no app.
+4. Quando eu trouxer uma ideia de fora, quero a opinião honesta: "o que for
+   delírio você descarta".
+5. Nada de mexer no que não foi pedido. Encontrou outro problema? Aponta e
+   pergunta.
+6. Ajuste que existe nos dois painéis vale para os dois.
+7. Mudança visual passa por prévia aprovada antes do código.
+
+## 7. Lições que custaram caro
+
+<!-- Cada lição: data, o que aconteceu em duas linhas e a regra que saiu.
+     Exemplo:
+     - **Coluna nova derrubou o app (31/08/2026):** sem o db:push, todo
+       select() quebrou. Lição: tabela lida inteira ganha tabela à parte. -->
+
+## 8. O que não se toca sem perguntar
+
+- Schema do banco, `package.json`, configuração da hospedagem, scripts.
+- Tudo que calcula dinheiro: [liste].
+- Pagamento e liberação; dados bancários e chave Pix.
+- [Fotos e comprovantes que são prova.]
+- Autenticação, sessão e o login do admin.
+- Rotas e formatos de resposta que o app já aberto no celular do cliente usa.
+- Credenciais: nunca ler, nunca imprimir, nunca pedir no chat, nunca escrever
+  no código.
+
+## 9. Manutenção deste arquivo
+
+Peça a atualização quando: uma regra de negócio mudar, uma decisão nova for
+tomada, ou algo quebrar e virar lição. Quem edita é a IA, com o seu OK, e a
+data no topo é atualizada junto.
