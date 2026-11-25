@@ -387,6 +387,16 @@ textarea.campo{min-height:112px;resize:none;line-height:1.45}
 .resumo div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px}
 .resumo b{display:block;font-family:var(--f-display);font-weight:300;font-size:30px;letter-spacing:-.04em;line-height:1;font-variant-numeric:tabular-nums}
 .resumo span{font-size:12px;color:var(--ink-3);line-height:1.3;display:block;margin-top:4px}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.cal-c{font-family:var(--f-wide);font-stretch:112.5%;font-size:10.5px;font-weight:600;letter-spacing:.1em;color:var(--ink-3);text-align:center;padding-bottom:2px}
+.cal-d{aspect-ratio:1;min-height:40px;border-radius:12px;display:grid;place-items:center;font-variant-numeric:tabular-nums;font-size:14px;font-weight:600;border:1.5px solid var(--line);background:var(--surface);color:var(--ink)}
+.cal-d.off{border-color:transparent;background:none;color:var(--line-strong);font-weight:400}
+.cal-d.sim{background:var(--ok-bg);border-color:var(--ok-fg);color:var(--ok-fg)}
+.cal-d.nao{background:var(--no-bg);border-color:var(--no-fg);color:var(--no-fg);text-decoration:line-through}
+.cal-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--ink-3)}
+.cal-leg i{display:inline-block;width:12px;height:12px;border-radius:4px;vertical-align:-2px;margin-right:6px;border:1.5px solid var(--line);background:var(--surface)}
+.cal-leg i.sim{background:var(--ok-bg);border-color:var(--ok-fg)}
+.cal-leg i.nao{background:var(--no-bg);border-color:var(--no-fg)}
 .whats{background:var(--mint-soft);border-radius:16px;padding:14px}
 .balao{background:var(--surface);border-radius:4px 14px 14px 14px;padding:10px 12px;font-size:13.5px;white-space:pre-wrap;line-height:1.4;box-shadow:var(--shadow)}
 .pessoa-tg{display:grid;grid-template-columns:36px minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);text-align:left;width:100%}
@@ -1004,8 +1014,8 @@ const ETAPAS = [
   { id:'hc-achar', t:'achar uma home church', s:'mapa por localização', p:'membro', tela:'hc-mapa', antes:()=>{ E.hcEntrou = false; E.hcPendente = false; E.hcPresenca = false; }, notas:['Qualquer pessoa, membro ou visitante, acha a home church mais perto pela localização.','No mapa aparece só a região: a home church acontece na casa de alguém.','Quem é novo pede para participar e o líder aprova.','Tocar no ponto só mostra o cartão. Entrar é sempre um botão com o verbo escrito.'] },
   { id:'hc-participar', t:'participar e marcar presença', s:'aprovação · estou aqui', p:'membro', tela:'hc-minha', antes:()=>{ E.hcEntrou = true; E.hcPendente = false; E.hcVisitas = 2; E.hcPresenca = false; }, notas:['O líder aprova quem é novo. Aprovado, o endereço completo aparece.','Nas 2 primeiras visitas, a presença vai para o líder confirmar.','Depois de 2 visitas, o “Estou aqui” é direto, sem esperar o líder.','Nesta prévia simulamos o dia da célula.'] },
   { id:'hc-lider', t:'líder de home church', s:'conta comum + função', p:'lider-hc', tela:'hc-lider', notas:['É uma conta comum com a função “líder de home church”, ligada pela moderação para quem passou pelo Ekballo, o passo 11 da Jornada.','Uma home church por líder. Ela pode acontecer na casa do líder ou na de um anfitrião.','O líder aprova pedidos, confirma as primeiras visitas e abre a lista de presença.'] },
-  { id:'escala', t:'minha escala', s:'confirmar, avisar ou trocar', p:'membro', tela:'escala', notas:['Quem passou pelo Epicentro, o passo 6 da Jornada, pode servir nas escalas.','Cada pessoa vê onde está escalada, sempre no formato função · unidade · dia | hora.','Confirmar, “não consigo dessa vez” ou pedir troca, sem culpa e sem vermelho.','Status sempre com cor, ícone e nome juntos.'] },
-  { id:'escala-lider', t:'montar a escala', s:'líder de escala', p:'lider-escala', tela:'escala-lider', notas:['Um bloco por culto: quantos confirmaram e quantas vagas faltam.','Vaga aberta aparece tracejada.','Lembrar quem não respondeu e mandar a escala para o grupo, pelo WhatsApp.'] },
+  { id:'escala', t:'minha escala', s:'disponibilidade, confirmar e trocar', p:'membro', tela:'escala', notas:['O voluntário marca no calendário do mês os dias e os turnos em que pode servir e bloqueia as datas em que não pode, até o prazo.','A escala nunca coloca alguém numa data bloqueada ou que ele não marcou. Esse era um dos problemas da ferramenta de hoje.','Confirmar presença, “não consigo dessa vez” ou pedir substituição para quem está habilitado e livre no dia.','Troca: antes de a escala ser publicada, é direta; depois de publicada, a liderança aprova.'] },
+  { id:'escala-lider', t:'montar a escala', s:'líder do ministério', p:'lider-escala', tela:'escala-lider', notas:['O líder vê quem já marcou a disponibilidade e lembra quem falta.','O app sugere a escala a partir dos dias marcados e do rodízio entre as posições, e avisa as posições sem gente. O líder revisa e publica.','Depois de publicada, a escala trava: troca só com aprovação, e toda mudança fica registrada com quem fez.','Frequência do mês sem ranking: o painel mostra quem precisa de atenção.','Base: a proposta de 105 itens do Staff. Isto é a fase 1; a parte inteligente completa vem depois.'] },
   { id:'kids', t:'kids · família', s:'check-in dos filhos', p:'membro', tela:'kids', notas:['Os pais fazem o check-in dos filhos pelo app.','Cada entrada gera um código de retirada. Só quem tem o código retira.','Alergias e cuidados aparecem para a equipe na hora da entrada.'] },
   { id:'kids-balcao', t:'kids · balcão', s:'entrada e retirada', p:'equipe-kids', tela:'kids-balcao', notas:['A equipe confirma a entrada e imprime as etiquetas: uma na criança e outra com o responsável, com o mesmo código.','Na saída, confere o código do responsável.','Toda entrega fica registrada (a quem, a hora e quem conferiu) e não pode ser apagada.'] },
   { id:'agenda', t:'agenda', s:'cultos, cursos e eventos', p:'membro', tela:'agenda', notas:['Cultos fixos, cursos e eventos num lugar só.','Inscrição, adicionar à agenda do celular e compartilhar.'] },
@@ -1187,15 +1197,46 @@ T['hc-criar'] = { exige:'lider-hc', r:() => '<div class="pg" style="min-height:1
 function escalaCard(){ const k = E.escala;
   return '<section class="ecard"><div class="linha-t"><span class="ov">domingo · 29 nov</span>' + chip(k) + '</div><div class="quando"><span class="hora">10h</span><span class="lugar">BN Estoril</span></div><p class="ficha">Recepção · porta principal · chegar às 9h</p>'
    + '<div class="pe"><span style="display:flex;align-items:center;gap:8px">' + avs(['Sofia Barros','Paula Teles','Renan Lima','Marina Couto']) + '<span class="leg">4 de 5 confirmados</span></span></div>'
-   + (k === 'wait' ? '<div class="acoes-col"><button class="btn primario largo" type="button" data-acao="esc-ok">Confirmar presença</button><div class="acoes" style="flex-wrap:nowrap"><button class="btn secundario peq" style="flex:1" type="button" data-acao="esc-nao">Não consigo dessa vez</button><button class="btn fantasma peq" type="button" data-acao="esc-troca">Pedir troca</button></div></div>'
+   + (k === 'wait' ? '<div class="acoes-col"><button class="btn primario largo" type="button" data-acao="esc-ok">Confirmar presença</button><div class="acoes" style="flex-wrap:nowrap"><button class="btn secundario peq" style="flex:1" type="button" data-acao="esc-nao">Não consigo dessa vez</button><button class="btn fantasma peq" type="button" data-acao="esc-troca">Pedir substituição</button></div></div>'
       : '<button class="btn fantasma peq" type="button" data-acao="esc-desfazer" style="align-self:flex-start">Mudar minha resposta</button>')
    + '</section>'; }
-T.escala = { r:() => '<div class="pg">' + barra('escalas') + topo({ ov:'recepção · bn estoril', t:'minha escala' }) + escalaCard()
+T.escala = { r:() => '<div class="pg">' + barra('escalas') + topo({ ov:'recepção · bn estoril', t:'minha escala' }) + escalaCard() + dispCard()
   + '<div class="sec-t"><h2 class="h2">próximas</h2></div><div class="lista">'
   + li({ d:'02', w:'qua', t:'Recepção', s:'BN Estoril · Quarta | 19h30', dir:chip('ok') })
   + li({ d:'06', w:'dom', t:'Recepção · Santa Ceia', s:'BN Estoril · Dom | 17h', dir:chip('swap') })
   + li({ d:'13', w:'dom', t:'Recepção', s:'BN Estoril · Dom | 10h', dir:chip('no') }) + '</div>'
   + '<button class="card toque" type="button" data-ir="escala-servir"><div class="sec-t"><b class="h3">quero servir mais</b><span class="seta">' + ic('dir') + '</span></div><span class="peq">3 cultos com vaga na recepção neste mês.</span></button></div>' };
+
+/* escalas fase 1 (proposta do Staff): disponibilidade do mês, sugestão, publicar e travar, troca aprovada depois de publicada */
+Object.assign(E, { disp:{ 2:'sim', 6:'sim', 9:'sim', 13:'nao', 20:'sim' }, turnos:{ noite:true }, dispEnviada:false, escSug:false, escPub:false, trocaOk:null });
+function dispResumo(){ const v = Object.values(E.disp); const sim = v.filter(x => x === 'sim').length, nao = v.filter(x => x === 'nao').length;
+  const t = [['manha','manhã'],['tarde','tarde'],['noite','noite']].filter(k => E.turnos[k[0]]).map(k => k[1]);
+  return sim + (sim === 1 ? ' dia que posso' : ' dias que posso') + ' · ' + nao + (nao === 1 ? ' data bloqueada' : ' datas bloqueadas') + (t.length ? ' · prefiro ' + t.join(', ') : ''); }
+function dispCard(){ return E.dispEnviada
+  ? '<div class="card"><div class="sec-t"><b class="h3">disponibilidade de dezembro</b>' + chip('ok', 'enviada') + '</div><span class="peq">' + dispResumo() + '</span><button class="btn secundario peq" type="button" data-ir="escala-disp" style="align-self:flex-start">Ver ou mudar</button></div>'
+  : '<button class="card toque" type="button" data-ir="escala-disp"><div class="sec-t"><b class="h3">disponibilidade de dezembro</b>' + chip('wait', 'até sáb, 28 nov') + '</div><span class="peq">Marque os dias em que pode servir. A escala de dezembro sai depois do prazo.</span></button>'; }
+/* dezembro de 2026 começa numa terça; cultos fixos: terça, quarta, sábado e domingo */
+function dispCal(){ let h = '<div class="cal" role="group" aria-label="Dias de culto em dezembro">' + ['D','S','T','Q','Q','S','S'].map(c => '<span class="cal-c" aria-hidden="true">' + c + '</span>').join('') + '<span></span><span></span>';
+  for (let d = 1; d <= 31; d++) { const wd = (d + 1) % 7; const st = E.disp[d] || '';
+    h += [0, 2, 3, 6].includes(wd) ? '<button class="cal-d ' + st + '" type="button" data-acao="disp-dia" data-d="' + d + '" aria-label="' + d + ' de dezembro' + (st === 'sim' ? ', posso' : st === 'nao' ? ', não posso' : '') + '">' + d + '</button>' : '<span class="cal-d off" aria-hidden="true">' + d + '</span>'; }
+  return h + '</div>'; }
+T['escala-disp'] = { r:() => '<div class="pg">' + barra('disponibilidade') + '<span class="ov">recepção · bn estoril</span><h1 class="tt">dezembro</h1>'
+  + '<div class="card" style="gap:10px"><div class="sec-t"><b class="h3">quando você pode servir?</b>' + chip('wait', 'até sáb, 28 nov') + '</div><span class="peq">Toque uma vez para “posso” e de novo para bloquear a data. Só aparecem os dias de culto.</span>' + dispCal()
+  + '<div class="cal-leg"><span><i class="sim"></i>posso</span><span><i class="nao"></i>não posso</span><span><i></i>sem marcar</span></div></div>'
+  + '<div class="card"><b class="h3">turnos que prefiro</b><div class="acoes">' + [['manha','Manhã'],['tarde','Tarde'],['noite','Noite']].map(t => '<button class="s-chip" type="button" data-acao="disp-turno" data-t="' + t[0] + '" aria-pressed="' + !!E.turnos[t[0]] + '">' + t[1] + '</button>').join('') + '</div></div>'
+  + '<p class="peq" id="disp-resumo">' + dispResumo() + '</p>'
+  + '<button class="btn primario largo" type="button" data-acao="disp-enviar">Enviar disponibilidade</button>'
+  + '<p class="leg">A escala nunca coloca você numa data bloqueada ou que você não marcou.</p></div>' };
+function escPainel(){
+  return '<div class="card"><div class="sec-t"><b class="h3">escala de dezembro</b>' + (E.escPub ? chip('ok', 'publicada') : E.escSug ? chip('wait', 'sugestão pronta') : chip('wait', 'montando')) + '</div>'
+   + '<div class="resumo"><div><b>18 de 24</b><span>marcaram a disponibilidade · prazo até sáb, 28 nov</span></div><div><b>' + (E.escSug ? '0' : '2') + '</b><span>posições ainda sem gente</span></div></div>'
+   + (E.escPub ? '<p class="leg">Publicada: a escala travou. Troca agora só com a sua aprovação, e toda mudança fica registrada com quem fez.</p>'
+      : '<div class="acoes"><button class="btn secundario peq" type="button" data-acao="lembrar-disp">' + ic('sino') + 'Lembrar os 6 que faltam</button>' + (E.escSug ? '<button class="btn primario peq" type="button" data-acao="esc-publicar">Revisar e publicar</button>' : '<button class="btn primario peq" type="button" data-acao="esc-sugerir">' + ic('estrela') + 'Sugerir escala</button>') + '</div><p class="leg">A sugestão usa só os dias que cada um marcou, faz rodízio entre as posições e não repete a mesma posição em dois cultos seguidos.</p>')
+   + '</div>'
+   + (E.escPub ? '<div class="card"><div class="sec-t"><b class="h3">pedido de troca</b>' + (E.trocaOk === 'ok' ? chip('ok', 'aprovada') : E.trocaOk === 'no' ? chip('no', 'recusada') : chip('swap', 'aguardando você')) + '</div><span class="peq">Caio Martins pediu para Felipe Couto ficar no lugar dele · Altar · Dom 13 dez, 10h. Felipe está habilitado e marcou o dia como livre.</span>'
+       + (E.trocaOk ? '' : '<div class="acoes"><button class="btn primario peq" type="button" data-acao="esc-aprovar">Aprovar</button><button class="btn secundario peq" type="button" data-acao="esc-recusar">Recusar</button></div>') + '</div>' : '')
+   + '<div class="card"><b class="h3">frequência de novembro</b><div class="lista">' + [['Caio Martins','serviu 3 vezes',''],['Felipe Couto','serviu 2 vezes',''],['Davi Rangel','serviu 1 vez','precisa de atenção'],['Igor Matos','não marcou a disponibilidade','precisa de atenção']].map(p => '<div class="li com-av">' + av(p[0]) + '<span class="x"><b>' + p[0] + '</b><span>' + p[1] + '</span></span>' + (p[2] ? chip('wait', p[2]) : '') + '</div>').join('') + '</div><span class="leg">Sem ranking: o painel mostra quem precisa de atenção, e o líder conversa.</span></div>';
+}
 
 T['escala-servir'] = { r:() => '<div class="pg">' + barra('cultos com vaga') + '<span class="ov">recepção · bn estoril</span><h1 class="tt">onde falta gente</h1>'
   + [['Dom 29 nov','19h30','noite',1],['Dom 06 dez','10h','santa ceia',2],['Qua 09 dez','19h30','quarta profética',1]].map((c, i) => '<div class="card"><div class="sec-t"><span class="x"><b>' + c[0] + ' · ' + c[1] + '</b><span>' + c[2] + '</span></span>' + chip('wait', c[3] === 1 ? 'falta 1' : 'faltam ' + c[3]) + '</div><button class="bloco" type="button" data-acao="servir" data-i="' + i + '" style="border-style:dashed;align-items:center;text-align:center;color:var(--green);font-weight:600">' + (E['serv' + i] ? ic('ok') + ' Você está nesta escala' : ic('mais') + ' Quero servir') + '</button></div>').join('')
@@ -1203,7 +1244,7 @@ T['escala-servir'] = { r:() => '<div class="pg">' + barra('cultos com vaga') + '
 
 function cobertura(c){ const conta = c.p.filter(x => x[2] !== 'no').length; const conf = c.p.filter(x => x[2] === 'ok').length; return { conta, conf, falta:Math.max(0, c.vagas - conta) }; }
 T['escala-lider'] = { exige:'lider-escala', r:() => {
-  return '<div class="pg">' + topo({ ov:'líder de escala', t:'escala do altar' })
+  return '<div class="pg">' + topo({ ov:'líder de escala', t:'escala do altar' }) + escPainel()
    + '<div class="resumo"><div><b>5</b><span>vagas abertas nas próximas 2 semanas</span></div><div><b>2</b><span>pessoas ainda não responderam</span></div></div>'
    + '<div class="acoes"><button class="btn primario peq" type="button" data-acao="lembrar">' + ic('whats') + 'Lembrar pendentes</button><button class="btn secundario peq" type="button" data-acao="texto-grupo">' + ic('copiar') + 'Texto para o grupo</button><button class="btn fantasma peq" type="button" data-acao="toast" data-msg="Cole a lista do WhatsApp e o app entende os nomes e as datas.">' + ic('colar') + 'Importar lista</button></div>'
    + '<div class="grade">' + ALTAR.map(c => { const k = cobertura(c);
@@ -1327,7 +1368,7 @@ const FLUXOS = [
   ['chegada', [['Cria a conta','e-mail e WhatsApp',''],['Conta como chegou','primeira vez, frequenta ou membro',''],['Visitante ou em jornada','a conta começa assim','']]],
   ['jornada bn', [['Home Church','passo 1',''],['Tudo sobre Jesus e Cultura BN','passos 2 e 3',''],['Batismo','vira membro, com 3 meses de igreja','dc'],['Encontro com Deus','passo 5',''],['Epicentro','libera servir nas escalas','dc'],['Do passo 7 ao 12','Ekballo libera liderar célula','dc']]],
   ['home church', [['Acha no mapa','pela localização',''],['Quero participar','o pedido vai para o líder',''],['Líder aprova','decisão do líder','dc'],['1ª e 2ª visitas','o líder confirma a presença','dc'],['Check-in direto','a partir da 3ª visita','']]],
-  ['escalas', [['Fez o Epicentro','pode servir',''],['Líder monta','vagas por culto',''],['Convite','no app e aviso no WhatsApp','ms'],['A pessoa responde','confirma, não consegue ou pede troca',''],['Lembrete','para quem não respondeu','ms'],['Serve no culto','fica no histórico','']]],
+  ['escalas', [['Marca a disponibilidade','dias, turnos e bloqueios, com prazo',''],['App sugere a escala','só dias marcados, com rodízio',''],['Líder revisa e publica','a escala trava','dc'],['Aviso e confirmação','no app; WhatsApp depois','ms'],['Troca','direta antes de publicar; aprovação depois','dc'],['Serve no culto','presença fica no histórico','pr']]],
   ['kids', [['Check-in','os pais, pelo app',''],['Balcão confirma','e imprime as etiquetas',''],['Na sala','alergias à vista da equipe',''],['Retirada','só com o código do responsável',''],['Registro de entrega','não se apaga','pr']]],
   ['eventos pagos', [['Inscrição','no app',''],['Pix','valor do evento','dn'],['Banco confirma','só então está pago','dn'],['Ingresso','com QR no app','pr'],['Check-in no evento','na chegada','']]],
   ['oração', [['Pedido','com ou sem nome',''],['Intercessão ora','fila da equipe',''],['Orei','a pessoa vê o contador',''],['Respondido','pode virar testemunho','']]],
@@ -1687,10 +1728,19 @@ const A = {
   seg: el => { E.seg[el.dataset.k] = el.dataset.v; desenhar(); },
   chave: el => { E.seg[el.dataset.k] = !E.seg[el.dataset.k]; el.setAttribute('aria-checked', String(!!E.seg[el.dataset.k])); },
   salvar: el => { toast(el.dataset.msg); voltar(); },
+  'disp-dia': el => { const d = +el.dataset.d; const s0 = E.disp[d] || ''; const n = s0 === '' ? 'sim' : s0 === 'sim' ? 'nao' : ''; if (n) E.disp[d] = n; else delete E.disp[d]; el.className = 'cal-d ' + n; el.setAttribute('aria-label', d + ' de dezembro' + (n === 'sim' ? ', posso' : n === 'nao' ? ', não posso' : '')); const r = document.getElementById('disp-resumo'); if (r) r.textContent = dispResumo(); },
+  'disp-turno': el => { const t = el.dataset.t; E.turnos[t] = !E.turnos[t]; el.setAttribute('aria-pressed', String(!!E.turnos[t])); const r = document.getElementById('disp-resumo'); if (r) r.textContent = dispResumo(); },
+  'disp-enviar': () => { E.dispEnviada = true; toast('Disponibilidade enviada. O líder vê os seus dias na hora de montar a escala.'); voltar(); },
+  'lembrar-disp': () => toast('Lembrete enviado no app para os 6 que ainda não marcaram.'),
+  'esc-sugerir': () => { E.escSug = true; toast('Sugestão pronta: usou só os dias marcados e fez rodízio entre as posições.'); desenhar(); },
+  'esc-publicar': () => { E.escPub = true; toast('Escala de dezembro publicada. Cada voluntário recebe o aviso no app.'); desenhar(); },
+  'esc-aprovar': () => { E.trocaOk = 'ok'; toast('Troca aprovada. A escala se atualizou e os dois foram avisados.'); desenhar(); },
+  'esc-recusar': () => { E.trocaOk = 'no'; toast('Troca recusada. O Caio foi avisado.'); desenhar(); },
   'esc-ok': () => { E.escala = 'ok'; toast('Confirmado. Te esperamos às 9h.'); desenhar(); },
   'esc-nao': () => folha('<h2 class="h2">não consigo dessa vez</h2><p class="peq">Tudo bem. O líder fica sabendo e procura outra pessoa.</p><div class="grupo"><label class="rot" for="f-msg">Quer deixar um recado? (opcional)</label><textarea class="campo" id="f-msg" placeholder="Ex.: estarei viajando"></textarea></div><button class="btn primario largo" type="button" data-acao="esc-nao-ok">Avisar o líder</button>'),
   'esc-nao-ok': () => { E.escala = 'no'; fecharFolha(); toast('Tudo bem. Obrigado por avisar com antecedência; seu líder já foi avisado.'); desenhar(); },
-  'esc-troca': () => folha('<h2 class="h2">pedir troca</h2><p class="peq">A equipe da recepção vê o pedido e quem puder assume a sua escala.</p><div class="grupo"><label class="rot" for="f-tr">Recado (opcional)</label><textarea class="campo" id="f-tr" placeholder="Ex.: posso cobrir o dia 13"></textarea></div><button class="btn primario largo" type="button" data-acao="esc-troca-ok">Pedir troca</button>'),
+  'esc-troca': () => folha('<span class="ov">domingo · 29 nov · 10h</span><h2 class="h2">pedir substituição</h2><p class="peq">Quem está habilitado na recepção e marcou esse dia como livre:</p><div class="lista">' + [['Paula Teles','marcou o dia 29 como livre'],['Renan Lima','marcou o dia 29 como livre'],['Marina Couto','livre de manhã']].map(p => '<button class="li com-av" type="button" data-acao="esc-sub" data-n="' + p[0] + '">' + av(p[0]) + '<span class="x"><b>' + p[0] + '</b><span>' + p[1] + '</span></span><span class="seta">' + ic('dir') + '</span></button>').join('') + '</div><p class="leg">Esta escala já foi publicada: a troca vai para a liderança aprovar.</p>'),
+  'esc-sub': el => { E.escala = 'swap'; fecharFolha(); toast('Pedido enviado para ' + el.dataset.n + '. Quando a liderança aprovar, a escala se atualiza.'); desenhar(); },
   'esc-troca-ok': () => { E.escala = 'swap'; fecharFolha(); toast('Pedido de troca enviado para a equipe.'); desenhar(); },
   'esc-desfazer': () => { E.escala = 'wait'; desenhar(); },
   servir: el => { const k = 'serv' + el.dataset.i; E[k] = !E[k]; toast(E[k] ? 'Você entrou nesta escala. Obrigado por servir.' : 'Você saiu desta escala.'); desenhar(); },

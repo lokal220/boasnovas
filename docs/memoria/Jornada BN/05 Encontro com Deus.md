@@ -29,7 +29,7 @@ O quinto passo da Jornada BN é o Encontro com Deus, com a frase "Tenha um encon
 
 ## O evento na agenda do app atual
 
-- **Destaque no alto da Agenda** (print `05-agenda-destaque.jpg`): "4 À 6 DE DEZEMBRO", "ENCONTRO COM DEUS", o wordmark "boasnovas" e "INSCRIÇÕES NO APP BOAS NOVAS". A arte tem fundo verde-escuro com folhagem, fotos de pessoas orando e um quadro verde com o desenho, em traço fino, de duas mãos que se procuram.
+- **Destaque no alto da Agenda** (print `05-agenda-destaque.jpg`): "4 À 6 DE DEZEMBRO", "ENCONTRO COM DEUS", o wordmark "boasnovas" e "INSCRIÇÕES NO APP BOAS NOVAS". A arte tem fundo verde-escuro com folhagem, fotos de pessoas (algumas de olhos fechados) e um quadro verde com o desenho, em traço fino, de duas mãos que se procuram.
 - **Card da lista** (print `04-agenda-lista.jpg`): "ENCONTRO COM DEUS - 12/2026", "Inscrições abertas", "04/12 (Sex), 18:00".
 - **As datas batem:** 04/12/2026 é uma sexta-feira e 06/12/2026 é um domingo. O título do card leva o mês e o ano da edição ("12/2026").
 - Ver [[Cultos e agenda]] e [[Sub-marcas e eventos]].
@@ -42,8 +42,8 @@ O quinto passo da Jornada BN é o Encontro com Deus, com a frase "Tenha um encon
 
 ## No protótipo (proposta, a confirmar)
 
-- **Na home:** um destaque "4 a 6 de dezembro · encontro com deus · inscrições abertas".
-- **Nos avisos:** "Encontro com Deus · Inscrições abertas · 4 a 6 de dezembro".
+- **Na home:** um destaque com "4 a 6 de dezembro", "encontro com deus" e o selo "inscrições abertas".
+- **Nos avisos:** "Encontro com Deus", com a linha "Inscrições abertas · 4 a 6 de dezembro".
 - **Na agenda:** "Sex, 4 dez · 18h · até domingo".
 - **No site:** um card "Encontro com Deus", "4 a 6 de dezembro · sexta, 18h", com "jornada bn · passo 5", foto e o botão "Fazer inscrição", que leva ao app.
 - **Como evento pago:** o roteiro do protótipo diz "Eventos como o Encontro com Deus têm inscrição paga": Pix que só vale quando o banco confirma, e depois o ingresso com QR no app. O próprio protótipo avisa que "O valor nesta prévia é de exemplo".

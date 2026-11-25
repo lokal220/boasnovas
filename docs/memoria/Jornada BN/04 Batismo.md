@@ -58,7 +58,7 @@ O quarto passo da Jornada BN é o Batismo, com a frase "Um novo nascimento". Ao 
   - a mensagem depois de confirmar: "Batismo confirmado: [nome] agora é membro. A pessoa recebe um aviso no app."
 - **No cadastro:** quem marca "Já sou membro" espera a moderação confirmar.
 - **Na agenda e no site:** "Batismo · Jornada BN, passo 4", "BN Estoril · próxima turma em breve"; no site, "Classe de Batismo", "BN Estoril", com "Inscrições abertas".
-- **No mapa dos processos:** "Batismo · vira membro, com 3 meses de igreja", marcado como decisão do líder ou da moderação.
+- **No mapa dos processos:** o quadro "Batismo", com a legenda "vira membro, com 3 meses de igreja", marcado como decisão do líder ou da moderação.
 - Ver [[Protótipo]], [[Moderação do app]] e [[Perfis e permissões]].
 
 ## Em aberto

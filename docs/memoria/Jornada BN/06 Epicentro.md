@@ -11,7 +11,8 @@ atualizado: 2026-11-25
 fontes:
   - "arte da Jornada BN 2026"
   - "apresentação CULTURA BN, p. 7, 14, 21 e 43"
-  - "registro-25-11-2026 (ministérios; Epicentro: trava ou aviso)"
+  - "registro-25-11-2026 (ministérios; Epicentro: trava ou aviso; proposta do Staff)"
+  - "proposta do Staff para as escalas, itens 67 e 73"
   - "contexto-da-conversa (Epicentro para quem deseja servir)"
   - "apostila Ekballo 2026-1, p. 27 impressa"
   - "protótipo (escalas e site)"
@@ -49,7 +50,15 @@ A dúvida (registro de 25/11/2026, "Ainda abertas", item 5): no app novo, o Epic
 O que já aconteceu:
 - A pergunta foi explicada ao Yan em 25/11/2026.
 - **Recomendação:** "no lançamento, só avisar e marcar de uma vez quem já serve hoje". Decidir depois se vira trava. Proposta, a confirmar.
-- **Atenção ao protótipo:** ele descreve o Epicentro como o passo que "libera as escalas" ("Quem passou pelo Epicentro, o passo 6 da Jornada, pode servir nas escalas"; no mapa dos processos, "Fez o Epicentro · pode servir"). Isso corresponde à trava. Se a recomendação for aceita, esse texto muda.
+- **Atenção ao protótipo:** ele descreve o Epicentro como o passo que "libera as escalas" ("Quem passou pelo Epicentro, o passo 6 da Jornada, pode servir nas escalas"; no mapa dos processos, o quadro "Fez o Epicentro", com a legenda "pode servir"). Isso corresponde à trava. Se a recomendação for aceita, esse texto muda.
+
+## O que a proposta do Staff pede sobre os voluntários
+
+A equipe do Ministério Staff mandou 105 pedidos para as escalas em 25/11/2026. Nenhum deles cita o Epicentro, mas dois tocam no mesmo assunto, o preparo de quem serve:
+- "Permitir classificar voluntários como ativos, afastados, em treinamento ou inativos." (item 67)
+- "Registrar os treinamentos realizados e as novas funções para as quais o voluntário foi habilitado." (item 73)
+
+O registro de 25/11/2026 resume a estrutura pedida: liderança geral do Staff, líderes de equipe, posições internas e externas com voluntários habilitados em cada uma, e a situação de cada voluntário. Se o Epicentro entra como um desses treinamentos, ninguém decidiu. Ver [[Staff]] e [[Escalas]].
 
 ## No site (protótipo, proposta, a confirmar)
 
@@ -64,7 +73,10 @@ O que já aconteceu:
 - O que é o Epicentro, quanto dura e quem conduz.
 - Quem registra no app que a pessoa fez o Epicentro.
 - Se vale igual para todos os ministérios (por exemplo, os voluntários do Kids).
-- As perguntas ainda abertas das escalas (registro de 25/11/2026): a pessoa pode pegar uma vaga aberta sozinha? Pode servir em mais de um ministério? O lembrete vai pelo app, pelo WhatsApp ou pelos dois?
+- As perguntas das escalas que o registro de 25/11/2026 ainda lista como abertas:
+  - a pessoa pode pegar uma vaga aberta sozinha? A proposta do Staff responde: a escala nasce da disponibilidade que cada um marca;
+  - pode servir em mais de um ministério? Continua aberta;
+  - o lembrete vai pelo app, pelo WhatsApp ou pelos dois? A proposta é primeiro o aviso do app, depois o WhatsApp, com consentimento (proposta, a confirmar).
 - Ver [[Escalas]] e [[Perguntas abertas]].
 
 ## Ligações
@@ -81,7 +93,8 @@ O que já aconteceu:
 
 - **Arte da Jornada BN 2026:** upload `cd5a0a73-image.jpg`, fora do repositório (bloco 06, anotação "Para quem deseja servir", cor medida).
 - **Apresentação CULTURA BN:** `docs/_trabalho/cultura/cultura-bn-transcricao.json`: p. 7 (passo 6 e anotação), p. 14 (chamado), p. 21 ("O serviço ao próximo..."), p. 43 ("servir é a verdadeira grandeza"); vocabulário da parte "organizado" (o documento não chama o Epicentro de ministério).
-- **Registro de 25/11/2026:** `docs/_trabalho/registro-25-11-2026.md`: "Ministérios (escalas)" (líder de ministério, Uleica, quem serve, ministérios citados) e "Ainda abertas", itens 1 (pergunta 4 das escalas) e 5 (Epicentro e recomendação).
+- **Registro de 25/11/2026:** `docs/_trabalho/registro-25-11-2026.md`: "Ministérios (escalas)" (líder de ministério, Uleica, quem serve, ministérios citados), "Ainda abertas", itens 1 (pergunta 4 das escalas) e 5 (Epicentro e recomendação), e "Proposta do Staff para as escalas" (vaga aberta, lembretes e estrutura do Staff).
+- **Proposta do Staff:** `docs/_trabalho/proposta-staff-escalas-2026-11-25.md`, itens 67 e 73.
 - **Contexto da conversa:** `docs/_trabalho/contexto-da-conversa.md`, "Decisões de produto", item Jornada BN.
 - **Apostila Ekballo 2026-1:** `docs/_trabalho/ekballo/apostila-ekballo-2026-1.txt`, p. 27 impressa (reunião mensal de Líderes, Voluntários e Cooperadores).
 - **Referência visual oficial:** `docs/marca/referencia-visual-boas-novas.html`, galeria ("voluntário em oração").

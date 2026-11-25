@@ -11,13 +11,14 @@ fontes:
   - "arte da Jornada BN 2026"
   - "apresentação CULTURA BN, p. 7"
   - "PDF Imersão É Tudo Sobre Ele (149 slides), capa e dados do arquivo"
+  - "transcrição do curso Imersão É Tudo Sobre Ele (resumo geral e módulos)"
   - "site atual, textos-pt.txt (home.meta.description)"
   - "registro-25-11-2026"
 ---
 
 # 02 Tudo sobre Jesus
 
-O segundo passo da Jornada BN é "Tudo sobre Jesus", com a frase "Conheça profundamente sobre Jesus". Na apresentação CULTURA BN o mesmo passo se chama "Tudo sobre Ele" (p. 7), que é também o nome do curso deste passo, a [[Imersão É Tudo Sobre Ele]]: um material de 149 slides cuja leitura ainda está em andamento. As notas sobre o conteúdo do curso entram depois. É o segundo dos "4 passos para ser membro".
+O segundo passo da Jornada BN é "Tudo sobre Jesus", com a frase "Conheça profundamente sobre Jesus". Na apresentação CULTURA BN o mesmo passo se chama "Tudo sobre Ele" (p. 7), que é também o nome do curso deste passo, a [[Imersão É Tudo Sobre Ele]]: um material de 149 slides cujo fio é que Jesus é o centro de tudo. A transcrição do curso ficou pronta em 25/11/2026, e as notas sobre o conteúdo entram depois. É o segundo dos "4 passos para ser membro".
 
 ## O passo na Jornada
 
@@ -36,8 +37,9 @@ O segundo passo da Jornada BN é "Tudo sobre Jesus", com a frase "Conheça profu
 ## O curso do passo: Imersão É Tudo Sobre Ele
 
 - **O que se sabe:** é um PDF de 149 slides enviado pelo Yan ("TUDO_SOBRE_ELE_ATUALIZADO_leve.pdf"). O título gravado no arquivo é "IMERSÃO É TUDO SOBRE ELE". Na capa, "imersão" em letras pequenas no alto e, no meio, "é tudo" e "sobre Ele", com o símbolo da BN embaixo.
-- **Leitura em andamento:** o registro de 25/11/2026 diz que a leitura parou no meio. As notas sobre o conteúdo entram depois, na nota [[Imersão É Tudo Sobre Ele]].
-- Nenhuma fonte diz quantos encontros tem a imersão, quem dá o curso nem com que frequência ele acontece.
+- **O fio do curso:** "Jesus Cristo é o centro absoluto de toda a revelação divina, da teologia, da história da salvação e da vida cristã" (slide 2). Os 20 módulos vão da Bíblia como revelação de Cristo, passando pelo nascimento, pela vida, pelas profecias e pela ressurreição, até as evidências históricas e arqueológicas.
+- **A leitura:** o registro de 25/11/2026 dizia que a leitura tinha parado no meio. A transcrição completa ficou pronta no mesmo dia. As notas sobre o conteúdo entram depois, na nota [[Imersão É Tudo Sobre Ele]], que já traz o índice dos módulos.
+- **O que os slides não dizem:** não citam a Boas Novas Church nem a Jornada BN. Nenhuma fonte diz quantos encontros tem a imersão, quem dá o curso nem com que frequência ele acontece.
 
 ## Ligação possível com o Fundamentos BN
 
@@ -47,7 +49,7 @@ O segundo passo da Jornada BN é "Tudo sobre Jesus", com a frase "Conheça profu
 
 ## No protótipo (proposta, a confirmar)
 
-- No mapa dos processos, a linha da Jornada junta "Tudo sobre Jesus e Cultura BN · passos 2 e 3".
+- No mapa dos processos, a linha da Jornada junta os dois passos num quadro só, "Tudo sobre Jesus e Cultura BN", com a legenda "passos 2 e 3".
 - No quadro da moderação, a coluna "Começando · passos 1 a 3" mostra exemplos como "passo 2, tudo sobre Jesus".
 - Ver [[Protótipo]].
 
@@ -56,7 +58,7 @@ O segundo passo da Jornada BN é "Tudo sobre Jesus", com a frase "Conheça profu
 - O nome oficial do passo ("Tudo sobre Jesus" ou "Tudo sobre Ele").
 - Formato, duração e frequência da imersão; quem ensina.
 - Se este passo faz parte do Fundamentos BN.
-- O conteúdo do curso (leitura em andamento).
+- As notas sobre o conteúdo do curso (a transcrição já está pronta).
 - Ver [[Perguntas abertas]].
 
 ## Ligações
@@ -73,8 +75,9 @@ O segundo passo da Jornada BN é "Tudo sobre Jesus", com a frase "Conheça profu
 - **Arte da Jornada BN 2026:** upload `cd5a0a73-image.jpg`, fora do repositório (bloco 02 e cor medida).
 - **Apresentação CULTURA BN:** `docs/_trabalho/cultura/cultura-bn-transcricao.json`, p. 7 ("2 TUDO SOBRE ELE"); resumo geral (PDF gerado em 10/10/2025).
 - **PDF Imersão É Tudo Sobre Ele:** upload `f00909fe-TUDO_SOBRE_ELE_ATUALIZADO_leve.pdf`, fora do repositório (149 páginas; título nos dados do arquivo; capa, slide 1).
+- **Transcrição do curso:** `docs/_trabalho/tudo-sobre-ele/imersao-tudo-sobre-ele-transcricao.json`, parte "organizado" (resumo geral, slide 2 nas frases marcantes, módulos e a observação de que os slides não citam a igreja).
 - **Site atual:** `docs/_trabalho/site-atual/textos-pt.txt`, chave `home.meta.description`.
 - **Apostila Ekballo 2026-1:** `docs/_trabalho/ekballo/apostila-ekballo-2026-1.txt`, p. 18 impressa (Fundamentos BN na Jornada).
 - **Print do app atual:** `docs/referencias/app-bnc/04-agenda-lista.jpg` (card do Fundamentos BN, com a linha borrada).
-- **Registro de 25/11/2026:** `docs/_trabalho/registro-25-11-2026.md`, "Onde está cada coisa" (leitura do curso parada no meio).
+- **Registro de 25/11/2026:** `docs/_trabalho/registro-25-11-2026.md`, "Onde está cada coisa" (a leitura do curso que tinha parado no meio).
 - **Protótipo:** `docs/_trabalho/prototipo/prototipo-boasnovas.html`, linha 1110 (nome "Tudo sobre Jesus"), linha 1314 (quadro da moderação) e linha 1328 (mapa dos processos).

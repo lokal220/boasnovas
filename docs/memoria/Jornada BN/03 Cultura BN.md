@@ -49,7 +49,7 @@ O material não diz se é usado no passo 3. A transcrição registra isso como d
 
 ## No protótipo (proposta, a confirmar)
 
-- No mapa dos processos, os passos 2 e 3 aparecem juntos: "Tudo sobre Jesus e Cultura BN · passos 2 e 3".
+- No mapa dos processos, os passos 2 e 3 aparecem juntos, num quadro só: "Tudo sobre Jesus e Cultura BN", com a legenda "passos 2 e 3".
 - Na agenda do app, o item "Cultura BN · Jornada BN, passo 3" (ver acima).
 - A versão local do site traz missão, visão, valores e chamado no "quem somos", tirados da CULTURA BN (registro de 25/11/2026; ainda não publicada). Ver [[Site Boas Novas]] e [[Protótipo]].
 

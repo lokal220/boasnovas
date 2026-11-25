@@ -63,7 +63,7 @@ A arte e a CULTURA BN não explicam a frase. Os trechos abaixo, da apostila Ekba
 
 - Qualquer pessoa acha a home church mais perto pela localização; o mapa mostra só a região, porque a reunião acontece na casa de alguém; quem é novo pede para participar e o líder aprova.
 - O protótipo publicado ainda usa a regra antiga de 2 visitas: "Nas 2 primeiras visitas, a presença vai para o líder confirmar" e "Depois de 2 visitas, o 'Estou aqui' é direto". Precisa ser atualizado para as 3 visitas seguidas.
-- No mapa dos processos, a linha da Jornada começa em "Home Church · passo 1".
+- No mapa dos processos, a linha da Jornada começa pelo quadro "Home Church", com a legenda "passo 1".
 - Ver [[Protótipo]].
 
 ## Em aberto

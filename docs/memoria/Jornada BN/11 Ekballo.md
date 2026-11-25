@@ -33,7 +33,7 @@ O décimo primeiro passo da Jornada BN é o Ekballo, com a frase "Torne-se um di
 - **Formato:** a apostila tem quatro capítulos, e "cada capítulo está estruturado para ser desenvolvido em uma aula" (p. 4 impressa). Termina com uma página de parabéns "pela conclusão do Curso Ekballo" (p. 59 impressa).
 - **Para quem é encaminhado:**
   - o Líder em Treinamento: "direcione essa pessoa para o Curso 'Ekballo' da BN School, como próximo passo em sua formação" (p. 18 impressa);
-  - o novo líder de uma multiplicação feita às pressas: "é fundamental que o novo líder participe do 'Ekballo'" (p. 51 impressa).
+  - o novo líder de uma multiplicação urgente, quando o grupo cresceu demais sem planejamento: "é fundamental que o novo líder participe do 'Ekballo'" (p. 51 impressa).
 - A estrutura dos capítulos e o que cada um traz estão na nota [[Ekballo]].
 
 ## Requisitos para ser Líder de Home Church
@@ -51,7 +51,7 @@ A lista não pede os passos 5 a 10 da Jornada (do Encontro com Deus ao Avance), 
 
 ## "Líder de célula" e "discipulador": o que cada fonte quer dizer
 
-- **"Para quem deseja ser líder de célula" bate com a apostila.** No desenho da estrutura das home churches, o primeiro nível se chama "LÍDER DE CÉLULA", com a missão "multiplicar 03 vezes" (p. 21 impressa). É o mesmo Líder de Home Church; célula e home church são a mesma coisa.
+- **"Para quem deseja ser líder de célula" bate com a apostila.** No desenho da estrutura das home churches, o primeiro nível se chama "LÍDER DE CÉLULA", com a missão "multiplicar 03 vezes" (p. 21 impressa). É o mesmo Líder de Home Church: "nossas células são identificadas como Home Churches" (p. 9 impressa).
 - **"Torne-se um discipulador" não bate com o nível da rede.** Na apostila, "Quando um Líder multiplica 03 vezes, ele se torna um Discipulador", e o Discipulador cuida dos líderes (p. 21 impressa). Ver [[Discipulador]].
 - **Leitura desta nota (a confirmar):** a Jornada parece usar "discipulador" no sentido de quem faz discípulos. A missão das home churches termina em "fazer discípulos para Cristo" (apostila, p. 10 impressa), e o chamado da igreja inclui "discipular corações" (CULTURA BN, p. 14). **Aberto, a confirmar com o Yan.**
 
@@ -85,7 +85,7 @@ A lista não pede os passos 5 a 10 da Jornada (do Encontro com Deus ao Avance), 
 - **Apresentação CULTURA BN:** `docs/_trabalho/cultura/cultura-bn-transcricao.json`, p. 7 (passo 11 e anotação) e p. 14 ("discipular corações").
 - **Apostila Ekballo 2026-1:** `docs/_trabalho/ekballo/apostila-ekballo-2026-1.txt` (página do PDF = impressa + 1):
   - p. 4 impressa: quatro capítulos, uma aula cada;
-  - p. 8 e 9 impressas: o nome Ekballo e a frase do Pr. Pedro Daniel;
+  - p. 8 e 9 impressas: o nome Ekballo, a frase do Pr. Pedro Daniel e "nossas células são identificadas como Home Churches";
   - p. 9 e 10 impressas: a missão das home churches ("fazer discípulos para Cristo");
   - p. 18 impressa: requisitos do líder e encaminhamento do Líder em Treinamento;
   - p. 21 impressa: desenho da estrutura ("LÍDER DE CÉLULA", "multiplicar 03 vezes") e o Discipulador (o desenho foi conferido na página 22 do PDF original);
