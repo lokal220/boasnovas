@@ -42,6 +42,7 @@ export const unidadeZ = z.object({
   nome: nomeZ.optional(),
   endereco: textoCurtoZ.optional(),
   agenda: z.array(z.object({
+    id: z.number().int().positive().optional(),
     diaSemana: z.number().int().min(0).max(6), hora: horaZ, turno: turnoZ,
     rotulo: z.string().trim().max(60).optional(), ativo: z.boolean().optional(),
   })).max(40).optional(),

@@ -181,7 +181,8 @@ export interface MinisterioReq {
 }
 export interface UnidadeReq {
   nome?: string; endereco?: string;
-  agenda?: { diaSemana: number; hora: string; turno: Turno; rotulo?: string; ativo?: boolean }[];
+  /** substitui a agenda fixa; `id` (opcional, de AgendaFixaDTO) mantém o horário — e os ministérios que o atendem — ao editar */
+  agenda?: { id?: number; diaSemana: number; hora: string; turno: Turno; rotulo?: string; ativo?: boolean }[];
 }
 export interface CultoNovoReq {
   unidadeId: string; data: string; turno: Turno; hora?: string; titulo?: string; nota?: string; extra?: boolean;

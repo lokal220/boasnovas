@@ -7,6 +7,7 @@ import cookieParser from 'cookie-parser';
 import type { Banco } from './db';
 import { env } from './env';
 import { registrarRotas } from './rotas';
+import { ErroHttp } from './http';
 
 export interface ContextoApp {
   db: Banco;
@@ -52,8 +53,16 @@ export function criarApp(ctx: ContextoApp): Express {
   app.use('/api', (_req, res) => { res.status(404).json({ erro: 'Rota não encontrada.' }); });
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   app.use((erro: unknown, _req: Request, res: Response, _next: NextFunction) => {
-    console.error(erro);
     if (res.headersSent) return;
+    if (erro instanceof ErroHttp) {
+      res.status(erro.status).json(erro.detalhes === undefined ? { erro: erro.message } : { erro: erro.message, detalhes: erro.detalhes });
+      return;
+    }
+    // erros do express.json (JSON malformado, corpo grande demais)
+    const tipo = typeof erro === 'object' && erro !== null && 'type' in erro ? String((erro as { type: unknown }).type) : '';
+    if (tipo === 'entity.parse.failed') { res.status(400).json({ erro: 'Não entendi os dados enviados.' }); return; }
+    if (tipo === 'entity.too.large') { res.status(413).json({ erro: 'Texto grande demais. Envie em partes menores.' }); return; }
+    console.error(erro);
     res.status(500).json({ erro: 'Não deu certo. Tente de novo em instantes.' });
   });
   return app;
